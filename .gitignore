@@ -108,3 +108,7 @@ InitTestScene*.unity*
 # IDE
 .idea/
 .curosr/
+
+# BundleAssets
+Bundles/
+StreamingAssets/
