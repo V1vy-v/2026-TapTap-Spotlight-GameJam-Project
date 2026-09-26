@@ -111,4 +111,9 @@ InitTestScene*.unity*
 
 # BundleAssets
 Bundles/
-StreamingAssets/
+StreamingAssets/.vscode/
+*.zip
+logRunSetup.txt
+Assets/Wwise/API/Runtime/Generated
+Assets/StreamingAssets/Audio/GeneratedSoundBanks
+Assets/StreamingAssets/Audio/GeneratedSoundBanks
