@@ -114,15 +114,10 @@ Bundles/
 StreamingAssets/.vscode/
 *.zip
 logRunSetup.txt
-Assets/Wwise/API/Runtime/Generated
-Assets/StreamingAssets/Audio/GeneratedSoundBanks
-Assets/StreamingAssets/Audio/GeneratedSoundBanks
 # Wwise原生二进制插件，不上传仓库
 Assets/Wwise/API/Runtime/Plugins/*
 !Assets/Wwise/API/Runtime/Plugins/*.meta
 
-# Wwise导出SoundBank音频，本地生成不上传
-Assets/StreamingAssets/Audio/GeneratedSoundBanks/*
 
 # Wwise安装缓存压缩包
 WwiseUnityIntegration_Mac_Src.zip
