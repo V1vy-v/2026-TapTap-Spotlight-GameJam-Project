@@ -122,3 +122,6 @@ Assets/Wwise/API/Runtime/Plugins/*
 # Wwise安装缓存压缩包
 WwiseUnityIntegration_Mac_Src.zip
 WwiseUnityIntegration_Windows_Src.zip
+# Mac系统隐藏文件
+.DS_Store
+**/.DS_Store
