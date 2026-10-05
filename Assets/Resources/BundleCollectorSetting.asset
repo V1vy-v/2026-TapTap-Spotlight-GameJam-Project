@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
   m_Name: BundleCollectorSetting
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: YooAsset.Editor::YooAsset.Editor.BundleCollectorSetting
   ShowPackageView: 0
   ShowEditorAlias: 0
   UniqueBundleName: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
       ActiveRuleName: EnableGroup
       Collectors:
       - CollectPath: Assets/Prefabs/UI
-        CollectorGUID: 1c4c2620976b7e4488cb3107555cd426
+        CollectorGUID: 5714e7f9dd3148b4e818ba933b7e2d51
         CollectorType: 0
         AddressRuleName: AddressByGroupAndFileName
         PackRuleName: PackDirectory
@@ -44,7 +44,7 @@ MonoBehaviour:
       ActiveRuleName: EnableGroup
       Collectors:
       - CollectPath: Assets/Configs
-        CollectorGUID: c6f51531181b81d49b8af45d67d54085
+        CollectorGUID: b96a7c319ae980b42b69d5bd6f24a10e
         CollectorType: 0
         AddressRuleName: AddressByGroupAndFileName
         PackRuleName: PackDirectory

@@ -8,15 +8,15 @@ namespace Framework
     public enum SubSystemPriority : int
     {
         SystemManager = int.MinValue,
-        NetWorkManager = -114514,
         ResourceManager = -200,
-        InstantiationManager = -175,
+        SpawnManager = -175,
         PoolManager = -150,
         TimerManager = -120,
         DataProxyManager = -100,
-        SceneLoader = -50,
         LocalInputManager = -40,
         UIManager = 5000,
+        SceneLoader = 6000,
+        AudioManager = 7000,
         CameraManager = 10000,
     }
 }

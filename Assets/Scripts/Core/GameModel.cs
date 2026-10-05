@@ -8,18 +8,6 @@ namespace Core
     [Serializable]
     public class GameModel
     {
-        #region 玩家基础数据
-        public string playerName;
-        #endregion
 
-        #region 游戏统计
-        public DateTime LastPlayTime;
-        #endregion
-
-        public GameModel()
-        {
-            playerName = "Player";
-            LastPlayTime = DateTime.Now;
-        }
     }
 }
