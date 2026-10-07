@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GameCoreConfig
   m_EditorClassIdentifier: 
   targetFrame: 60
-  resourceMode: 2
+  resourceMode: 1
   clearUnusedIdleTime: 30
   defaultPackageName: DefaultPackage
