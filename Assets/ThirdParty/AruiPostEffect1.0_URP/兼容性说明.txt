@@ -1,0 +1,15 @@
+AruiPostEffect1.0 URP 兼容性说明
+
+已采用 Unity 2019.4 URP 7.x 到 Unity 2020.3 URP 10.x 共用的 ScriptableRendererFeature、ScriptableRenderPass、RenderTargetHandle、CommandBuffer.Blit 路径。
+
+不依赖：
+- OnRenderImage
+- RTHandle
+- Blitter
+- RenderGraph
+- UnityEditor API（Runtime 代码中）
+
+Renderer Feature 与相机组件的关系：
+- Renderer Feature 负责把最终相机颜色缓冲交给 Shader。
+- 相机上的 AruiPostEffect10URP 负责面板参数、Animation 与 Timeline。
+- Timeline 控制逻辑与 Built-in 版相同。

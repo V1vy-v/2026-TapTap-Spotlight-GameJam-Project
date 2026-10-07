@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Taptap_Wwise" GUID="{5202E783-61AA-424A-8177-5ED9BB4C58BB}" Generator="2022.1.19.8584"/>
+	<CacheRoot>../../../../Taptap_Wwise/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{FCA02BA3-EEA8-45D1-B90F-5C9D0B8983D5}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{A9272BE9-DD35-441E-9B03-D7FEACDCC1FC}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{9074FA57-D2C6-5D3F-C251-138A2AA5B488}</FileHash>
+</ProjectInfo>

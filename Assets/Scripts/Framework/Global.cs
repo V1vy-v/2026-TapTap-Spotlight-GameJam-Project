@@ -65,6 +65,45 @@ namespace Framework
         }
 
         /// <summary>
+        /// 获取数据代理，转发到 DataProxyManager
+        /// </summary>
+        public static T GetDataProxy<T>() where T : class, IDataProxy
+        {
+            return Get<DataProxyManager>()?.GetDataProxy<T>();
+        }
+        
+        /// <summary>
+        /// 尝试获取数据代理，更推荐使用该方法，转发到 DataProxyManager
+        /// </summary>
+        public static bool TryGetDataProxy<T>(out T proxy) where T : class, IDataProxy
+        {
+            if (Get<DataProxyManager>()?.TryGetDataProxy(out T p)??false)
+            {
+                proxy = p;
+                return p!=null;
+            }
+
+            proxy = null;
+            return false;
+        }
+        
+        /// <summary>
+        /// 注册数据代理，转发到 DataProxyManager
+        /// </summary>
+        public static T RegisterDataProxy<T>() where T : class, IDataProxy, new()
+        {
+            return Get<DataProxyManager>()?.RegisterDataProxy<T>();
+        }
+
+        /// <summary>
+        /// 注销数据代理
+        /// </summary>
+        public static void UnregisterDataProxy<T>() where T : class, IDataProxy
+        {
+            Get<DataProxyManager>()?.UnregisterDataProxy<T>();
+        }
+
+        /// <summary>
         /// 退出游戏。UI 与流程不要依赖壳类型。
         /// </summary>
         public static void QuitGame()
@@ -93,19 +132,35 @@ namespace Framework
         }
 
         /// <summary>
-        /// 按资源位置同步生成 GameObject
+        /// 按资源位置同步生成 GameObject，分组为 <see cref="ResGroup.Temp"/>。
         /// </summary>
         public static GameObject Instantiate(string location, InstantiateOptions options = default)
         {
-            return Get<SpawnManager>().Instantiate(location, options);
+            return Get<InstantiateManager>().Instantiate(location, options);
+        }
+
+        /// <summary>
+        /// 按资源位置和分组同步生成 GameObject。同一资源名第一次建池时确定分组。
+        /// </summary>
+        public static GameObject Instantiate(string location, ResGroup group, InstantiateOptions options = default)
+        {
+            return Get<InstantiateManager>().Instantiate(location, group, options);
         }
         
         /// <summary>
-        /// 按资源位置异步生成 GameObject
+        /// 按资源位置异步生成 GameObject，分组为 <see cref="ResGroup.Temp"/>。
         /// </summary>
         public static Task<GameObject> InstantiateAsync(string location, InstantiateOptions options = default)
         {
-            return Get<SpawnManager>().InstantiateAsync(location, options);
+            return Get<InstantiateManager>().InstantiateAsync(location, options);
+        }
+
+        /// <summary>
+        /// 按资源位置和分组异步生成 GameObject。同一资源名第一次建池时确定分组。
+        /// </summary>
+        public static Task<GameObject> InstantiateAsync(string location, ResGroup group, InstantiateOptions options = default)
+        {
+            return Get<InstantiateManager>().InstantiateAsync(location, group, options);
         }
 
         /// <summary>
@@ -113,7 +168,7 @@ namespace Framework
         /// </summary>
         public static GameObject InstantiateUnpooled(string location, InstantiateOptions options = default)
         {
-            return Get<SpawnManager>().InstantiateUnpooled(location, options);
+            return Get<InstantiateManager>().InstantiateUnpooled(location, options);
         }
 
         /// <summary>
@@ -121,7 +176,43 @@ namespace Framework
         /// </summary>
         public static void Release(GameObject instance)
         {
-            Get<SpawnManager>().Release(instance);
+            Get<InstantiateManager>().Release(instance);
+        }
+
+        public static void LoadScene(string sceneName)
+        {
+            Get<SceneLoader>().LoadScene(sceneName);
+        }
+
+        /// <summary>
+        /// 显示UI
+        /// </summary>
+        /// <param name="uiName"></param>
+        public static void ShowUI(string uiName)
+        {
+            Get<UIManager>().ShowUI(uiName);
+        }
+
+        /// <summary>
+        /// 关闭当前顶层窗口
+        /// </summary>
+        public static void Close()
+        {
+            Get<UIManager>().CloseCurrentWindow();
+        }
+
+        /// <summary>
+        /// 指定关闭UI
+        /// </summary>
+        /// <param name="uiName"></param>
+        public static void HideUI(string uiName)
+        {
+            Get<UIManager>().HideUI(uiName);
+        }
+        
+        public static void HideAllUI()
+        {
+            Get<UIManager>().HideAllUI();
         }
 
         /// <summary>

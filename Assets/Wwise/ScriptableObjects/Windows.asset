@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e0dd38607d84372bc9b32f6e2fcbd9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e50dd8d2b69033438e8e686573e65da, type: 3}
   m_Name: Windows
   m_EditorClassIdentifier: 
   IgnorePropertyNameList: []
@@ -68,7 +68,7 @@ MonoBehaviour:
   - AdvancedSettings.m_MemoryDebugLevel
   - AdvancedSettings.m_MemorySpanCount
   UserSettings:
-    m_BasePath: Audio/GeneratedSoundBanks
+    m_BasePath: Audio\GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_DefaultListenerScalingFactor: 1
