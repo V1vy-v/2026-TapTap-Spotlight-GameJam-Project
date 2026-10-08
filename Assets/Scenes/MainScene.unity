@@ -322,7 +322,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 791352672}
-  - {fileID: 923755407}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &332953918
@@ -603,7 +602,7 @@ GameObject:
   - component: {fileID: 923755403}
   - component: {fileID: 923755402}
   m_Layer: 0
-  m_Name: WwiseCube
+  m_Name: Wwise_Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,7 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddfe3d1e8b6020044aa7bb82189e2213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: d96bb42af7f422d63f2ff36a
+  triggerList: d96bb42af7f422d63f2ff36af7e1664c
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
@@ -751,7 +750,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 332953917}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1841390643
 GameObject:
@@ -791,6 +790,6 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 923755407}
   - {fileID: 1841390644}
   - {fileID: 332953917}
-  - {fileID: 647288983}

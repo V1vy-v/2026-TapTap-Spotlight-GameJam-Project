@@ -32,7 +32,7 @@ namespace Framework
         {
             if (system == null) return;
             if (_subSystems.Contains(system)) return;
-
+            
             if (!system.IsInitialized)
             {
                 system._Init();
