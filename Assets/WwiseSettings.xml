@@ -13,7 +13,7 @@
   <WwiseInstallationPathWindows>D:\LRF\Wwise\Wwise_2022.1.19.8584</WwiseInstallationPathWindows>
   <WwiseProjectPath>../Taptap_Wwise/Taptap_Wwise.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
-  <WaapiPort>8080</WaapiPort>
+  <WaapiPort>8081</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
   <XMLTranslatorTimeout>10</XMLTranslatorTimeout>
   <WaapiTranslatorTimeout>0</WaapiTranslatorTimeout>
