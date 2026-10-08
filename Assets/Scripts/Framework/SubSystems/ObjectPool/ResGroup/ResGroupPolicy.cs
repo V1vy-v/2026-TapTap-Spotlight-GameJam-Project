@@ -7,7 +7,7 @@ namespace Framework
     /// <summary>
     /// 各 <see cref="ResGroup"/> 的池策略。资源放在 Resources/ResGroupPolicy.asset。
     /// </summary>
-    [CreateAssetMenu(fileName = "ResGroupPolicy", menuName = "GameCore/ResGroupPolicy")]
+    [CreateAssetMenu(fileName = "ResGroupPolicy", menuName = "AppCore/ResGroupPolicy")]
     public class ResGroupPolicy : ScriptableObjectSingleton<ResGroupPolicy>
     {
         [Serializable]

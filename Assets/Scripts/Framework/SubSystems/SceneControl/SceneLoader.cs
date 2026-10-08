@@ -69,9 +69,6 @@ namespace Framework
             CurrentProgress = 0f;
 
             Started?.Invoke(_loadingSceneName);
-            
-            // 显示加载面板
-            Global.ShowUI("LoadingPanel");
         }
 
         public override void Update(float deltaTime)
@@ -122,9 +119,6 @@ namespace Framework
         {
             CurrentProgress = 1f;
             _currentSceneName = _loadingSceneName;
-            Global.Get<InstantiateManager>().ClearSceneGroups();
-            Global.Get<ResourceManager>().ClearUnused();
-            Global.HideAllUI();
             _isHolding = true;
             _holdElapsed = 0f;
         }
