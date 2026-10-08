@@ -1,0 +1,11 @@
+﻿namespace Framework
+{
+    /// <summary>
+    /// 全局游戏常量
+    /// </summary>
+    public static class GlobalConstants
+    {
+        public const string MENU_SCENE_NAME = "MainScene";
+        public const string LEVEL_SCENE_NAME = "GameScene";
+    }
+}

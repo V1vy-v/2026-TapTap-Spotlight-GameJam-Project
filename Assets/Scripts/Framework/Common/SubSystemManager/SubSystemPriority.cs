@@ -8,6 +8,7 @@ namespace Framework
     public enum SubSystemPriority : int
     {
         SystemManager = int.MinValue,
+        NetWorkManager = -114514,
         ResourceManager = -200,
         SpawnManager = -175,
         PoolManager = -150,

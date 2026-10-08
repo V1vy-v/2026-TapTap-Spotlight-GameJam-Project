@@ -24,16 +24,38 @@ namespace Core
         public CameraManager CameraMgr { get; private set; }
         #endregion
 
+        private AppCoreConfig _config;
+
+        #region 属性
+        /// <summary>
+        /// 资源包与其余子系统全部就绪。就绪之前业务流程不能启动。
+        /// </summary>
+        public static bool IsReady { get; private set; }
+        #endregion
+
         #region 事件
-        public static event Action OnAppReady;
+        
+        private static Action _appReady;
+        
+        /// <summary>
+        /// 子系统就绪。已经就绪之后再订阅会立刻收到一次，订阅方不必关心 Awake 顺序。
+        /// </summary>
+        public static event Action OnAppReady
+        {
+            add
+            {
+                _appReady += value;
+                if (IsReady) value();
+            }
+            remove => _appReady -= value;
+        }
+
         public static event Action OnAppQuit;
         #endregion
 
-        private AppConfig _config;
-
         private void InitializeGameCore()
         {
-            _config = AppConfig.Instance;
+            _config = AppCoreConfig.Instance;
             Application.targetFrameRate = _config.targetFrame;
 
             SystemMgr = new SystemManager();
@@ -43,9 +65,6 @@ namespace Core
             ResourceMgr = SystemMgr.RegisterSystem<ResourceManager>();
             ResourceMgr.SetProvider(new YooAssetProvider(_config.defaultPackageName, _config.resourceMode));
             ResourceMgr.OnResourceReady += InitSystems;
-            
-            // 核心系统启动完毕，通知业务逻辑可以初始化
-            OnAppReady?.Invoke();
         }
 
         #region Global
@@ -54,6 +73,10 @@ namespace Core
         {
             InitSubSystems();
             InitDataProxy();
+
+            // 子系统全部就绪，通知业务逻辑开始处理
+            IsReady = true;
+            _appReady?.Invoke();
         }
 
         /// <summary>
@@ -86,6 +109,8 @@ namespace Core
 
         protected override void Init()
         {
+            IsReady = false;
+
             InitializeGameCore();
         }
 
@@ -107,7 +132,8 @@ namespace Core
         protected override void Destroy()
         {
             StopAllCoroutines();
-            
+
+            IsReady = false;
             ResourceMgr.OnResourceReady -= InitSystems;
             SystemMgr.Destroy();
             Global.Clear();
@@ -119,7 +145,9 @@ namespace Core
         /// </summary>
         private void OnApplicationQuit()
         {
+            // 先清理游戏业务再清理框架
             OnAppQuit?.Invoke();
+            
             ShutDown();
         }
 
