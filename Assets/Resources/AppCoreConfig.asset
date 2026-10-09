@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 526bf21f76ad47ea9e955a9bca521fc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d26470d2924c3f4fa6d007ce0857ba9, type: 3}
   m_Name: AppCoreConfig
-  m_EditorClassIdentifier: Assembly-CSharp::Core.GameCoreConfig
+  m_EditorClassIdentifier: 
   targetFrame: 60
-  clearUnusedIdleTime: 30
   resourceMode: 1
   defaultPackageName: DefaultPackage

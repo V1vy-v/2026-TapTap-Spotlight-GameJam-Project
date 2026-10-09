@@ -212,7 +212,7 @@ MonoBehaviour:
   kind: 2
   controllerTypeName: UI.LoadingPanel, Assembly-CSharp
   properties:
-    rid: 2511793754171768834
+    rid: 6728704591604482048
   animIn: {fileID: 0}
   animOut: {fileID: 0}
   bindings:
@@ -221,6 +221,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 2511793754171768834
-      type: {class: SceneProperties, ns: Framework, asm: Assembly-CSharp}
+    - rid: 6728704591604482048
+      type: {class: LoadingPanelProperties, ns: UI, asm: Assembly-CSharp}
       data: 
