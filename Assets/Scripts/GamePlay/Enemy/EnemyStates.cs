@@ -8,6 +8,8 @@ namespace GamePlay.Enemy
     /// </summary>
     public class EnemyIdleState : EnemyStateBase
     {
+        private float _idleTimer;
+
         public override EnemyState StateKey => EnemyState.Idle;
 
         public EnemyIdleState(EnemyController enemy, StateMachine<EnemyState> sm)
@@ -15,19 +17,24 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
-            // 播放待机动画
+            Enemy.ChangeSpeed();
+            Enemy.PlayAnimation("Idle");
+            _idleTimer = 0f; // 进入时清零
         }
 
         protected override void Tick(float deltaTime)
         {
-            // 待机时什么都不做
+            _idleTimer += deltaTime;
         }
 
         protected override void CheckStateChange()
         {
-            // 玩家进入视野，切换到追击
-            _stateMachine.ChangeState(EnemyState.Chase);
-
+            if (Enemy.playerInAttackRange)
+                _stateMachine.ChangeState(EnemyState.Attack);
+            else if (Enemy.playerInDetectRange)
+                _stateMachine.ChangeState(EnemyState.Chase);
+            else if (_idleTimer >= Enemy.idleDuration)
+                _stateMachine.ChangeState(EnemyState.Patrol); 
         }
     }
 
@@ -36,6 +43,8 @@ namespace GamePlay.Enemy
     /// </summary>
     public class EnemyPatrolState : EnemyStateBase
     {
+        private float _patrolTimer;
+
         public override EnemyState StateKey => EnemyState.Patrol;
 
         public EnemyPatrolState(EnemyController enemy, StateMachine<EnemyState> sm)
@@ -43,20 +52,24 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
+            Enemy.ChangeSpeed(Enemy.moveSpeed);
+            Enemy.PlayAnimation("Walk");
+            _patrolTimer = 0f; // 进入时清零
         }
 
         protected override void Tick(float deltaTime)
         {
-            // 沿巡逻路径移动
+            _patrolTimer += deltaTime;
         }
 
         protected override void CheckStateChange()
         {
-            // 玩家进入视野，切换到追击
-            _stateMachine.ChangeState(EnemyState.Chase);
-            //或者巡逻到终点，切换到idle
-            _stateMachine.ChangeState(EnemyState.Idle);
-
+            if (Enemy.playerInAttackRange)
+                _stateMachine.ChangeState(EnemyState.Attack);
+            else if (Enemy.playerInDetectRange)
+                _stateMachine.ChangeState(EnemyState.Chase);
+            else if (_patrolTimer >= Enemy.patrolDuration)
+                _stateMachine.ChangeState(EnemyState.Idle); 
         }
     }
 
@@ -72,19 +85,21 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
+            Enemy.ChangeSpeed(Enemy.chaseSpeed);
         }
 
         protected override void Tick(float deltaTime)
         {
             // 朝玩家移动
+            //Enemy.MoveToTarget();
         }
 
         protected override void CheckStateChange()
         {
-            // 玩家跑出视野，回到待机
-            _stateMachine.ChangeState(EnemyState.Idle);
-            // 进入攻击距离，切换到攻击
-            _stateMachine.ChangeState(EnemyState.Attack);
+            if (Enemy.playerInAttackRange)
+                _stateMachine.ChangeState(EnemyState.Attack);
+            else if (!Enemy.playerInDetectRange)
+                _stateMachine.ChangeState(EnemyState.Patrol);
         }
 
     }
@@ -94,7 +109,7 @@ namespace GamePlay.Enemy
     /// </summary>
     public class EnemyAttackState : EnemyStateBase
     {
-        private float _attackTimer;
+        private float _attackTimer;//上一次攻击时间
 
         public override EnemyState StateKey => EnemyState.Attack;
 
@@ -103,15 +118,37 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
+            Enemy.ChangeSpeed();
+            _attackTimer = 0f; 
+            Enemy.PlayAnimation("Attack");
         }
 
         protected override void Tick(float deltaTime)
         {
+            _attackTimer += deltaTime;
+
+            if (_attackTimer >= Enemy.attackCooldown)
+            {
+                _attackTimer = 0f;
+                Enemy.PlayAnimation("Attack");
+            }
         }
 
         protected override void CheckStateChange()
         {
-            
+            //如果玩家离开攻击范围,根据索敌范围回到巡逻状态或者是追击状态
+            //_stateMachine.ChangeState(EnemyState.Patrol);
+            //_stateMachine.ChangeState(EnemyState.Chase);
+            //如果玩家没死且仍在攻击范围内
+            //无需操作
+            if (!Enemy.playerInAttackRange && Enemy.playerInDetectRange)
+            {
+                _stateMachine.ChangeState(EnemyState.Chase);
+            }else if (!Enemy.playerInDetectRange)
+            {
+                _stateMachine.ChangeState(EnemyState.Patrol);
+            }
+
         }
     }
 
@@ -121,23 +158,34 @@ namespace GamePlay.Enemy
     public class EnemyHurtState : EnemyStateBase
     {
         private float _hurtTimer;
-
         public override EnemyState StateKey => EnemyState.Hurt;
-
         public EnemyHurtState(EnemyController enemy, StateMachine<EnemyState> sm)
             : base(enemy, sm) { }
 
         public override void Enter()
         {
+            Enemy.ChangeSpeed();     
+            _hurtTimer = 0f;         
+            Enemy.PlayAnimation("Hurt");
         }
 
         protected override void Tick(float deltaTime)
         {
-            _hurtTimer += deltaTime;
+            _hurtTimer += deltaTime; 
         }
 
         protected override void CheckStateChange()
         {
+            if (_hurtTimer < Enemy.hurtDuration) return; 
+
+            if (Enemy.Health <= 0)
+                _stateMachine.ChangeState(EnemyState.Dead);
+            else if (Enemy.playerInAttackRange)
+                _stateMachine.ChangeState(EnemyState.Attack);
+            else if (Enemy.playerInDetectRange)
+                _stateMachine.ChangeState(EnemyState.Chase);
+            else
+                _stateMachine.ChangeState(EnemyState.Patrol);
         }
     }
 
@@ -146,6 +194,8 @@ namespace GamePlay.Enemy
     /// </summary>
     public class EnemyDeadState : EnemyStateBase
     {
+        private float _deadTimer;
+
         public override EnemyState StateKey => EnemyState.Dead;
 
         public EnemyDeadState(EnemyController enemy, StateMachine<EnemyState> sm)
@@ -153,18 +203,26 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
-        }
-
-        public override void Exit()
-        {
+            Enemy.ChangeSpeed();
+            Enemy.PlayAnimation("Dead");
+            _deadTimer = 0f;
+            //散布死亡事件通知外部死亡
         }
 
         protected override void Tick(float deltaTime)
         {
+            _deadTimer += deltaTime;
+            float t = _deadTimer / Enemy.fadeDuration;
+            float alpha = Mathf.Lerp(1f, 0f, t);
+            Enemy.SetAlpha(alpha);
         }
 
         protected override void CheckStateChange()
         {
+            if (_deadTimer >= Enemy.fadeDuration)
+            {
+                //由对象池销毁
+            }
         }
     }
 }

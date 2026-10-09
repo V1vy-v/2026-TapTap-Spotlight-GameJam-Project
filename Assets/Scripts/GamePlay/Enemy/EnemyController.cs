@@ -1,34 +1,50 @@
 using Framework;
 using UnityEngine;
+
 namespace GamePlay.Enemy
 {
     /// <summary>
-    /// 怪物控制器，用于控制怪物行为
+    /// 怪物总控制器
     /// </summary>
     public class EnemyController : MonoBehaviour
     {
-        [Header("敌人数据")]
-        public float moveSpeed = 2f;//移动速度
-        public float chaseSpeed = 4f;//追击速度
-        public float attackRange = 1.5f;//攻击范围
-        public float attackCooldown = 1f;//攻击冷却时间
-        public float hurtDuration = 0.3f;//受击僵直时间
-        public int Health = 100;//生命值
+        //敌人数据
+        public float moveSpeed = 2f;        // 移动速度
+        public float chaseSpeed = 4f;       // 追击速度
+        public float attackRange = 1.5f;    // 攻击范围
+        public float attackCooldown = 1f;   // 攻击冷却时间
+        public float hurtDuration = 0.3f;   // 受击僵直时间
+        public int Health = 100;            // 生命值
+        public float fadeDuration = 1f;     // 渐隐时长
 
-        private float _currentSpeed;//当前速度
-        private Vector2 _moveDir;//移动方向
+        //AI
+        public float idleDuration = 2f;     // 待机持续时间
+        public float patrolDuration = 5f;   // 巡逻持续时间
 
-        public Transform player;//持有的玩家对象
-        private Animator animator;//动画对象
-        private Rigidbody2D rb;
+        //检测状态
+        [HideInInspector] public bool playerInDetectRange;
+        [HideInInspector] public bool playerInAttackRange;
+
+        public Transform player;            // 持有的玩家对象
+
+        private SpriteRenderer _sprite;
+        private Animator animator;
+        private EnemyMoveController moveController;
 
         private StateMachine<EnemyState> _fsm;
 
         private void Awake()
         {
             animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody2D>();
+            _sprite = GetComponent<SpriteRenderer>();
+            moveController = GetComponent<EnemyMoveController>();
 
+            if (moveController == null) return;
+            if (animator == null) return;
+        }
+
+        private void Start()
+        {
             _fsm = new StateMachine<EnemyState>();
             _fsm.RegisterState(new EnemyIdleState(this, _fsm));
             _fsm.RegisterState(new EnemyPatrolState(this, _fsm));
@@ -39,24 +55,21 @@ namespace GamePlay.Enemy
 
             _fsm.ChangeState(EnemyState.Idle);
         }
+
         private void Update()
         {
-            _fsm.Update(Time.deltaTime);
+            _fsm?.Update(Time.deltaTime);
         }
 
         private void FixedUpdate()
         {
-            _fsm.FixedUpdate(Time.fixedDeltaTime);
-
-            if (rb != null)
-            {
-                rb.velocity = _moveDir * _currentSpeed;
-            }
+            _fsm?.FixedUpdate(Time.fixedDeltaTime);
         }
 
         //给状态类调用的工具方法
+
         /// <summary>
-        /// 设置动画
+        /// 播放动画
         /// </summary>
         /// <param name="animationName"></param>
         public void PlayAnimation(string animationName)
@@ -64,15 +77,33 @@ namespace GamePlay.Enemy
             if (animator == null) return;
             animator.CrossFade(Animator.StringToHash(animationName), 0.1f);
         }
-        public void MoveToTarget(Vector2 targetPos, float speed)
+
+        /// <summary>移动至目标点</summary>
+        public void MoveToTarget(Vector2 targetPos)
         {
-            _moveDir = (targetPos - (Vector2)transform.position).normalized;
-            _currentSpeed = speed;
+            moveController?.MoveTo(targetPos);
         }
 
-        //受击
+        public void ChangeSpeed(float speed = 0)
+        {
+            moveController?.SetSpeed(speed);
+        }
+
+        /// <summary>
+        /// 改变透明度，用于死亡渐隐
+        /// </summary>
+        /// <param name="alpha"></param>
+        public void SetAlpha(float alpha)
+        {
+            if (_sprite == null) return;
+            var c = _sprite.color;
+            c.a = alpha;
+            _sprite.color = c;
+        }
+
         public void ApplyDamage(int damage)
         {
+            if (_fsm == null) return;
             if (_fsm.CurrentState == EnemyState.Dead) return;
 
             Health -= damage;
