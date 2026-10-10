@@ -43,17 +43,8 @@ public class DiaLogController : MonoBehaviour
         // 检查 SO 配置
         if (characterDatabase == null)
             Debug.LogError("[DiaLogmanager] 没有配置 CharacterDatabase！");
-
-        // 加载对话文件
-        if (!string.IsNullOrEmpty(dialogFileName))
-            LoadDialogFile();
     }
 
-    private void Start()
-    {
-        if (dialogRows != null && dialogRows.Length > 0)
-            ShowDiaLogRow();
-    }
     /// <summary>
     /// 由 DialogPanel 注入控件引用
     /// </summary>
@@ -130,6 +121,8 @@ public class DiaLogController : MonoBehaviour
 
     public void UpdateImage(string _name, string _position)
     {
+        if (spriteLeft == null || spriteRight == null) return;
+
         spriteLeft.gameObject.SetActive(false);
         spriteRight.gameObject.SetActive(false);
 
@@ -168,13 +161,13 @@ public class DiaLogController : MonoBehaviour
                 UpdateText(cells[2], cells[4]);
                 UpdateImage(cells[2], cells[3]);
                 dialogIndex = int.Parse(cells[5]);
-                next.gameObject.SetActive(true);
+                if (next != null) next.gameObject.SetActive(true);
                 break;
             }
             // 选项
             else if (cells[0] == "&" && int.Parse(cells[1]) == dialogIndex)
             {
-                next.gameObject.SetActive(false);
+                if (next != null) next.gameObject.SetActive(false);
                 GenerateOption(i);
             }
             // 结束
@@ -197,6 +190,12 @@ public class DiaLogController : MonoBehaviour
 
     public void GenerateOption(int _index)
     {
+        if (optionButton == null || buttonGroup == null)
+        {
+            Debug.LogError("[DiaLogController] optionButton / buttonGroup 未注入！");
+            return;
+        }
+
         string[] cells = dialogRows[_index].Split(',');
 
         if (cells[0] == "&")
