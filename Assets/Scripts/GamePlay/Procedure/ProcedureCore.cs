@@ -25,7 +25,7 @@ namespace GamePlay.Procedure
         public void StartUp()
         {
             // 初始化需要的局内数据
-            InitDataProxy();
+            //InitDataProxy();
             
             // 直接切换到主菜单状态
             _fsm.ChangeState(ProcedureState.Menu);
