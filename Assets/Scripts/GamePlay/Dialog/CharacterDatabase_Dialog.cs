@@ -14,7 +14,7 @@ public class CharacterEntry
 /// <summary>
 /// 角色数据库：所有对话系统共享一份
 /// </summary>
-[CreateAssetMenu(fileName = "CharacterDatabase", menuName = "Dialog/角色数据库")]
+[CreateAssetMenu(fileName = "CharacterDatabase_Dialog", menuName = "Dialog/角色数据库")]
 public class CharacterDatabase : ScriptableObject
 {
     [SerializeField]

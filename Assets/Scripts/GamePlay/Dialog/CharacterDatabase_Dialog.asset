@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b10ec0e014a6b7e4f9d5ce563702c6e2, type: 3}
-  m_Name: CharacterDatabase
+  m_Name: CharacterDatabase_Dialog
   m_EditorClassIdentifier: 
   characters: []

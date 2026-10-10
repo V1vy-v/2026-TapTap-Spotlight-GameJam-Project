@@ -538,14 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogFileName: 
-  characterDatabase: {fileID: 0}
-  spriteLeft: {fileID: 0}
-  spriteRight: {fileID: 0}
-  nameText: {fileID: 0}
-  dialogText: {fileID: 0}
-  next: {fileID: 0}
-  optionButton: {fileID: 0}
-  buttonGroup: {fileID: 0}
+  characterDatabase: {fileID: 11400000, guid: 241082bcac13fa646b323733ba87acbb, type: 2}
 --- !u!1 &8684748729452784589
 GameObject:
   m_ObjectHideFlags: 0
