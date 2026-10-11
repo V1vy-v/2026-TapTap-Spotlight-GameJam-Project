@@ -7,5 +7,11 @@ namespace GamePlay.Procedure
     {
         Menu = 0,
         Loading = 1,
+        FreeRoam = 2,
+        Dialogue = 3,
+        Cutscene = 4,
+        Battle = 5,
+        Pause = 6,
+        GameOver = 7,
     }
 }

@@ -7,6 +7,8 @@ namespace GamePlay.Procedure
     /// </summary>
     public abstract class ProcedureStateBase : StateBase<ProcedureState>
     {
+        private GameplayRoot _gameplayRoot;
+        protected GameplayRoot GameplayRoot => _gameplayRoot ??= Global.Get<GameplayRoot>();
         protected readonly ProcedureCore Procedure;
 
         protected ProcedureStateBase(StateMachine<ProcedureState> stateMachine, ProcedureCore procedure)

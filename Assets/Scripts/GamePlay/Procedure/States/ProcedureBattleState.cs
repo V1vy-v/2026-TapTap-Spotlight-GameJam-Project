@@ -4,7 +4,7 @@ namespace GamePlay.Procedure
 {
     public class ProcedureBattleState : ProcedureStateBase
     {
-        public override ProcedureState StateKey => throw new System.NotImplementedException();
+        public override ProcedureState StateKey => ProcedureState.Battle;
 
         public ProcedureBattleState(StateMachine<ProcedureState> stateMachine, ProcedureCore procedure) : base(stateMachine, procedure)
         {

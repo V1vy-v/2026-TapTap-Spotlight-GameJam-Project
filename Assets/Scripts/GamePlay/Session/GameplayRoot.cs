@@ -2,41 +2,55 @@ using Framework;
 using UnityEngine;
 
 /// <summary>
-/// Gameplay控制器，负责接管本局状态
+/// Gameplay子系统，负责接管本局状态
 /// </summary>
 public sealed class GameplayRoot : SubSystemBase
 {
     public override int Priority => (int)SubSystemPriority.GameplayRoot;
 
-    private StroyContext stroyContext;
-    private LevelContext levelContext;
-    private BattleContext battleContext;
-
+    private StoryContext _storyContext;
+    private BattleContext _battleContext;
 
     public override void Init()
     {
         
     }
 
-    public void StartRun()
+    public void StartNewGame()
     {
-        //若为新存档，新建主角状态
+        // 实例化主角并初始化状态
         Global.Instantiate("Prefabs/Player/test_player");
-
-        //若为旧存档，读取主角状态，读取各个游戏进度
-
+        // 新建剧情状态
+        _storyContext = new();
+        // 进入初始剧情
 
     }
-    public void EndRun()
+    public void ContinueGame()
     {
 
     }
-    public void EnterLevel()
+    public void EndGame()
     {
-        //创建关卡状态
 
     }
-    public void ExitLevel()
+    public void SaveProgress()
+    {
+
+    }
+    public void LoadProgress()
+    {
+
+    }
+    public void EnterSegment()
+    {
+        // 进入剧情状态
+
+    }
+    public void AdvanceSegment()
+    {
+
+    }
+    public void ExitSegment()
     {
 
     }
@@ -49,4 +63,5 @@ public sealed class GameplayRoot : SubSystemBase
     {
 
     }
+
 }

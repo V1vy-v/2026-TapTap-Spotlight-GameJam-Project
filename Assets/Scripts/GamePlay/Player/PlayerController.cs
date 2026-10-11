@@ -17,18 +17,12 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        //待修改
-        StartCoroutine(GetProvider());
+        inputProvider = Global.Get<LocalInputManager>().Provider;
 
         //初始化主角组件
         _rb = GetComponent<Rigidbody2D>();
         _playerLiquids = new();
         _playerCombat = new();
-    }
-    IEnumerator GetProvider()
-    {
-        yield return new WaitForSeconds(3);
-        inputProvider = Global.Get<LocalInputManager>().Provider;
     }
 
     private void OnEnable()

@@ -11,6 +11,7 @@ namespace GamePlay.Procedure
     public sealed class ProcedureCore : MonoSingleton<ProcedureCore>
     {
         private StateMachine<ProcedureState> _fsm;
+        public bool IsNewGame { get; private set; } = true;
 
         #region 属性
         /// <summary>
@@ -25,8 +26,8 @@ namespace GamePlay.Procedure
         public void StartUp()
         {
             // 初始化需要的局内数据
-            //InitDataProxy();
-            
+            // InitDataProxy();
+
             // 直接切换到主菜单状态
             _fsm.ChangeState(ProcedureState.Menu);
         }
@@ -34,6 +35,15 @@ namespace GamePlay.Procedure
         private void InitDataProxy()
         {
             // TODO: 注册局内数据  
+        }
+
+        /// <summary>
+        /// 清除 isNewGame 标记
+        /// </summary>
+        /// <param name="isNewGame"></param>
+        public void ClearNewGameTag()
+        {
+            IsNewGame = false;
         }
 
         #region 状态切换
@@ -79,6 +89,8 @@ namespace GamePlay.Procedure
             _fsm = new StateMachine<ProcedureState>();
             _fsm.RegisterState(new ProcedureMenuState(_fsm, this));
             _fsm.RegisterState(new ProcedureLoadingState(_fsm, this));
+            //注册其它流程状态
+
 
             // 子系统就绪之后才启动流程，已经就绪时立刻回调
             AppCore.OnAppReady += StartUp;
