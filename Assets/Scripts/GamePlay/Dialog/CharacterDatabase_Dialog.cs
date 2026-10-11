@@ -1,15 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 单个角色数据条目
-/// </summary>
-[System.Serializable]
-public class CharacterEntry
-{
-    public string name;     // 角色名字
-    public Sprite icon;     // 角色立绘/头像
-}
 
 /// <summary>
 /// 角色数据库：所有对话系统共享一份
