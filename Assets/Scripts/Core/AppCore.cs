@@ -22,6 +22,7 @@ namespace Core
         public SceneLoader SceneMgr { get; private set; }
         public AudioManager AudioMgr { get; private set; }
         public CameraManager CameraMgr { get; private set; }
+        public GameplayRoot GameplayRoot { get; private set; }
         #endregion
 
         private AppCoreConfig _config;
@@ -93,6 +94,7 @@ namespace Core
             LocalInputMgr = SystemMgr.RegisterSystem<LocalInputManager>();
             AudioMgr = SystemMgr.RegisterSystem<AudioManager>();
             CameraMgr = SystemMgr.RegisterSystem<CameraManager>();
+            GameplayRoot = SystemMgr.RegisterSystem<GameplayRoot>();
         }
 
         /// <summary>

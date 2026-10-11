@@ -13,4 +13,9 @@ public class Cola : LiquidBase
         //比如发射气泡弹幕等
         //伤害计算由预设体上脚本根据武器数据初始化，在弹幕脚本里处理
     }
+
+    public override void Skill()
+    {
+        throw new System.NotImplementedException();
+    }
 }

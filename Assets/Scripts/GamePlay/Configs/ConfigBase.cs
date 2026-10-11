@@ -4,11 +4,9 @@ namespace GamePlay.Configs
 {
     public class ConfigBase : ScriptableObject
     {
-        [Header("ID")]
+        [Header("基础信息")]
         public string Id;
-
-        //[Header("类型")]
-        //public ConfigType Type;
+        public string Name;
 
     }
 }

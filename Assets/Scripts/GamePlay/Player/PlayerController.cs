@@ -1,18 +1,36 @@
 using Framework;
+using GamePlay.Player;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// 主角总控制器
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody2D rb;
     private LocalInputProvider inputProvider;
+    private Rigidbody2D _rb;
+    private PlayerLiquids _playerLiquids;
+    private PlayerCombat _playerCombat;
     private float speed = 10f;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        //inputProvider = Global.Get<LocalInputManager>().Provider;
+        //待修改
+        StartCoroutine(GetProvider());
+
+        //初始化主角组件
+        _rb = GetComponent<Rigidbody2D>();
+        _playerLiquids = new();
+        _playerCombat = new();
     }
+    IEnumerator GetProvider()
+    {
+        yield return new WaitForSeconds(3);
+        inputProvider = Global.Get<LocalInputManager>().Provider;
+    }
+
     private void OnEnable()
     {
         inputProvider.PlayerActions.PrimaryAttack.performed += OnPrimaryAttack;
@@ -31,25 +49,16 @@ public class PlayerController : MonoBehaviour
         inputProvider.PlayerActions.Jump.performed -= OnJump;
         inputProvider.PlayerActions.Pause.performed -= OnPause;
     }
-    private void Update()
-    {
-        //测试用，待删除
-        if(inputProvider == null && Global.Get<LocalInputManager>().Provider != null)
-            inputProvider = Global.Get<LocalInputManager>().Provider;
-    }
     private void FixedUpdate()
     {
-        //测试用，待删除
-        if (inputProvider == null) return;
-
         //移动逻辑
-        rb.velocity = inputProvider.PlayerActions.Move.ReadValue<Vector2>() * speed;
+        _rb.velocity = inputProvider.PlayerActions.Move.ReadValue<Vector2>() * speed;
     }
 
     private void OnPrimaryAttack(InputAction.CallbackContext ctx)
     {
         //普通攻击逻辑
-        Debug.Log("普通攻击");
+        Debug.Log("普通攻击"); 
     }
     private void OnSkill(InputAction.CallbackContext ctx)
     {

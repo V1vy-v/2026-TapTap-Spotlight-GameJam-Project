@@ -44,7 +44,7 @@ MonoBehaviour:
       ActiveRuleName: EnableGroup
       Collectors:
       - CollectPath: Assets/Configs
-        CollectorGUID: b96a7c319ae980b42b69d5bd6f24a10e
+        CollectorGUID: 
         CollectorType: 0
         AddressRuleName: AddressByGroupAndFileName
         PackRuleName: PackDirectory

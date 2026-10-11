@@ -1,4 +1,5 @@
 using Framework;
+using UnityEngine;
 
 /// <summary>
 /// Gameplay控制器，负责接管本局状态
@@ -11,6 +12,7 @@ public sealed class GameplayRoot : SubSystemBase
     private LevelContext levelContext;
     private BattleContext battleContext;
 
+
     public override void Init()
     {
         
@@ -18,7 +20,11 @@ public sealed class GameplayRoot : SubSystemBase
 
     public void StartRun()
     {
-        //创建主角状态
+        //若为新存档，新建主角状态
+        Global.Instantiate("Prefabs/Player/test_player");
+
+        //若为旧存档，读取主角状态，读取各个游戏进度
+
 
     }
     public void EndRun()
