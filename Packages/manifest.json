@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
+    "com.esotericsoftware.spine.spine-csharp": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.3",
+    "com.esotericsoftware.spine.spine-unity": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.3",
     "com.h8man.2d.navmeshplus": "https://gitee.com/allen66982881/NavMeshPlus.git",
     "com.tuyoogame.yooasset": "3.0.5",
     "com.unity.2d.sprite": "1.0.0",
