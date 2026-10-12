@@ -12,21 +12,26 @@ namespace GamePlay.Player
         public Dictionary<int, LiquidBase> Liquids = new(2);
 
         /// <summary>
-        /// 吸取液体
+        /// 切换液体
         /// </summary>
         /// <param name="liquid"></param>
         /// <param name="pos"></param>
-        public void ChangeLiquid(LiquidBase liquid, int pos)
+        public bool ChangeLiquid(LiquidBase liquid, int pos)
         {
             if (Liquids.ContainsKey(pos))
             {
                 Liquids[pos] = liquid;
-
-                // 槽位状态变更
-
-                // 技能更换
-
+                return true;
             }
+            return false;
+        }
+        /// <summary>
+        /// 吸取液体
+        /// </summary>
+        /// <param name="liquid"></param>
+        public void GetLiquid(LiquidBase liquid)
+        {
+
         }
     }
 }

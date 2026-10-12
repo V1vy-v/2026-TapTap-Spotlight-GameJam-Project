@@ -1,3 +1,5 @@
+using Framework;
+
 namespace UI
 {
     /// <summary>
@@ -54,6 +56,7 @@ namespace UI
         private void OnHostPlayBtn()
         {
             // TODO: _hostPlayBtn 点击后的逻辑
+            //Global.LoadScene("GameScene");
         }
 
         private void OnLocalPlayBtn()

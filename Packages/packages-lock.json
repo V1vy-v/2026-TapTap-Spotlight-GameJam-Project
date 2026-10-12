@@ -17,27 +17,6 @@
       },
       "hash": "30d22075093d1d35dfb0091c1c7550e9ad948577"
     },
-    "com.esotericsoftware.spine.spine-csharp": {
-      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.3",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "1ad4e94bc3f16f4908a87a97d31e0de657f1788a"
-    },
-    "com.esotericsoftware.spine.spine-unity": {
-      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.3",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.physics2d": "1.0.0",
-        "com.esotericsoftware.spine.spine-csharp": "4.3.36",
-        "com.unity.2d.sprite": "1.0.0"
-      },
-      "hash": "1ad4e94bc3f16f4908a87a97d31e0de657f1788a"
-    },
     "com.h8man.2d.navmeshplus": {
       "version": "https://gitee.com/allen66982881/NavMeshPlus.git",
       "depth": 0,

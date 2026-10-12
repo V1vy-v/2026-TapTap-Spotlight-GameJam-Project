@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BattleContext
+namespace GamePlay.Session
 {
-    
+    public class BattleContext
+    {
+        public string CurrentEnemy { get; private set; }
+
+
+    }
 }
