@@ -4,6 +4,8 @@
     "com.h8man.2d.navmeshplus": "https://gitee.com/allen66982881/NavMeshPlus.git",
     "com.tuyoogame.yooasset": "3.0.5",
     "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.tilemap": "1.0.0",
+    "com.unity.2d.tilemap.extras": "3.1.3",
     "com.unity.cinemachine": "3.1.3",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.ide.rider": "3.0.36",

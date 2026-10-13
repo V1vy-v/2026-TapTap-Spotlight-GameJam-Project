@@ -1,4 +1,6 @@
+using Framework;
 using GamePlay.Procedure;
+using UnityEngine;
 
 namespace UI
 {
@@ -53,11 +55,13 @@ namespace UI
         private void OnQuitBtn()
         {
             // TODO: _quitBtn 点击后的逻辑
+            Application.Quit();
         }
 
         private void OnSettingBtn()
         {
             // TODO: _settingBtn 点击后的逻辑
+            Global.ShowUI("SettingPanel");
         }
 
         #endregion
