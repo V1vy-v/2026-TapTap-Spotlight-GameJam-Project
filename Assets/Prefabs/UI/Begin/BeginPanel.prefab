@@ -472,7 +472,7 @@ MonoBehaviour:
   kind: 0
   controllerTypeName: UI.BeginPanel, Assembly-CSharp
   properties:
-    rid: 8922294146898591745
+    rid: 6728704701565239302
   animIn: {fileID: 0}
   animOut: {fileID: 0}
   bindings:
@@ -485,7 +485,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8922294146898591745
+    - rid: 6728704701565239302
       type: {class: BeginPanelProperties, ns: UI, asm: Assembly-CSharp}
       data:
         priority: 0

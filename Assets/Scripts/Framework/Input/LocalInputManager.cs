@@ -14,6 +14,15 @@ namespace Framework
         public LocalInputProvider Provider { get; private set; }
         #endregion
 
+        /// <summary>
+        /// 切换InputMap
+        /// </summary>
+        /// <param name="inputMap"></param>
+        public void SwitchMap(LocalInputType type)
+        {
+            Provider?.SwitchInputMap(type);
+        }
+
         #region 子系统生命周期
 
         public override void Init()

@@ -6,6 +6,8 @@
     public static class GlobalConstants
     {
         public const string MENU_SCENE_NAME = "MainScene";
-        public const string LEVEL_SCENE_NAME = "GameScene";
+        public const string GAME_SCENE_NAME = "GameScene";
+
+        public const string PlayerPrefabLocation = "Prefab_Player";
     }
 }

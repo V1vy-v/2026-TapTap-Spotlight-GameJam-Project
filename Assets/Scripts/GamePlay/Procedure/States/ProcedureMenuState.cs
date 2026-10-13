@@ -22,7 +22,8 @@ namespace GamePlay.Procedure
         {
             Cursor.lockState = CursorLockMode.None;
 
-            Global.ShowUI("MainScenePanel");
+            Global.Get<LocalInputManager>().SwitchMap(LocalInputType.UI);
+            Global.ShowUI("BeginPanel");
         }
 
         #endregion

@@ -65,6 +65,14 @@ namespace GamePlay.Procedure
         }
 
         /// <summary>
+        /// 回菜单：换回菜单场景，对局在进入菜单的那条边上拆掉。
+        /// </summary>
+        public void RequestMenu()
+        {
+            RequestScene(ProcedureState.Menu, GlobalConstants.MENU_SCENE_NAME);
+        }
+
+        /// <summary>
         /// 经由加载闸门换场景。当前状态立刻退出，场景就绪之后才进入目标状态。
         /// </summary>
         public void RequestScene(ProcedureState nextState, string sceneName)
@@ -73,15 +81,15 @@ namespace GamePlay.Procedure
         }
 
         /// <summary>
-        /// 回菜单：换回菜单场景，对局在进入菜单的那条边上拆掉。
+        /// 进入游戏：切入游戏场景
         /// </summary>
-        public void RequestMenu()
+        public void RequestPlay()
         {
-            RequestScene(ProcedureState.Menu, GlobalConstants.MENU_SCENE_NAME);
+            RequestScene(ProcedureState.Playing, GlobalConstants.GAME_SCENE_NAME);
         }
 
         #endregion
-        
+
         #region 生命周期
 
         protected override void Init()
@@ -89,12 +97,7 @@ namespace GamePlay.Procedure
             _fsm = new StateMachine<ProcedureState>();
             _fsm.RegisterState(new ProcedureMenuState(_fsm, this));
             _fsm.RegisterState(new ProcedureLoadingState(_fsm, this));
-            _fsm.RegisterState(new ProcedureBattleState(_fsm, this));
-            _fsm.RegisterState(new ProcedureDialogueState(_fsm, this));
-            _fsm.RegisterState(new ProcedureCutsceneState(_fsm, this));
-            _fsm.RegisterState(new ProcedureFreeRoamState(_fsm, this));
-            _fsm.RegisterState(new ProcedurePauseState(_fsm, this));
-            _fsm.RegisterState(new ProcedureGameOverState(_fsm, this));
+            _fsm.RegisterState(new ProcedurePlayingState(_fsm, this));
 
             // 子系统就绪之后才启动流程，已经就绪时立刻回调
             AppCore.OnAppReady += StartUp;
@@ -141,16 +144,6 @@ namespace GamePlay.Procedure
                 return;
             }
 
-            RequestMenu();
-        }
-
-        private void OnSessionEnded()
-        {
-            RequestMenu();
-        }
-
-        private void OnReconnectFailed()
-        {
             RequestMenu();
         }
 

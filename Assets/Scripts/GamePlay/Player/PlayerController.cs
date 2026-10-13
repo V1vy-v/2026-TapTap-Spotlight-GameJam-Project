@@ -1,6 +1,6 @@
 using Framework;
 using GamePlay.Player;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -32,19 +32,24 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         _inputProvider.PlayerActions.PrimaryAttack.performed += OnPrimaryAttack;
-        _inputProvider.PlayerActions.Interact.performed += OnInteract;
         _inputProvider.PlayerActions.Skill.performed += OnSkill;
-        _inputProvider.PlayerActions.Consumables.performed += OnConsumable;
-        _inputProvider.PlayerActions.Jump.performed += OnJump;
+        _inputProvider.PlayerActions.Interact.performed += OnInteract;
+        _inputProvider.PlayerActions.SwitchModule.performed += OnSwitchModule;
+        _inputProvider.PlayerActions.SwitchLiquid.performed += OnSwitchLiquid;
+        _inputProvider.PlayerActions.Spray.performed += OnSpray;
+        _inputProvider.PlayerActions.Pour.performed += OnPour;
     }
     private void OnDisable()
     {
         _inputProvider.PlayerActions.PrimaryAttack.performed -= OnPrimaryAttack;
-        _inputProvider.PlayerActions.Interact.performed -= OnInteract;
         _inputProvider.PlayerActions.Skill.performed -= OnSkill;
-        _inputProvider.PlayerActions.Consumables.performed -= OnConsumable;
-        _inputProvider.PlayerActions.Jump.performed -= OnJump;
+        _inputProvider.PlayerActions.Interact.performed -= OnInteract;
+        _inputProvider.PlayerActions.SwitchModule.performed -= OnSwitchModule;
+        _inputProvider.PlayerActions.SwitchLiquid.performed -= OnSwitchLiquid;
+        _inputProvider.PlayerActions.Spray.performed -= OnSpray;
+        _inputProvider.PlayerActions.Pour.performed -= OnPour;
     }
+
     private void FixedUpdate()
     {
         //移动逻辑
@@ -67,15 +72,24 @@ public class PlayerController : MonoBehaviour
         //交互逻辑
         Debug.Log("交互逻辑");
     }
-    private void OnConsumable(InputAction.CallbackContext ctx)
+    private void OnSwitchModule(InputAction.CallbackContext ctx)
     {
-        //使用消耗品逻辑
-        Debug.Log("使用消耗品逻辑");
+
     }
-    private void OnJump(InputAction.CallbackContext ctx)
+
+    private void OnSpray(InputAction.CallbackContext context)
     {
-        //冲刺逻辑
-        Debug.Log("冲刺逻辑");
+
+    }
+
+    private void OnSwitchLiquid(InputAction.CallbackContext ctx)
+    {
+
+    }
+
+    private void OnPour(InputAction.CallbackContext context)
+    {
+        
     }
     #endregion
 }

@@ -1,71 +1,98 @@
+using Core;
 using Framework;
 using GamePlay.Session;
+using UnityEngine;
+using YooAsset;
 
 namespace GamePlay
 {
-    /// <summary>
-    /// Gameplay子系统，负责接管本局状态
-    /// </summary>
     public sealed class GameplayRoot : SubSystemBase
     {
         public override int Priority => (int)SubSystemPriority.GameplayRoot;
 
+        private StateMachine<GameplayMode> _modeFsm;
         private StoryContext _storyContext;
         private BattleContext _battleContext;
+        private GameplayMode _resumeMode = GameplayMode.FreeRoam;
+        private GameObject _player;
 
-        public override void Init()
-        {
+        public StoryContext Story => _storyContext;
+        public GameplayMode CurrentMode => _modeFsm?.CurrentState ?? default;
 
-        }
-
+        #region 对局生命周期
         public void StartNewGame()
         {
-            // 实例化主角并初始化状态
-            //Global.Instantiate("Prefabs/Player/player_default");
-            // 新建剧情状态
             _storyContext = new();
-            // 新建战斗状态（空）
             _battleContext = new();
-            // 进入初始剧情
-
+            BuildModeFsm();
+            _player = Global.InstantiateUnpooled(GlobalConstants.PlayerPrefabLocation, new InstantiateOptions(true));
+            _modeFsm.ChangeState(GameplayMode.FreeRoam);
         }
-        public void ContinueGame()
+
+        public void ContinueGame() 
         {
-
+            /* 读档后同样 BuildModeFsm */ 
         }
+
         public void EndGame()
         {
+            _modeFsm?.Stop();
+            _modeFsm = null;
 
+            if (_player)
+            { 
+                Global.Release(_player);
+                _player = null;
+            }
+
+            _storyContext = null;
+            _battleContext = null;
         }
-        public void SaveProgress()
+        #endregion
+
+        private void BuildModeFsm()
         {
-
+            _modeFsm = new StateMachine<GameplayMode>();
+            _modeFsm.OnStateChange += OnModeChanged;
+            _modeFsm.RegisterState(new GameplayFreeRoamState(this, _modeFsm));
+            _modeFsm.RegisterState(new GameplayDialogueState(this, _modeFsm));
+            _modeFsm.RegisterState(new GameplayCutsceneState(this, _modeFsm));
+            _modeFsm.RegisterState(new GameplayBattleState(this, _modeFsm));
+            _modeFsm.RegisterState(new GameplayPauseState(this, _modeFsm));
+            _modeFsm.RegisterState(new GameplayGameOverState(this, _modeFsm));
         }
-        public void LoadProgress()
+
+        #region 局内切换
+        public void ChangeMode(GameplayMode mode) => _modeFsm?.ChangeState(mode);
+
+        /// <summary>暂停。只在自由行动与战斗中允许。</summary>
+        public void Pause()
         {
-
+            if (CurrentMode is GameplayMode.FreeRoam or GameplayMode.Battle)
+                _modeFsm.ChangeState(GameplayMode.Pause);
         }
-        public void EnterSegment()
+
+        /// <summary>恢复到暂停前的模式（而不是硬编码回 FreeRoam）。</summary>
+        public void Resume() => _modeFsm?.ChangeState(_resumeMode);
+
+        private void OnModeChanged(GameplayMode from, GameplayMode to)
         {
-            // 进入剧情状态
-
+            if (to == GameplayMode.Pause && from != GameplayMode.Pause)
+                _resumeMode = from;
         }
-        public void AdvanceSegment()
-        {
+        #endregion
 
-        }
-        public void ExitSegment()
-        {
+        #region 剧情推进（单场景，不走场景加载）
+        public void AdvanceNode() => _storyContext?.AdvanceStoryNode();
+        public void AdvanceStage() => _storyContext?.AdvanceStoryStage();
+        public void EnterBattle() => ChangeMode(GameplayMode.Battle);
+        public void EndBattle() => ChangeMode(GameplayMode.FreeRoam);
+        #endregion
 
-        }
-        public void StartBattle()
-        {
-            //更新战斗状态
-
-        }
-        public void EndBattle()
-        {
-
-        }
+        #region 生命周期
+        public override void Update(float deltaTime) => _modeFsm?.Update(deltaTime);
+        public override void FixedUpdate(float fixedDeltaTime) => _modeFsm?.FixedUpdate(fixedDeltaTime);
+        public override void LateUpdate() => _modeFsm?.LateUpdate();
+        #endregion
     }
 }

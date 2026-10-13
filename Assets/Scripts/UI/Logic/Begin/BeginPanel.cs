@@ -1,5 +1,4 @@
-using Framework;
-using UnityEngine;
+using GamePlay.Procedure;
 
 namespace UI
 {
@@ -44,17 +43,21 @@ namespace UI
         #endregion
 
         #region UI回调
+
         private void OnBeginBtn()
         {
-            Global.ShowUI("LoadingPanel");
+            // TODO: _beginBtn 点击后的逻辑
+            ProcedureCore.Instance.RequestPlay();
         }
-        private void OnSettingBtn()
-        {
-            Global.ShowUI("SettingPanel");
-        }
+
         private void OnQuitBtn()
         {
-            Application.Quit();
+            // TODO: _quitBtn 点击后的逻辑
+        }
+
+        private void OnSettingBtn()
+        {
+            // TODO: _settingBtn 点击后的逻辑
         }
 
         #endregion
