@@ -1,6 +1,6 @@
 using Framework;
 using GamePlay.Player;
-using System.Collections;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,50 +9,53 @@ using UnityEngine.InputSystem;
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
-    private LocalInputProvider inputProvider;
+    private LocalInputProvider _inputProvider;
     private Rigidbody2D _rb;
+    private PlayerStats _playerStats;
     private PlayerLiquids _playerLiquids;
     private PlayerCombat _playerCombat;
-    private float speed = 10f;
 
-    private void Start()
+    private void Awake()
     {
-        inputProvider = Global.Get<LocalInputManager>().Provider;
+        _inputProvider = Global.Get<LocalInputManager>().Provider;
 
         //初始化主角组件
         _rb = GetComponent<Rigidbody2D>();
+        _playerCombat = GetComponent<PlayerCombat>();
         _playerLiquids = new();
-        _playerCombat = new();
+        _playerStats = new();
     }
-
+    private void Start()
+    {
+        GetComponent<PlayerCombat>().Init(_playerStats);
+    }
     private void OnEnable()
     {
-        inputProvider.PlayerActions.PrimaryAttack.performed += OnPrimaryAttack;
-        inputProvider.PlayerActions.Interact.performed += OnInteract;
-        inputProvider.PlayerActions.Skill.performed += OnSkill;
-        inputProvider.PlayerActions.Consumables.performed += OnConsumable;
-        inputProvider.PlayerActions.Jump.performed += OnJump;
-        inputProvider.PlayerActions.Pause.performed += OnPause;
+        _inputProvider.PlayerActions.PrimaryAttack.performed += OnPrimaryAttack;
+        _inputProvider.PlayerActions.Interact.performed += OnInteract;
+        _inputProvider.PlayerActions.Skill.performed += OnSkill;
+        _inputProvider.PlayerActions.Consumables.performed += OnConsumable;
+        _inputProvider.PlayerActions.Jump.performed += OnJump;
     }
     private void OnDisable()
     {
-        inputProvider.PlayerActions.PrimaryAttack.performed -= OnPrimaryAttack;
-        inputProvider.PlayerActions.Interact.performed -= OnInteract;
-        inputProvider.PlayerActions.Skill.performed -= OnSkill;
-        inputProvider.PlayerActions.Consumables.performed -= OnConsumable;
-        inputProvider.PlayerActions.Jump.performed -= OnJump;
-        inputProvider.PlayerActions.Pause.performed -= OnPause;
+        _inputProvider.PlayerActions.PrimaryAttack.performed -= OnPrimaryAttack;
+        _inputProvider.PlayerActions.Interact.performed -= OnInteract;
+        _inputProvider.PlayerActions.Skill.performed -= OnSkill;
+        _inputProvider.PlayerActions.Consumables.performed -= OnConsumable;
+        _inputProvider.PlayerActions.Jump.performed -= OnJump;
     }
     private void FixedUpdate()
     {
         //移动逻辑
-        _rb.velocity = inputProvider.PlayerActions.Move.ReadValue<Vector2>() * speed;
+        _rb.velocity = _inputProvider.PlayerActions.Move.ReadValue<Vector2>() * _playerStats.moveSpeed;
     }
 
+    #region 输入操作
     private void OnPrimaryAttack(InputAction.CallbackContext ctx)
     {
         //普通攻击逻辑
-        Debug.Log("普通攻击"); 
+        _playerCombat.RangeAttack(Vector2.zero, 2f);
     }
     private void OnSkill(InputAction.CallbackContext ctx)
     {
@@ -74,9 +77,5 @@ public class PlayerController : MonoBehaviour
         //冲刺逻辑
         Debug.Log("冲刺逻辑");
     }
-    private void OnPause(InputAction.CallbackContext ctx)
-    {
-        //暂停逻辑
-        Debug.Log("暂停逻辑");
-    }
+    #endregion
 }

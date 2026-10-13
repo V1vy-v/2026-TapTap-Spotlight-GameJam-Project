@@ -89,8 +89,12 @@ namespace GamePlay.Procedure
             _fsm = new StateMachine<ProcedureState>();
             _fsm.RegisterState(new ProcedureMenuState(_fsm, this));
             _fsm.RegisterState(new ProcedureLoadingState(_fsm, this));
-            //注册其它流程状态
-
+            _fsm.RegisterState(new ProcedureBattleState(_fsm, this));
+            _fsm.RegisterState(new ProcedureDialogueState(_fsm, this));
+            _fsm.RegisterState(new ProcedureCutsceneState(_fsm, this));
+            _fsm.RegisterState(new ProcedureFreeRoamState(_fsm, this));
+            _fsm.RegisterState(new ProcedurePauseState(_fsm, this));
+            _fsm.RegisterState(new ProcedureGameOverState(_fsm, this));
 
             // 子系统就绪之后才启动流程，已经就绪时立刻回调
             AppCore.OnAppReady += StartUp;

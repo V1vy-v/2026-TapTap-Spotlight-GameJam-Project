@@ -14,7 +14,7 @@ namespace GamePlay.Enemy
         public float attackRange = 1.5f;    // 攻击范围
         public float attackCooldown = 1f;   // 攻击冷却时间
         public float hurtDuration = 0.3f;   // 受击僵直时间
-        public int Health = 100;            // 生命值
+        public float Health = 100;            // 生命值
         public float fadeDuration = 1f;     // 渐隐时长
 
         //AI
@@ -101,7 +101,7 @@ namespace GamePlay.Enemy
             _sprite.color = c;
         }
 
-        public void ApplyDamage(int damage)
+        public void ApplyDamage(float damage)
         {
             if (_fsm == null) return;
             if (_fsm.CurrentState == EnemyState.Dead) return;
