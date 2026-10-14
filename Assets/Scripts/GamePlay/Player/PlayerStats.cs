@@ -1,18 +1,24 @@
+using GamePlay.Configs;
 using UnityEngine;
 
 namespace GamePlay.Player
 {
     public class PlayerStats
     {
-        [Header("血量")]
         public float MaxHp;
         public float Hp;
 
-        [Header("战斗")]
         public int Atk;
         public int Def;
 
-        [Header("移动")]
-        public float moveSpeed;
+        public float MoveSpeed;
+
+        public void Init(PlayerConfig config)
+        {
+            Hp = MaxHp = config.MaxHp;
+            Atk = config.Atk; 
+            Def = config.Def;
+            MoveSpeed = config.MoveSpeed;
+        }
     }
 }
