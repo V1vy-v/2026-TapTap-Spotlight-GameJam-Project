@@ -1,7 +1,6 @@
 using Framework;
 using GamePlay.Configs;
 using GamePlay.Player;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
