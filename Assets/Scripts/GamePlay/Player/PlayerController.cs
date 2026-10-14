@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Start()
     {
-        GetComponent<PlayerCombat>().Init(_playerStats);
+        GetComponent<PlayerCombat>().Init(_playerStats, _playerLiquids);
     }
     private void OnEnable()
     {

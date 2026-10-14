@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21861acf0c343646ad3ace835a8bc2e, type: 3}
   m_Name: LiquidConfig
   m_EditorClassIdentifier: 
-  Id: liquid_001
+  Id: Liquid_001

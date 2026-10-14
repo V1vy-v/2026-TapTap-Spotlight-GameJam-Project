@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 液体(武器)基类，用于
+/// 液体(武器)基类
 /// </summary>
 public abstract class LiquidBase : MonoBehaviour
 {

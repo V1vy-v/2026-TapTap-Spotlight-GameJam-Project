@@ -1,3 +1,4 @@
+using GamePlay.Enemy;
 using UnityEngine;
 
 namespace GamePlay.Player
@@ -5,16 +6,16 @@ namespace GamePlay.Player
     public class PlayerCombat : MonoBehaviour
     {
         private PlayerStats _stats;
-        private CapsuleCollider2D _hitbox;
+        private PlayerLiquids _liquids;
+        [SerializeField] private Vector2 _primaryAtkOffset;
         [SerializeField] private LayerMask enemyLayerMask;
-        private void Awake()
-        {
-            _hitbox = transform.Find("Hitbox").GetComponent<CapsuleCollider2D>();
-        }
-        public void Init(PlayerStats stats)
+
+        public void Init(PlayerStats stats, PlayerLiquids liquids)
         {
             _stats = stats;
+            _liquids = liquids;
         }
+
         /// <summary>
         /// 搜索最近敌人/精英Boss
         /// </summary>
@@ -23,7 +24,6 @@ namespace GamePlay.Player
 
             return Vector2.zero;
         }
-
         /// <summary>
         /// 非指向性攻击：普通/范围攻击
         /// </summary>
@@ -35,10 +35,10 @@ namespace GamePlay.Player
 
             Vector2 center = (Vector2)transform.position + offset;
             Collider2D[] hits = Physics2D.OverlapCircleAll(center, radius, enemyLayerMask);
-            foreach(var colk in hits)
+            foreach(var col in hits)
             {
                 //敌人受伤
-
+                col.GetComponent<EnemyController>().ApplyDamage(_stats.BaseAttack);
             }
         }
         /// <summary>
@@ -53,12 +53,10 @@ namespace GamePlay.Player
             //创建攻击物并初始化方向
 
         }
-
         /// <summary>
-        /// 受伤
+        /// 使用技能
         /// </summary>
-        /// <param name="dmg"></param>
-        public void PlayerWound(float dmg)
+        public void UseSkill()
         {
 
         }
