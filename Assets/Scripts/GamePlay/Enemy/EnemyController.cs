@@ -1,4 +1,5 @@
 using Framework;
+using GamePlay.Configs;
 using UnityEngine;
 
 namespace GamePlay.Enemy
@@ -8,20 +9,19 @@ namespace GamePlay.Enemy
     /// </summary>
     public class EnemyController : MonoBehaviour
     {
-        //敌人数据
-        public float moveSpeed = 2f;        // 移动速度
-        public float chaseSpeed = 4f;       // 追击速度
-        public float attackRange = 1.5f;    // 攻击范围
-        public float attackCooldown = 1f;   // 攻击冷却时间
-        public float hurtDuration = 0.3f;   // 受击僵直时间
-        public float Health = 100;            // 生命值
-        public float fadeDuration = 1f;     // 渐隐时长
+        [Header("配置表")]
+        public EnemyConfig config;  
+
+        [Header("运行时状态")]
+        public EnemyRealState state = new EnemyRealState();
+
+        public float currentHP;
 
         //AI
-        [Header("待机持续时间")]
-        public float idleDuration = 2f;    
-        [Header("巡逻持续时间")]
-        public float patrolDuration = 5f;   
+        public float idleDuration;    //待机持续时间
+        public float patrolDuration;//巡逻持续时间
+
+        public float fadeDuration; //死亡渐隐时间
 
         //检测状态
         [HideInInspector] public bool playerInDetectRange;
@@ -37,12 +37,32 @@ namespace GamePlay.Enemy
 
         private void Awake()
         {
+            InitFromConfig();
             animator = GetComponent<Animator>();
             _sprite = GetComponent<SpriteRenderer>();
             moveController = GetComponent<EnemyMoveController>();
 
             if (moveController == null) return;
             if (animator == null) return;
+        }
+        private void InitFromConfig()
+        {
+            if (config == null)
+            {
+                return;
+            }
+
+            state.baseHP = config.maxHP;
+            state.CurrentHP = state.MaxHP;  
+            state.baseAtk = config.atk;
+            state.baseMoveSpeed = config.moveSpeed;
+            state.baseAttackRange = config.attackRange;
+            state.baseAttackCooldown = config.attackCooldown;
+            state.baseHurtDuration = config.hurtDuration;
+
+            idleDuration = config.idleDuration;
+            patrolDuration = config.patrolDuration;
+            fadeDuration = config.fadeDuration;
         }
 
         private void Start()
@@ -117,9 +137,11 @@ namespace GamePlay.Enemy
             if (_fsm == null) return;
             if (_fsm.CurrentState == EnemyState.Dead) return;
 
-            Health -= damage;
-            if (Health <= 0)
+            state.CurrentHP -= damage;
+
+            if (state.CurrentHP <= 0)
             {
+                state.CurrentHP = 0;
                 _fsm.ChangeState(EnemyState.Dead);
             }
             else

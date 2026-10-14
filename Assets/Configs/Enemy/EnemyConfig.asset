@@ -13,3 +13,14 @@ MonoBehaviour:
   m_Name: EnemyConfig
   m_EditorClassIdentifier: 
   Id: enemy_001
+  Name: ManbaTea
+  maxHP: 100
+  atk: 10
+  moveSpeed: 2
+  chaseSpeed: 4
+  attackRange: 1
+  attackCooldown: 1.5
+  hurtDuration: 0.3
+  idleDuration: 2
+  patrolDuration: 5
+  fadeDuration: 1

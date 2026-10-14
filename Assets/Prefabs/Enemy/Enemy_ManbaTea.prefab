@@ -101,15 +101,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e6158650b39ef478424ca645d32eac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  chaseSpeed: 4
-  attackRange: 1.5
-  attackCooldown: 1
-  hurtDuration: 0.3
-  Health: 100
-  fadeDuration: 1
+  config: {fileID: 11400000, guid: f09ff9e2a8fe20e40af105cd1a994db5, type: 2}
   idleDuration: 2
   patrolDuration: 5
+  fadeDuration: 1
   playerInDetectRange: 0
   playerInAttackRange: 0
 --- !u!114 &1138616811415375530

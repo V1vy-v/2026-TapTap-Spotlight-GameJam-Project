@@ -1,6 +1,8 @@
+/*
+ * 怪物状态机状态
+ */
 using Framework;
 using UnityEngine;
-
 namespace GamePlay.Enemy
 {
     /// <summary>
@@ -52,7 +54,7 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
-            Enemy.ChangeSpeed(Enemy.moveSpeed);
+            Enemy.ChangeSpeed(Enemy.state.MoveSpeed);
             Enemy.PlayAnimation("Walk");
             _patrolTimer = 0f; // 进入时清零
             Enemy.RandomMove(12f);//test
@@ -86,7 +88,7 @@ namespace GamePlay.Enemy
 
         public override void Enter()
         {
-            Enemy.ChangeSpeed(Enemy.chaseSpeed);
+            Enemy.ChangeSpeed(Enemy.state.MoveSpeed);
         }
 
         protected override void Tick(float deltaTime)
@@ -128,7 +130,7 @@ namespace GamePlay.Enemy
         {
             _attackTimer += deltaTime;
 
-            if (_attackTimer >= Enemy.attackCooldown)
+            if (_attackTimer >= Enemy.state.AttackCooldown)
             {
                 _attackTimer = 0f;
                 Enemy.PlayAnimation("Attack");
@@ -177,9 +179,9 @@ namespace GamePlay.Enemy
 
         protected override void CheckStateChange()
         {
-            if (_hurtTimer < Enemy.hurtDuration) return; 
+            if (_hurtTimer < Enemy.state.HurtDuration) return; 
 
-            if (Enemy.Health <= 0)
+            if (Enemy.state.CurrentHP <= 0)
                 _stateMachine.ChangeState(EnemyState.Dead);
             else if (Enemy.playerInAttackRange)
                 _stateMachine.ChangeState(EnemyState.Attack);
