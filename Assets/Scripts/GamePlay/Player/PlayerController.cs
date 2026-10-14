@@ -1,4 +1,5 @@
 using Framework;
+using GamePlay.Configs;
 using GamePlay.Player;
 using System;
 using UnityEngine;
@@ -22,8 +23,11 @@ public class PlayerController : MonoBehaviour
         //初始化主角组件
         _rb = GetComponent<Rigidbody2D>();
         _playerCombat = GetComponent<PlayerCombat>();
-        _playerLiquids = new();
+        _playerLiquids = new(); 
         _playerStats = new();
+        if (ConfigManager.Instance.TryGetConfig<PlayerConfig>("Player_001", out PlayerConfig config))
+            _playerStats.Init(config);
+            
     }
     private void Start()
     {
@@ -53,7 +57,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         //移动逻辑
-        _rb.velocity = _inputProvider.PlayerActions.Move.ReadValue<Vector2>() * _playerStats.moveSpeed;
+        _rb.velocity = _inputProvider.PlayerActions.Move.ReadValue<Vector2>() * _playerStats.MoveSpeed;
     }
 
     #region 输入操作
