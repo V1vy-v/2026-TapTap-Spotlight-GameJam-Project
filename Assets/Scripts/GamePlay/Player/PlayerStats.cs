@@ -3,41 +3,78 @@ using UnityEngine;
 
 namespace GamePlay.Player
 {
+    /// <summary>
+    /// 主角运行时数值。
+    /// 对局开始时从 <see cref="PlayerConfig"/> 拷一份基础值，之后由状态与道具在此之上增删
+    /// —— 配置是静态基础值，这里是当前值。
+    /// </summary>
     public class PlayerStats
     {
+        // 生命
+        public float Hp;
+        public float MaxHp;
+        public float InvincibleTime;//无敌帧时间
+        public float HurtStunTime;//僵直时间
+        public bool IsDead;
+
         // 移动
         public float MoveSpeed;
         public float SprintSpeed;
-        public float SprintDuration;
         public float SprintCd;
+        public float SprintMaxHold;
+        public float SprintDuration;
 
-        // 生命/战斗
-        public float Hp;
-        public float MaxHp;
-        public float BaseAttack;
+        // 喷射累积伤害
+        public float SprintDamagePerTick;
+        public float SprintTickInterval;
+        public float SprintCartExtraDamage;
+
+        // 近战 J
+        public float MeleeDamage;
+        public float MeleeCd;
+        public float MeleeRecovery;
+        public float MeleeRange;
+
+        // 远程 Q
+        public float RangedDamage;
+        public float RangedInterval;
+        public float RangedRange;
+
+        // 倍率基准
         public float AttackSpeed;
-        public float AttackRange;
-        public bool IsDead;
 
-        // 液体相关
+        // 液体切换 Tab
         public float ChangeLiquidCd;
-        public float ChangeLiquidCdInBattle;
 
         public void Init(PlayerConfig config)
         {
-            MoveSpeed = config.MoveSpeed;
-            SprintSpeed = config.SprintSpeed;
-            SprintDuration = config.SprintDuration;
-            SprintCd = config.SprintCd;
-
             MaxHp = config.MaxHp;
             Hp = MaxHp;
-            BaseAttack = config.BaseAttack;
+            InvincibleTime = config.InvincibleTime;
+            HurtStunTime = config.HurtStunTime;
+
+            MoveSpeed = config.MoveSpeed;
+            SprintSpeed = config.SprintSpeed;
+            SprintCd = config.SprintCd;
+            SprintMaxHold = config.SprintMaxHold;
+            SprintDuration = config.SprintDuration;
+
+            SprintDamagePerTick = config.SprintDamagePerTick;
+            SprintTickInterval = config.SprintTickInterval;
+            SprintCartExtraDamage = config.SprintCartExtraDamage;
+
+            MeleeDamage = config.MeleeDamage;
+            MeleeCd = config.MeleeCd;
+            MeleeRecovery = config.MeleeRecovery;
+            MeleeRange = config.MeleeRange;
+
+            RangedDamage = config.RangedDamage;
+            RangedInterval = config.RangedInterval;
+            RangedRange = config.RangedRange;
+
             AttackSpeed = config.AttackSpeed;
-            AttackRange = config.AttackRange;
 
             ChangeLiquidCd = config.ChangeLiquidCd;
-            ChangeLiquidCdInBattle = config.ChangeLiquidCdInBattle;
 
             IsDead = false;
         }

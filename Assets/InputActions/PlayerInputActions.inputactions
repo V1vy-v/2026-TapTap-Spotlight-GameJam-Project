@@ -16,7 +16,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Spray",
+                    "name": "Sprint",
                     "type": "Button",
                     "id": "a690c738-ceae-4721-ac61-6f509b9f633d",
                     "expectedControlType": "",
@@ -228,7 +228,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Spray",
+                    "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

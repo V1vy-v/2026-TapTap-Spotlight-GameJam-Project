@@ -52,17 +52,17 @@ namespace GamePlay.Enemy
                 return;
             }
 
-            state.baseHP = config.maxHP;
+            state.baseHP = config.MaxHp;
             state.CurrentHP = state.MaxHP;  
-            state.baseAtk = config.atk;
-            state.baseMoveSpeed = config.moveSpeed;
-            state.baseAttackRange = config.attackRange;
-            state.baseAttackCooldown = config.attackCooldown;
-            state.baseHurtDuration = config.hurtDuration;
+            state.baseAtk = config.Damage;
+            state.baseMoveSpeed = config.MoveSpeed;
+            state.baseAttackRange = config.AttackRange;
+            state.baseAttackCooldown = config.AttackCooldown;
+            state.baseHurtDuration = config.HurtStunTime;
 
-            idleDuration = config.idleDuration;
-            patrolDuration = config.patrolDuration;
-            fadeDuration = config.fadeDuration;
+            idleDuration = config.IdleDuration;
+            patrolDuration = config.PatrolDuration;
+            fadeDuration = config.FadeDuration;
         }
 
         private void Start()
