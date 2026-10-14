@@ -19,7 +19,7 @@ namespace GamePlay.Enemy
         {
             Enemy.ChangeSpeed();
             Enemy.PlayAnimation("Idle");
-            _idleTimer = 0f; // 进入时清零
+            _idleTimer = 0f; 
         }
 
         protected override void Tick(float deltaTime)
@@ -55,6 +55,7 @@ namespace GamePlay.Enemy
             Enemy.ChangeSpeed(Enemy.moveSpeed);
             Enemy.PlayAnimation("Walk");
             _patrolTimer = 0f; // 进入时清零
+            Enemy.RandomMove(12f);//test
         }
 
         protected override void Tick(float deltaTime)

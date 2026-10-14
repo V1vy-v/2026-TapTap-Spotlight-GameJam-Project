@@ -44,4 +44,22 @@ public class EnemyMoveController : MonoBehaviour
         if (_agent.pathPending) return false;
         return _agent.remainingDistance <= _agent.stoppingDistance;
     }
+    /// <summary>
+    /// 随机选一个方向移动
+    /// </summary>
+    /// <param name="distance">随机移动的距离</param>
+    public void MoveToRandomDirection(float distance = 5f)
+    {
+        if (_agent == null || !_agent.isActiveAndEnabled) return;
+
+        Vector2 randomDir = Random.insideUnitCircle.normalized;//方向
+        Vector2 targetPos = (Vector2)transform.position + randomDir * distance;
+
+        //防止点落在墙里或地图外
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(targetPos, out hit, distance, NavMesh.AllAreas))
+        {
+            _agent.SetDestination(hit.position);
+        }
+    }
 }

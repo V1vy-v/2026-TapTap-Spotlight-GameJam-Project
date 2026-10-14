@@ -18,14 +18,16 @@ namespace GamePlay.Enemy
         public float fadeDuration = 1f;     // 渐隐时长
 
         //AI
-        public float idleDuration = 2f;     // 待机持续时间
-        public float patrolDuration = 5f;   // 巡逻持续时间
+        [Header("待机持续时间")]
+        public float idleDuration = 2f;    
+        [Header("巡逻持续时间")]
+        public float patrolDuration = 5f;   
 
         //检测状态
         [HideInInspector] public bool playerInDetectRange;
         [HideInInspector] public bool playerInAttackRange;
 
-        public Transform player;            // 持有的玩家对象
+        private Transform player;            // 持有的玩家对象
 
         private SpriteRenderer _sprite;
         private Animator animator;
@@ -74,6 +76,7 @@ namespace GamePlay.Enemy
         /// <param name="animationName"></param>
         public void PlayAnimation(string animationName)
         {
+            print("执行"+animationName+"动画");
             if (animator == null) return;
             animator.CrossFade(Animator.StringToHash(animationName), 0.1f);
         }
@@ -87,6 +90,14 @@ namespace GamePlay.Enemy
         public void ChangeSpeed(float speed = 0)
         {
             moveController?.SetSpeed(speed);
+        }
+        /// <summary>
+        /// 随机移动(巡逻)
+        /// </summary>
+        /// <param name="distance"></param>
+        public void RandomMove(float distance)
+        {
+            moveController.MoveToRandomDirection(distance);
         }
 
         /// <summary>
