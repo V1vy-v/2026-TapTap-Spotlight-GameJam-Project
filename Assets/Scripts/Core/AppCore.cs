@@ -3,6 +3,7 @@ using UnityEngine;
 using Framework;
 using Framework.SubSystems;
 using GamePlay;
+using GamePlay.DataProxy;
 
 namespace Core
 {
@@ -16,6 +17,7 @@ namespace Core
         public TimerManager TimerMgr { get; private set; }
         public DataProxyManager DataProxyMgr { get; private set; }
         public ResourceManager ResourceMgr { get; private set; }
+        public StorageManager StorageMgr { get; private set; }
         public InstantiateManager InstantiateMgr { get; private set; }
         public PoolManager PoolMgr { get; private set; }
         public LocalInputManager LocalInputMgr { get; private set; }
@@ -86,6 +88,7 @@ namespace Core
         /// </summary>
         private void InitSubSystems()
         {
+            StorageMgr = SystemMgr.RegisterSystem<StorageManager>();
             InstantiateMgr = SystemMgr.RegisterSystem<InstantiateManager>();
             PoolMgr = SystemMgr.RegisterSystem<PoolManager>();
             TimerMgr = SystemMgr.RegisterSystem<TimerManager>();
@@ -103,7 +106,8 @@ namespace Core
         /// </summary>
         private void InitDataProxy()
         {
-            // TODO: 初始化全局数据代理
+            Global.RegisterDataProxy<AppModelProxy>();
+            Global.RegisterDataProxy<GameSaveDataProxy>();
         }
 
         #endregion
