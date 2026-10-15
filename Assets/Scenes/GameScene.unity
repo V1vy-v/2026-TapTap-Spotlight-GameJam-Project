@@ -3166,7 +3166,7 @@ Transform:
   m_GameObject: {fileID: 1270238307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.28, y: 26.4, z: -10}
+  m_LocalPosition: {x: -2.87, y: 5.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4062,6 +4062,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &945928620956612504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8777703894021881780, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_Name
+      value: "Enemy_ManbaTea_\u9632\u4E22\u5931\u65B0\u52A0\u7248"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898388178724361895, guid: ba051dc2bd6de2440bd4fe5fe4008bbb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba051dc2bd6de2440bd4fe5fe4008bbb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4071,4 +4139,4 @@ SceneRoots:
   - {fileID: 688092857}
   - {fileID: 1151193512}
   - {fileID: 1911991791}
-  - {fileID: 1538291568}
+  - {fileID: 945928620956612504}

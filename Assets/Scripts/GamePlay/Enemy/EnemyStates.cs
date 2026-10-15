@@ -55,7 +55,7 @@ namespace GamePlay.Enemy
         public override void Enter()
         {
             Enemy.ChangeSpeed(Enemy.state.MoveSpeed);
-            Enemy.PlayAnimation("Walk");
+            Enemy.PlayAnimation("Move");
             _patrolTimer = 0f; // 进入时清零
             Enemy.RandomMove(12f);//test
         }
@@ -89,12 +89,13 @@ namespace GamePlay.Enemy
         public override void Enter()
         {
             Enemy.ChangeSpeed(Enemy.state.MoveSpeed);
+            Enemy.PlayAnimation("Move");
         }
 
         protected override void Tick(float deltaTime)
         {
             // 朝玩家移动
-            //Enemy.MoveToTarget();
+            Enemy.MoveToPlayer();
         }
 
         protected override void CheckStateChange()
@@ -140,8 +141,6 @@ namespace GamePlay.Enemy
         protected override void CheckStateChange()
         {
             //如果玩家离开攻击范围,根据索敌范围回到巡逻状态或者是追击状态
-            //_stateMachine.ChangeState(EnemyState.Patrol);
-            //_stateMachine.ChangeState(EnemyState.Chase);
             //如果玩家没死且仍在攻击范围内
             //无需操作
             if (!Enemy.playerInAttackRange && Enemy.playerInDetectRange)
