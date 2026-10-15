@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 8344987255759006518}
   m_Layer: 6
   m_Name: MoveCollider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,6 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8369d6a1bea8e04eac775b885ad45b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _primaryAtkOffset: {x: 0, y: 0}
   enemyLayerMask:
     serializedVersion: 2
     m_Bits: 512

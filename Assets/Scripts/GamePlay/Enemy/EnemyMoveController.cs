@@ -7,9 +7,13 @@ using UnityEngine.AI;
 public class EnemyMoveController : MonoBehaviour
 {
     private NavMeshAgent _agent;
+    private SpriteRenderer _sprite;
+
     private void Awake()
     {
         _agent = GetComponent<NavMeshAgent>();
+        _sprite = GetComponentInChildren<SpriteRenderer>();
+
         if (_agent != null)
         {
             _agent.updateRotation = false;
@@ -17,6 +21,18 @@ public class EnemyMoveController : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        // 根据速度方向翻转
+        if (_agent != null && _sprite != null)
+        {
+            float vx = _agent.velocity.x;
+            if (Mathf.Abs(vx) > 0.01f)   
+            {
+                _sprite.flipX = vx < 0;   
+            }
+        }
+    }
     public void MoveTo(Vector2 targetPos)
     {
         if (_agent == null || !_agent.isActiveAndEnabled) return;

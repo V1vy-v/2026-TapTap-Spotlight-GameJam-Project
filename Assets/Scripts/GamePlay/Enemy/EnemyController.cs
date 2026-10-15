@@ -27,7 +27,7 @@ namespace GamePlay.Enemy
         [HideInInspector] public bool playerInDetectRange;
         [HideInInspector] public bool playerInAttackRange;
 
-        private Transform player;            // 持有的玩家对象
+        private Transform _player;            // 持有的玩家对象
 
         private SpriteRenderer _sprite;
         private Animator animator;
@@ -102,9 +102,11 @@ namespace GamePlay.Enemy
         }
 
         /// <summary>移动至目标点</summary>
-        public void MoveToTarget(Vector2 targetPos)
+        public void MoveToPlayer()
         {
-            moveController?.MoveTo(targetPos);
+            if(_player == null) return;
+            moveController?.MoveTo(_player.transform.position);
+            print(_player.transform.position);
         }
 
         public void ChangeSpeed(float speed = 0)
@@ -148,6 +150,14 @@ namespace GamePlay.Enemy
             {
                 _fsm.ChangeState(EnemyState.Hurt);
             }
+        }
+        public void SetPlayerTarget(Transform player)
+        {
+            _player = player;
+        }
+        public void MissPlayer()
+        {
+            _player = null;
         }
     }
 }
