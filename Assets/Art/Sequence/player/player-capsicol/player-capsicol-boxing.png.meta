@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: af92dfe77eb7508448f6fafb5b9a7e05
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-capsicol-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f06ce9a6dde444dac4c131ad60bcbd
+      internalID: 178239386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3080
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65bc955a2008e041be6914d0805f99b
+      internalID: -1985928716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3080
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5fcd1cce80a2d49929f3f1f0c27ad5
+      internalID: 36233632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3080
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567d67a0e23b5a344add1d25527ce160
+      internalID: 1543441566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3080
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243b9075dcd58d45b0a1fc832dfa605
+      internalID: 872078665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2464
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c038f47b1465a3047a12a2effba495f9
+      internalID: 1910434873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2464
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b155c937fe31f14da576c1d2dee7bb3
+      internalID: -1431351626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2464
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f64d607ce70c814b8a7a3166b4c95a6
+      internalID: -2012365242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2464
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f06ea50bf18ead4c8cb80d8b01ef786
+      internalID: 1435970274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2464
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d214c5fe6ce49b4489dbd29ac53baf83
+      internalID: -960951613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c9f6aaaa23551449537d8f30260e37
+      internalID: -1008989546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1848
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6543db4e052abd4abeeba1d9b22ea7f
+      internalID: -475878062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1848
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97aa110485e3c442a94e78a8f428f8e
+      internalID: -77731276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1848
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf70d2f99fff8a4496167dcdf1cdbf5
+      internalID: 1085194374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1848
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964191725ea0ac3409a8a1933cba109b
+      internalID: 1201200291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85fdabdbbd4b941bf9118b1be907f2
+      internalID: 286899170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1232
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96317cd1fb2ce964889a5dfbd43de03c
+      internalID: -474964049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1232
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcda1e9cb78a13448d778e5a0ebf9e9
+      internalID: -2036302995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1232
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef7186df4b71714598f302d3e1a20ee
+      internalID: -1429796142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1232
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b315b712650a974393efabaf6d47f2e
+      internalID: -1002218169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33907fa1544d49544a1cd36e907b0190
+      internalID: -187226817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd1275dfea6fb46ab384f38ff3de5a
+      internalID: 666298607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bddb05be60fd80408f64dcef1c974f8
+      internalID: -1800955749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3628cabb0616ca40b12f6ad3c12a76b
+      internalID: -17507193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f09668809542247b8e57eebf603354
+      internalID: 726280733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed03dc08442fef845acc38047501b4d1
+      internalID: 769301860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 96be06ef473ae984aabb1238cca3d5cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-capsicol-boxing_0: 178239386
+      player-capsicol-boxing_1: -1985928716
+      player-capsicol-boxing_10: -1008989546
+      player-capsicol-boxing_11: -475878062
+      player-capsicol-boxing_12: -77731276
+      player-capsicol-boxing_13: 1085194374
+      player-capsicol-boxing_14: 1201200291
+      player-capsicol-boxing_15: 286899170
+      player-capsicol-boxing_16: -474964049
+      player-capsicol-boxing_17: -2036302995
+      player-capsicol-boxing_18: -1429796142
+      player-capsicol-boxing_19: -1002218169
+      player-capsicol-boxing_2: 36233632
+      player-capsicol-boxing_20: -187226817
+      player-capsicol-boxing_21: 666298607
+      player-capsicol-boxing_22: -1800955749
+      player-capsicol-boxing_23: -17507193
+      player-capsicol-boxing_24: 726280733
+      player-capsicol-boxing_25: 769301860
+      player-capsicol-boxing_3: 1543441566
+      player-capsicol-boxing_4: 872078665
+      player-capsicol-boxing_5: 1910434873
+      player-capsicol-boxing_6: -1431351626
+      player-capsicol-boxing_7: -2012365242
+      player-capsicol-boxing_8: 1435970274
+      player-capsicol-boxing_9: -960951613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
