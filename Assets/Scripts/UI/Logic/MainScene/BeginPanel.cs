@@ -1,4 +1,5 @@
 using Framework;
+using GamePlay.Procedure;
 using UnityEngine;
 
 namespace UI
@@ -48,7 +49,7 @@ namespace UI
         private void OnBeginBtn()
         {
             // TODO: _beginBtn 点击后的逻辑
-            Global.LoadScene("GameScene");
+            ProcedureCore.Instance.RequestPlay();
         }
 
         private void OnQuitBtn()
