@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         //移动逻辑
-        _rb.velocity = _moveValue * _playerStats.MoveSpeed;
+        _rb.velocity = _moveValue * _playerStats.MoveSpeed * (1f + _playerLiquids.MoveSpeedBonus);
     }
     private void OnEnable()
     {

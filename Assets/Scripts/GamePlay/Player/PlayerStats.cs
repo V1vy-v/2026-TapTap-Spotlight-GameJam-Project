@@ -44,6 +44,9 @@ namespace GamePlay.Player
         // 液体切换 Tab
         public float ChangeLiquidCd;
 
+        // 持有道具
+        public bool HasMantos;
+
         public void Init(PlayerConfig config)
         {
             MaxHp = config.MaxHp;
@@ -72,6 +75,7 @@ namespace GamePlay.Player
             ChangeLiquidCd = config.ChangeLiquidCd;
 
             IsDead = false;
+            HasMantos = false;
         }
 
         /// <summary>

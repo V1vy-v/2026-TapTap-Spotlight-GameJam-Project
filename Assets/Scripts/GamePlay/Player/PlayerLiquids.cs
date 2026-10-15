@@ -17,6 +17,23 @@ namespace GamePlay.Player
         public LiquidBase CurrentLiquid;
         public LiquidBase StandbyLiquid;
 
+        #region 聚合属性
+        /// <summary>备用槽里真正生效的被动来源（有主动形态的不提供备用槽被动）</summary>
+        public LiquidBase StandbyPassive =>
+            StandbyLiquid != null && StandbyLiquid.Config.Kind == LiquidKind.StandbyPassive ? StandbyLiquid : null;
+
+        /// <summary>正在持续的技能形态</summary>
+        private LiquidBase ActiveSkill =>
+            CurrentLiquid != null && CurrentLiquid.IsSkillActive ? CurrentLiquid : null;
+
+        public float AtkBonus => ActiveSkill?.Config.AtkBonus ?? 0f;
+        public float MoveSpeedBonus => ActiveSkill?.Config.MoveSpeedBonus ?? 0f;
+        public float RangeBonus => ActiveSkill?.Config.RangeBonus ?? 0f;
+        public float AttackSpeedBonus => (StandbyPassive?.Config.AttackSpeedBonus ?? 0f)
+                                       + (ActiveSkill?.Config.AttackSpeedBonus ?? 0f);
+        public float SelfMissChance => StandbyPassive?.Config.PassiveMissChance ?? 0f;
+        #endregion
+
         #region 事件
         public event Action OnChangeLiquid;
         public event Action OnGainLiquid;

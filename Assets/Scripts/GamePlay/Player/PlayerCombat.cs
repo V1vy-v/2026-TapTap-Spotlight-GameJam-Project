@@ -53,10 +53,12 @@ namespace GamePlay.Player
             if (_elapsed > 0) return;
             _elapsed = _stats.PrimaryAtkInterval;
 
-            if(_currentAtkModule == AttackModule.Melee)
+            if (_liquids?.CurrentLiquid?.Attack() == true) return;   // 形态接管普攻
+
+            if (_currentAtkModule == AttackModule.Melee)
             {
                 _view.PlayAttack(AttackModule.Melee);
-                RangeAttack(_primaryMeleeAtkOffset, _stats.MeleeRange);
+                RangeAttack(_primaryMeleeAtkOffset, _stats.MeleeRange * (1f + _liquids.RangeBonus));
             }
             else
             {
@@ -118,13 +120,20 @@ namespace GamePlay.Player
         /// <param name="dmg"></param>
         private void RangeAttack(Vector2 offset, float radius)
         {
+            float dmg = _stats.MeleeDamage * (1f + _liquids.AtkBonus);
             Vector2 center = (Vector2)transform.position + offset;
             Collider2D[] hits = Physics2D.OverlapCircleAll(center, radius, _enemyLayerMask);
+
+            bool hit = false;
             foreach (var col in hits)
             {
-                //敌人受伤
-                col.GetComponentInParent<EnemyController>()?.ApplyDamage(_stats.MeleeDamage);
+                var enemy = col.GetComponentInParent<EnemyController>();
+                if (enemy == null) continue;
+                enemy.ApplyDamage(dmg);
+                hit = true;
             }
+            if (hit) 
+                _liquids?.CurrentLiquid?.OnHitEnemy();
         }
         /// <summary>
         /// 普攻Tick
@@ -132,7 +141,7 @@ namespace GamePlay.Player
         /// <param name="delta"></param>
         private void TickPrimaryAtk(float delta)
         {
-            _elapsed = Mathf.Max(0f, _elapsed - delta);
+            _elapsed = _stats.PrimaryAtkInterval / (1f + _liquids.AttackSpeedBonus);
         }
 
     }
