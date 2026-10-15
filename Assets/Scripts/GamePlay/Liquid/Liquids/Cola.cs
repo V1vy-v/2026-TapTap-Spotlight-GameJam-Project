@@ -4,18 +4,18 @@ namespace GamePlay.Liquid
 {
     public class Cola : LiquidBase
     {
-        private float _extended;        // ÂüÍ×Ë¼ÀÛ¼ÆÑÓ³¤
+        private float _extended;        // æ›¼å¦¥æ€ç´¯è®¡å»¶é•¿
 
         protected override void OnSkillBegin()
         {
-            _extended = 0f;             // Ã¿´ÎÊÍ·ÅÖØÖÃ
+            _extended = 0f;             // æ¯æ¬¡é‡Šæ”¾é‡ç½®
         }
 
-        /// <summary>ÂüÍ×Ë¼ÖÊ±ä£ºÃüÖĞĞøÊ±</summary>
+        /// <summary>æ›¼å¦¥æ€è´¨å˜ï¼šå‘½ä¸­ç»­æ—¶</summary>
         public override void OnHitEnemy()
         {
             if (!IsSkillActive) return;
-            if (!Stats.HasMantos) return;                                    // ÖÊ±äÎ´»ñµÃ
+            if (!Stats.HasMantos) return;                                    // è´¨å˜æœªè·å¾—
             _extended = Mathf.Min(_extended + Config.ExtendPerHit, Config.ExtendMax);
         }
 

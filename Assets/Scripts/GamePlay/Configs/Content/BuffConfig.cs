@@ -8,6 +8,6 @@ public class BuffConfig : ScriptableObject
     public string buffName;
     public float duration = 5f;
 
-    // Ò»¸ö Buff ¿ÉÒÔÓĞ¶à¸öĞ§¹û
+    // ä¸€ä¸ª Buff å¯ä»¥æœ‰å¤šä¸ªæ•ˆæœ
     public List<BuffEffect> effects = new List<BuffEffect>();
 }

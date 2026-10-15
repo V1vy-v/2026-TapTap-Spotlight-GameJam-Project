@@ -9,7 +9,7 @@ namespace GamePlay.Liquid
         public LiquidConfig Config;
         public PlayerStats Stats;
 
-        #region ¼¼ÄÜÊ±Ğò
+        #region æŠ€èƒ½æ—¶åº
         private float _cdRemain;
         private float _elapsed;
         public bool IsSkillActive { get; private set; }
@@ -28,7 +28,7 @@ namespace GamePlay.Liquid
             {
                 _elapsed += dt;
                 OnSkillTick(dt);
-                if (OnSkillShouldEnd(_elapsed))          // ¡û ´«²Î£¬×ÓÀà²ÅÄÃµÃµ½ÒÑ¹ıÊ±¼ä
+                if (OnSkillShouldEnd(_elapsed))          // â† ä¼ å‚ï¼Œå­ç±»æ‰æ‹¿å¾—åˆ°å·²è¿‡æ—¶é—´
                 {
                     IsSkillActive = false;
                     OnSkillEnd();

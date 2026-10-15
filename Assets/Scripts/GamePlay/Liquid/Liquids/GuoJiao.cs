@@ -1,4 +1,4 @@
-﻿namespace GamePlay.Liquid
+namespace GamePlay.Liquid
 {
     public class GuoJiao : LiquidBase
     {

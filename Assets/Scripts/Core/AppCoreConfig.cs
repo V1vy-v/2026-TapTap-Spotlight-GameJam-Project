@@ -1,4 +1,4 @@
-﻿using Framework;
+using Framework;
 using UnityEngine;
 using YooAsset;
 

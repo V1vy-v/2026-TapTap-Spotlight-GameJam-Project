@@ -1,4 +1,4 @@
-﻿using Framework;
+using Framework;
 
 namespace GamePlay.Procedure
 {

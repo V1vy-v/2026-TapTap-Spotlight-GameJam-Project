@@ -1,4 +1,4 @@
-﻿namespace Framework
+namespace Framework
 {
     /// <summary>
     /// ActionMap类型枚举

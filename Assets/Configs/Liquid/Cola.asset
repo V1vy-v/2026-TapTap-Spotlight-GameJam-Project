@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b21861acf0c343646ad3ace835a8bc2e, type: 3}
-  m_Name: LiquidConfig
+  m_Name: Cola
   m_EditorClassIdentifier: 
-  Id: Liquid_001
-  Name: "\u56FD\u7A96"
+  Id: Liquid_002
+  Name: "\u53EF\u4E50"
   Kind: 0
   CanBeMain: 1
   Damage: 0

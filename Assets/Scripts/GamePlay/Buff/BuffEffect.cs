@@ -1,18 +1,18 @@
 using UnityEngine;
 
 /// <summary>
-/// Buff Ğ§¹û»ùÀà£¬²»Í¬Ğ§¹ûbuff¼Ì³ĞÊµÏÖ
+/// Buff æ•ˆæœåŸºç±»ï¼Œä¸åŒæ•ˆæœbuffç»§æ‰¿å®ç°
 /// </summary>
 public abstract class BuffEffect : ScriptableObject
 {
     /// <summary>
-    /// ¼Ó Buff Ê±µ÷ÓÃ
+    /// åŠ  Buff æ—¶è°ƒç”¨
     /// </summary>
     /// <param name="state"></param>
     public abstract void OnApply(EnemyRealState state);
 
     /// <summary>
-    /// ÒÆ³ı Buff Ê±µ÷ÓÃ
+    /// ç§»é™¤ Buff æ—¶è°ƒç”¨
     /// </summary>
     /// <param name="state"></param>
     public abstract void OnRemove(EnemyRealState state);

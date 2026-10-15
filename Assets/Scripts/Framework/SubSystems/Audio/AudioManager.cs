@@ -1,4 +1,4 @@
-﻿using AK.Wwise;
+using AK.Wwise;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;

@@ -5,29 +5,29 @@ using UnityEngine;
 namespace GamePlay.Enemy
 {
     /// <summary>
-    /// ¹ÖÎï×Ü¿ØÖÆÆ÷
+    /// æ€ªç‰©æ€»æ§åˆ¶å™¨
     /// </summary>
     public class EnemyController : MonoBehaviour
     {
-        [Header("ÅäÖÃ±í")]
+        [Header("é…ç½®è¡¨")]
         public EnemyConfig config;  
 
-        [Header("ÔËĞĞÊ±×´Ì¬")]
+        [Header("è¿è¡Œæ—¶çŠ¶æ€")]
         public EnemyRealState state = new EnemyRealState();
 
         public float currentHP;
 
         //AI
-        public float idleDuration;    //´ı»ú³ÖĞøÊ±¼ä
-        public float patrolDuration;//Ñ²Âß³ÖĞøÊ±¼ä
+        public float idleDuration;    //å¾…æœºæŒç»­æ—¶é—´
+        public float patrolDuration;//å·¡é€»æŒç»­æ—¶é—´
 
-        public float fadeDuration; //ËÀÍö½¥ÒşÊ±¼ä
+        public float fadeDuration; //æ­»äº¡æ¸éšæ—¶é—´
 
-        //¼ì²â×´Ì¬
+        //æ£€æµ‹çŠ¶æ€
         [HideInInspector] public bool playerInDetectRange;
         [HideInInspector] public bool playerInAttackRange;
 
-        private Transform _player;            // ³ÖÓĞµÄÍæ¼Ò¶ÔÏó
+        private Transform _player;            // æŒæœ‰çš„ç©å®¶å¯¹è±¡
 
         private SpriteRenderer _sprite;
         private Animator animator;
@@ -88,20 +88,20 @@ namespace GamePlay.Enemy
             _fsm?.FixedUpdate(Time.fixedDeltaTime);
         }
 
-        //¸ø×´Ì¬Ààµ÷ÓÃµÄ¹¤¾ß·½·¨
+        //ç»™çŠ¶æ€ç±»è°ƒç”¨çš„å·¥å…·æ–¹æ³•
 
         /// <summary>
-        /// ²¥·Å¶¯»­
+        /// æ’­æ”¾åŠ¨ç”»
         /// </summary>
         /// <param name="animationName"></param>
         public void PlayAnimation(string animationName)
         {
-            print("Ö´ĞĞ"+animationName+"¶¯»­");
+            print("æ‰§è¡Œ"+animationName+"åŠ¨ç”»");
             if (animator == null) return;
             animator.CrossFade(Animator.StringToHash(animationName), 0.1f);
         }
 
-        /// <summary>ÒÆ¶¯ÖÁÄ¿±êµã</summary>
+        /// <summary>ç§»åŠ¨è‡³ç›®æ ‡ç‚¹</summary>
         public void MoveToPlayer()
         {
             if(_player == null) return;
@@ -114,7 +114,7 @@ namespace GamePlay.Enemy
             moveController?.SetSpeed(speed);
         }
         /// <summary>
-        /// Ëæ»úÒÆ¶¯(Ñ²Âß)
+        /// éšæœºç§»åŠ¨(å·¡é€»)
         /// </summary>
         /// <param name="distance"></param>
         public void RandomMove(float distance)
@@ -123,7 +123,7 @@ namespace GamePlay.Enemy
         }
 
         /// <summary>
-        /// ¸Ä±äÍ¸Ã÷¶È£¬ÓÃÓÚËÀÍö½¥Òş
+        /// æ”¹å˜é€æ˜åº¦ï¼Œç”¨äºæ­»äº¡æ¸éš
         /// </summary>
         /// <param name="alpha"></param>
         public void SetAlpha(float alpha)

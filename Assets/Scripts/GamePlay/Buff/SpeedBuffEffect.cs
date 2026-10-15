@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// ÒÆËÙ¼Ó³ÉĞ§¹û(Ê¾Àı)
+/// ç§»é€ŸåŠ æˆæ•ˆæœ(ç¤ºä¾‹)
 /// </summary>
 [CreateAssetMenu(fileName = "SpeedBuffEffect", menuName = "Configs/BuffEffect/SpeedBuffEffect")]
 public class SpeedBuffEffect : BuffEffect

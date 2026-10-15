@@ -3,9 +3,9 @@ using UnityEngine;
 
 
 /// <summary>
-/// ½ÇÉ«Êı¾İ¿â£ºËùÓĞ¶Ô»°ÏµÍ³¹²ÏíÒ»·İ
+/// è§’è‰²æ•°æ®åº“ï¼šæ‰€æœ‰å¯¹è¯ç³»ç»Ÿå…±äº«ä¸€ä»½
 /// </summary>
-[CreateAssetMenu(fileName = "CharacterDatabase_Dialog", menuName = "Dialog/½ÇÉ«Êı¾İ¿â")]
+[CreateAssetMenu(fileName = "CharacterDatabase_Dialog", menuName = "Dialog/è§’è‰²æ•°æ®åº“")]
 public class CharacterDatabase : ScriptableObject
 {
     [SerializeField]
@@ -14,7 +14,7 @@ public class CharacterDatabase : ScriptableObject
     private Dictionary<string, Sprite> _cache;
 
     /// <summary>
-    /// ¸ù¾İÃû×Ö»ñÈ¡Í¼±ê
+    /// æ ¹æ®åå­—è·å–å›¾æ ‡
     /// </summary>
     public Sprite GetIcon(string name)
     {
@@ -23,12 +23,12 @@ public class CharacterDatabase : ScriptableObject
         if (_cache.TryGetValue(name, out var icon))
             return icon;
 
-        Debug.LogWarning($"[CharacterDatabase] ÕÒ²»µ½½ÇÉ«£º{name}");
+        Debug.LogWarning($"[CharacterDatabase] æ‰¾ä¸åˆ°è§’è‰²ï¼š{name}");
         return null;
     }
 
     /// <summary>
-    /// ÊÇ·ñ°üº¬Ä³½ÇÉ«
+    /// æ˜¯å¦åŒ…å«æŸè§’è‰²
     /// </summary>
     public bool Contains(string name)
     {
@@ -37,7 +37,7 @@ public class CharacterDatabase : ScriptableObject
     }
 
     /// <summary>
-    /// ÔËĞĞÊ±×Öµä»º´æ
+    /// è¿è¡Œæ—¶å­—å…¸ç¼“å­˜
     /// </summary>
     private void BuildCacheIfNeeded()
     {
@@ -51,7 +51,7 @@ public class CharacterDatabase : ScriptableObject
         }
     }
 
-    // ±à¼­Ê±¸ÄÁËÁĞ±í£¬Çåµô»º´æ
+    // ç¼–è¾‘æ—¶æ”¹äº†åˆ—è¡¨ï¼Œæ¸…æ‰ç¼“å­˜
     private void OnValidate()
     {
         _cache = null;

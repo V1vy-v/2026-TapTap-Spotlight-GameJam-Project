@@ -1,19 +1,19 @@
 using UnityEngine;
 
 /// <summary>
-/// ¹ÖÎïÔËĞĞÊ±×´Ì¬
+/// æ€ªç‰©è¿è¡Œæ—¶çŠ¶æ€
 /// </summary>
 public class EnemyRealState
 {
-    //»ù´¡Öµ
-    public float baseHP;    //»ù´¡×î´óÑªÁ¿
-    public float baseAtk;   //»ù´¡¹¥»÷Á¦
-    public float baseMoveSpeed; //»ù´¡ÒÆ¶¯ËÙ¶È
-    public float baseAttackRange;   //»ù´¡¹¥»÷·¶Î§
-    public float baseAttackCooldown;    //»ù´¡¹¥»÷ÀäÈ´Ê±¼ä
-    public float baseHurtDuration;  //»ù´¡ÊÜ»÷½©Ö±Ê±¼ä
+    //åŸºç¡€å€¼
+    public float baseHP;    //åŸºç¡€æœ€å¤§è¡€é‡
+    public float baseAtk;   //åŸºç¡€æ”»å‡»åŠ›
+    public float baseMoveSpeed; //åŸºç¡€ç§»åŠ¨é€Ÿåº¦
+    public float baseAttackRange;   //åŸºç¡€æ”»å‡»èŒƒå›´
+    public float baseAttackCooldown;    //åŸºç¡€æ”»å‡»å†·å´æ—¶é—´
+    public float baseHurtDuration;  //åŸºç¡€å—å‡»åƒµç›´æ—¶é—´
 
-    //¼Ó³ÉÖµ
+    //åŠ æˆå€¼
     public float bonusHP;
     public float bonusAtk;
     public float bonusMoveSpeed;
@@ -22,7 +22,7 @@ public class EnemyRealState
     public float bonusAttackCooldown;
     public float bonusHurtDuration;
 
-    //×îÖÕÖµ
+    //æœ€ç»ˆå€¼
     public float MaxHP => baseHP + bonusHP;
     public float Atk => baseAtk + bonusAtk;
     public float MoveSpeed => baseMoveSpeed + bonusMoveSpeed;
@@ -30,7 +30,7 @@ public class EnemyRealState
     public float AttackCooldown => baseAttackCooldown + bonusAttackCooldown;
     public float HurtDuration => baseHurtDuration + bonusHurtDuration;
 
-    //µ±Ç°ÑªÁ¿
+    //å½“å‰è¡€é‡
     public float CurrentHP;
 
     public void ClampHP()

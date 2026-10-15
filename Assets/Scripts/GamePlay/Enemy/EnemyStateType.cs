@@ -1,15 +1,15 @@
 namespace GamePlay.Enemy
 {
     /// <summary>
-    /// ¹ÖÎïĞĞÎª×´Ì¬
+    /// æ€ªç‰©è¡Œä¸ºçŠ¶æ€
     /// </summary>
     public enum EnemyState
     {
-        Idle = 0,      // ´ı»ú
-        Patrol = 1,    // Ñ²Âß
-        Chase = 2,     // ×·»÷
-        Attack = 3,    // ¹¥»÷
-        Hurt = 4,      // ÊÜ»÷
-        Dead = 5,      // ËÀÍö
+        Idle = 0,      // å¾…æœº
+        Patrol = 1,    // å·¡é€»
+        Chase = 2,     // è¿½å‡»
+        Attack = 3,    // æ”»å‡»
+        Hurt = 4,      // å—å‡»
+        Dead = 5,      // æ­»äº¡
     }
 }

@@ -4,28 +4,28 @@ using UnityEngine.UI;
 
 public class DiaLogController : MonoBehaviour
 {
-    /// <summary>µ¥Àı</summary>
+    /// <summary>å•ä¾‹</summary>
     public static DiaLogController Instance;
 
-    /// <summary>¶Ô»°ÎÄ¼şÃû£¨²»´øºó×º£¬Â·¾¶Ïà¶Ô Resources£©</summary>
+    /// <summary>å¯¹è¯æ–‡ä»¶åï¼ˆä¸å¸¦åç¼€ï¼Œè·¯å¾„ç›¸å¯¹ Resourcesï¼‰</summary>
     public string dialogFileName = "";
 
-    [Header("½ÇÉ«Êı¾İ¿â")]
-    /// <summary>½ÇÉ« SO ×Ê²ú£¬Inspector ÀïÍÏ</summary>
+    [Header("è§’è‰²æ•°æ®åº“")]
+    /// <summary>è§’è‰² SO èµ„äº§ï¼ŒInspector é‡Œæ‹–</summary>
     public CharacterDatabase characterDatabase;
 
-    private Image spriteLeft;    //½ÇÉ«AÁ¢»æ
-    private Image spriteRight;   //½ÇÉ«BÁ¢»æ
-    private TMP_Text nameText;   //½ÇÉ«Ãû×Ötext
-    private TMP_Text dialogText; //ÎÄ±¾ÄÚÈİtext
-    private Button next;         //ÏÂÒ»²½°´Å¥
-    private GameObject optionButton;//Ñ¡Ïî°´Å¥
-    private Transform buttonGroup;   //Ñ¡Ïî°´Å¥¸¸ÎïÌå£¬ÓÃÓÚÅÅ°æ
+    private Image spriteLeft;    //è§’è‰²Aç«‹ç»˜
+    private Image spriteRight;   //è§’è‰²Bç«‹ç»˜
+    private TMP_Text nameText;   //è§’è‰²åå­—text
+    private TMP_Text dialogText; //æ–‡æœ¬å†…å®¹text
+    private Button next;         //ä¸‹ä¸€æ­¥æŒ‰é’®
+    private GameObject optionButton;//é€‰é¡¹æŒ‰é’®
+    private Transform buttonGroup;   //é€‰é¡¹æŒ‰é’®çˆ¶ç‰©ä½“ï¼Œç”¨äºæ’ç‰ˆ
 
-    /// <summary>µ±Ç°¶Ô»°Ë÷Òı</summary>
+    /// <summary>å½“å‰å¯¹è¯ç´¢å¼•</summary>
     private int dialogIndex;
 
-    /// <summary>¶Ô»°ÎÄ±¾°´ĞĞ·Ö¸î</summary>
+    /// <summary>å¯¹è¯æ–‡æœ¬æŒ‰è¡Œåˆ†å‰²</summary>
     private string[] dialogRows;
 
     private void Awake()
@@ -37,13 +37,13 @@ public class DiaLogController : MonoBehaviour
         }
         Instance = this;
 
-        // ¼ì²é SO ÅäÖÃ
+        // æ£€æŸ¥ SO é…ç½®
         if (characterDatabase == null)
-            Debug.LogError("[DiaLogmanager] Ã»ÓĞÅäÖÃ CharacterDatabase£¡");
+            Debug.LogError("[DiaLogmanager] æ²¡æœ‰é…ç½® CharacterDatabaseï¼");
     }
 
     /// <summary>
-    /// ÓÉ DialogPanel ×¢Èë¿Ø¼şÒıÓÃ
+    /// ç”± DialogPanel æ³¨å…¥æ§ä»¶å¼•ç”¨
     /// </summary>
     public void SetupUI(
         Image left, Image right,
@@ -60,7 +60,7 @@ public class DiaLogController : MonoBehaviour
         buttonGroup = btnGroup;
     }
     /// <summary>
-    /// ¼ÓÔØÎÄ±¾ÎÄ¼ş
+    /// åŠ è½½æ–‡æœ¬æ–‡ä»¶
     /// </summary>
     private void LoadDialogFile()
     {
@@ -68,7 +68,7 @@ public class DiaLogController : MonoBehaviour
 
         if (dialogDataFile == null)
         {
-            Debug.LogError($"ÕÒ²»µ½¶Ô»°ÎÄ¼ş£ºResources/{dialogFileName}.csv");
+            Debug.LogError($"æ‰¾ä¸åˆ°å¯¹è¯æ–‡ä»¶ï¼šResources/{dialogFileName}.csv");
             return;
         }
 
@@ -78,16 +78,16 @@ public class DiaLogController : MonoBehaviour
     public void ReadText(TextAsset _textAsset)
     {
         dialogRows = _textAsset.text.Split('\n');
-        Debug.Log("¶ÁÈ¡³É¹¦");
+        Debug.Log("è¯»å–æˆåŠŸ");
     }
 
     public void ReadTextFromString(string content)
     {
         dialogRows = content.Split('\n');
-        Debug.Log("´Ó×Ö·û´®¶ÁÈ¡³É¹¦");
+        Debug.Log("ä»å­—ç¬¦ä¸²è¯»å–æˆåŠŸ");
     }
     /// <summary>
-    /// ÉèÖÃÎÄ±¾ÎÄ¼ş½Ó¿Ú£¬ĞèÒª·ÅÔÚResourcesÏÂ
+    /// è®¾ç½®æ–‡æœ¬æ–‡ä»¶æ¥å£ï¼Œéœ€è¦æ”¾åœ¨Resourcesä¸‹
     /// </summary>
     /// <param name="fileName"></param>
     public void SetDialogFile(string fileName)
@@ -99,7 +99,7 @@ public class DiaLogController : MonoBehaviour
         ShowDiaLogRow();
     }
     /// <summary>
-    /// ÁÙÊ±²âÊÔ½Ó¿Ú£¬²»ÍÆ¼öÊ¹ÓÃ
+    /// ä¸´æ—¶æµ‹è¯•æ¥å£ï¼Œä¸æ¨èä½¿ç”¨
     /// </summary>
     /// <param name="content"></param>
     public void SetDialogContent(string content)
@@ -127,19 +127,19 @@ public class DiaLogController : MonoBehaviour
         var icon = characterDatabase.GetIcon(_name);
         if (icon == null) return;
 
-        if (_position == "×ó")
+        if (_position == "å·¦")
         {
             spriteLeft.sprite = icon;
             spriteLeft.gameObject.SetActive(true);
         }
-        else if (_position == "ÓÒ")
+        else if (_position == "å³")
         {
             spriteRight.sprite = icon;
             spriteRight.gameObject.SetActive(true);
         }
     }
     /// <summary>
-    /// ¸ù¾İ dialogIndex ÏÔÊ¾µ±Ç°¶Ô»°ĞĞ
+    /// æ ¹æ® dialogIndex æ˜¾ç¤ºå½“å‰å¯¹è¯è¡Œ
     /// </summary>
     public void ShowDiaLogRow()
     {
@@ -152,7 +152,7 @@ public class DiaLogController : MonoBehaviour
             string[] cells = dialogRows[i].Split(',');
             if (cells.Length < 2) continue;
 
-            // ÆÕÍ¨¶Ô»°
+            // æ™®é€šå¯¹è¯
             if (cells[0] == "#" && int.Parse(cells[1]) == dialogIndex)
             {
                 UpdateText(cells[2], cells[4]);
@@ -161,16 +161,16 @@ public class DiaLogController : MonoBehaviour
                 if (next != null) next.gameObject.SetActive(true);
                 break;
             }
-            // Ñ¡Ïî
+            // é€‰é¡¹
             else if (cells[0] == "&" && int.Parse(cells[1]) == dialogIndex)
             {
                 if (next != null) next.gameObject.SetActive(false);
                 GenerateOption(i);
             }
-            // ½áÊø
+            // ç»“æŸ
             else if (cells[0] == "end" && int.Parse(cells[1]) == dialogIndex)
             {
-                // ¶Ô»°½áÊøµÄ´¦ÀíÂß¼­
+                // å¯¹è¯ç»“æŸçš„å¤„ç†é€»è¾‘
                 break;
             }
         }
@@ -181,7 +181,7 @@ public class DiaLogController : MonoBehaviour
         ShowDiaLogRow();
     }
     /// <summary>
-    /// Ñ¡ÏîÉú³É
+    /// é€‰é¡¹ç”Ÿæˆ
     /// </summary>
     /// <param name="_index"></param>
 
@@ -189,7 +189,7 @@ public class DiaLogController : MonoBehaviour
     {
         if (optionButton == null || buttonGroup == null)
         {
-            Debug.LogError("[DiaLogController] optionButton / buttonGroup Î´×¢Èë£¡");
+            Debug.LogError("[DiaLogController] optionButton / buttonGroup æœªæ³¨å…¥ï¼");
             return;
         }
 
@@ -208,7 +208,7 @@ public class DiaLogController : MonoBehaviour
         }
     }
     /// <summary>
-    /// Ñ¡Ïîµã»÷
+    /// é€‰é¡¹ç‚¹å‡»
     /// </summary>
     /// <param name="_id"></param>
     public void OnOptionClick(int _id)
@@ -218,7 +218,7 @@ public class DiaLogController : MonoBehaviour
         ClearOptionButtons();
     }
     /// <summary>
-    /// Çå³şÑ¡Ïî
+    /// æ¸…æ¥šé€‰é¡¹
     /// </summary>
     private void ClearOptionButtons()
     {

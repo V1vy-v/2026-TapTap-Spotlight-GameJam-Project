@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// ¿ÉÆÆ»µÕÏ°­Îï
+/// å¯ç ´åéšœç¢ç‰©
 /// </summary>
 public class Obstacle_Pushable : Obstacle
 {

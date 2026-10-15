@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public AudioClip hitSound;//ÊÜ»÷ÒôĞ§
-    public GameObject destoryEffect;//Ïú»ÙÌØĞ§
+    public AudioClip hitSound;//å—å‡»éŸ³æ•ˆ
+    public GameObject destoryEffect;//é”€æ¯ç‰¹æ•ˆ
 
     public virtual ObstacleType Type
     {
         get { return ObstacleType.None; }
     }
     /// <summary>
-    /// ÊÜ»÷·´À¡
+    /// å—å‡»åé¦ˆ
     /// </summary>
     public virtual void OnPlayerHit() { }
 }

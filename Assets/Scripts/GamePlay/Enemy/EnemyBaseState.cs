@@ -1,6 +1,6 @@
 using Framework;
 /// <summary>
-/// µĞÈË×´Ì¬»ùÀà
+/// æ•ŒäººçŠ¶æ€åŸºç±»
 /// </summary>
 
 namespace GamePlay.Enemy

@@ -1,4 +1,4 @@
-﻿namespace GamePlay.Procedure
+namespace GamePlay.Procedure
 {
     /// <summary>
     /// 一次带任务的流程切换。任务完成之后才进入 <see cref="NextState"/>。同时只有一个。

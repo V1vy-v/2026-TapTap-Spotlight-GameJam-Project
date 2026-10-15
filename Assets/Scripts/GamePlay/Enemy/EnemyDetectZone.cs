@@ -1,7 +1,7 @@
 using GamePlay.Enemy;
 using UnityEngine;
 /// <summary>
-/// Åö×²Æ÷¹¦ÄÜÃ¶¾Ù
+/// ç¢°æ’å™¨åŠŸèƒ½æšä¸¾
 /// </summary>
 public enum ZoneType { Detect, Attack }
 

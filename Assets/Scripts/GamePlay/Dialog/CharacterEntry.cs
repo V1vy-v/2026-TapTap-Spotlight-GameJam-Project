@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 /// <summary>
-/// 单个角色数据条目
+/// 鍗曚釜瑙掕壊鏁版嵁鏉＄洰
 /// </summary>
 [System.Serializable]
 public class CharacterEntry
 {
-    public string name;     // 角色名字
-    public Sprite icon;     // 角色立绘/头像
+    public string name;     // 瑙掕壊鍚嶅瓧
+    public Sprite icon;     // 瑙掕壊绔嬬粯/澶村儚
 }

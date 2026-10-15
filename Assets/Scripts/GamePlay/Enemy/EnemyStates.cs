@@ -1,12 +1,12 @@
 /*
- * ¹ÖÎï×´Ì¬»ú×´Ì¬
+ * æ€ªç‰©çŠ¶æ€æœºçŠ¶æ€
  */
 using Framework;
 using UnityEngine;
 namespace GamePlay.Enemy
 {
     /// <summary>
-    /// µĞÈË´ı»ú×´Ì¬£ºÔ­µØ²»¶¯£¬µÈ´ıÌõ¼ş´¥·¢
+    /// æ•Œäººå¾…æœºçŠ¶æ€ï¼šåŸåœ°ä¸åŠ¨ï¼Œç­‰å¾…æ¡ä»¶è§¦å‘
     /// </summary>
     public class EnemyIdleState : EnemyStateBase
     {
@@ -41,7 +41,7 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// µĞÈËÑ²Âß×´Ì¬£ºÑØÂ·¾¶µãÒÆ¶¯
+    /// æ•Œäººå·¡é€»çŠ¶æ€ï¼šæ²¿è·¯å¾„ç‚¹ç§»åŠ¨
     /// </summary>
     public class EnemyPatrolState : EnemyStateBase
     {
@@ -56,7 +56,7 @@ namespace GamePlay.Enemy
         {
             Enemy.ChangeSpeed(Enemy.state.MoveSpeed);
             Enemy.PlayAnimation("Move");
-            _patrolTimer = 0f; // ½øÈëÊ±ÇåÁã
+            _patrolTimer = 0f; // è¿›å…¥æ—¶æ¸…é›¶
             Enemy.RandomMove(12f);//test
         }
 
@@ -77,7 +77,7 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// µĞÈË×·»÷×´Ì¬£º³¯Íæ¼ÒÒÆ¶¯
+    /// æ•Œäººè¿½å‡»çŠ¶æ€ï¼šæœç©å®¶ç§»åŠ¨
     /// </summary>
     public class EnemyChaseState : EnemyStateBase
     {
@@ -94,7 +94,7 @@ namespace GamePlay.Enemy
 
         protected override void Tick(float deltaTime)
         {
-            // ³¯Íæ¼ÒÒÆ¶¯
+            // æœç©å®¶ç§»åŠ¨
             Enemy.MoveToPlayer();
         }
 
@@ -109,11 +109,11 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// µĞÈË¹¥»÷×´Ì¬£º¶ÔÍæ¼ÒÔì³ÉÉËº¦
+    /// æ•Œäººæ”»å‡»çŠ¶æ€ï¼šå¯¹ç©å®¶é€ æˆä¼¤å®³
     /// </summary>
     public class EnemyAttackState : EnemyStateBase
     {
-        private float _attackTimer;//ÉÏÒ»´Î¹¥»÷Ê±¼ä
+        private float _attackTimer;//ä¸Šä¸€æ¬¡æ”»å‡»æ—¶é—´
 
         public override EnemyState StateKey => EnemyState.Attack;
 
@@ -140,9 +140,9 @@ namespace GamePlay.Enemy
 
         protected override void CheckStateChange()
         {
-            //Èç¹ûÍæ¼ÒÀë¿ª¹¥»÷·¶Î§,¸ù¾İË÷µĞ·¶Î§»Øµ½Ñ²Âß×´Ì¬»òÕßÊÇ×·»÷×´Ì¬
-            //Èç¹ûÍæ¼ÒÃ»ËÀÇÒÈÔÔÚ¹¥»÷·¶Î§ÄÚ
-            //ÎŞĞè²Ù×÷
+            //å¦‚æœç©å®¶ç¦»å¼€æ”»å‡»èŒƒå›´,æ ¹æ®ç´¢æ•ŒèŒƒå›´å›åˆ°å·¡é€»çŠ¶æ€æˆ–è€…æ˜¯è¿½å‡»çŠ¶æ€
+            //å¦‚æœç©å®¶æ²¡æ­»ä¸”ä»åœ¨æ”»å‡»èŒƒå›´å†…
+            //æ— éœ€æ“ä½œ
             if (!Enemy.playerInAttackRange && Enemy.playerInDetectRange)
             {
                 _stateMachine.ChangeState(EnemyState.Chase);
@@ -155,7 +155,7 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// µĞÈËÊÜ»÷×´Ì¬£º±»»÷ÖĞÊ±¶ÌÔİ½©Ö±
+    /// æ•Œäººå—å‡»çŠ¶æ€ï¼šè¢«å‡»ä¸­æ—¶çŸ­æš‚åƒµç›´
     /// </summary>
     public class EnemyHurtState : EnemyStateBase
     {
@@ -192,7 +192,7 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// µĞÈËËÀÍö×´Ì¬£º²¥·ÅËÀÍö¶¯»­ºóÏú»Ù
+    /// æ•Œäººæ­»äº¡çŠ¶æ€ï¼šæ’­æ”¾æ­»äº¡åŠ¨ç”»åé”€æ¯
     /// </summary>
     public class EnemyDeadState : EnemyStateBase
     {
@@ -208,7 +208,7 @@ namespace GamePlay.Enemy
             Enemy.ChangeSpeed();
             Enemy.PlayAnimation("Dead");
             _deadTimer = 0f;
-            //É¢²¼ËÀÍöÊÂ¼şÍ¨ÖªÍâ²¿ËÀÍö
+            //æ•£å¸ƒæ­»äº¡äº‹ä»¶é€šçŸ¥å¤–éƒ¨æ­»äº¡
         }
 
         protected override void Tick(float deltaTime)
@@ -223,7 +223,7 @@ namespace GamePlay.Enemy
         {
             if (_deadTimer >= Enemy.fadeDuration)
             {
-                //ÓÉ¶ÔÏó³ØÏú»Ù
+                //ç”±å¯¹è±¡æ± é”€æ¯
             }
         }
     }

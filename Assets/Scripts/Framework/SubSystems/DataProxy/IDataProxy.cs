@@ -1,4 +1,4 @@
-﻿namespace Framework
+namespace Framework
 {
     /// <summary>
     /// 数据代理类接口，便于数据代理管理器管理

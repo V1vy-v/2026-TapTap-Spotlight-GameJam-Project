@@ -1,4 +1,4 @@
-﻿namespace Framework
+namespace Framework
 {
     /// <summary>
     /// 输入状态提供器接口，定义玩家的输入数据结构获取方法

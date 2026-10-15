@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 /// <summary>
-/// ¹ÖÎïÒÆ¶¯×é¼ş£¬·â×° NavMeshAgent
+/// æ€ªç‰©ç§»åŠ¨ç»„ä»¶ï¼Œå°è£… NavMeshAgent
 /// </summary>
 public class EnemyMoveController : MonoBehaviour
 {
@@ -23,7 +23,7 @@ public class EnemyMoveController : MonoBehaviour
 
     private void Update()
     {
-        // ¸ù¾İËÙ¶È·½Ïò·­×ª
+        // æ ¹æ®é€Ÿåº¦æ–¹å‘ç¿»è½¬
         if (_agent != null && _sprite != null)
         {
             float vx = _agent.velocity.x;
@@ -61,17 +61,17 @@ public class EnemyMoveController : MonoBehaviour
         return _agent.remainingDistance <= _agent.stoppingDistance;
     }
     /// <summary>
-    /// Ëæ»úÑ¡Ò»¸ö·½ÏòÒÆ¶¯
+    /// éšæœºé€‰ä¸€ä¸ªæ–¹å‘ç§»åŠ¨
     /// </summary>
-    /// <param name="distance">Ëæ»úÒÆ¶¯µÄ¾àÀë</param>
+    /// <param name="distance">éšæœºç§»åŠ¨çš„è·ç¦»</param>
     public void MoveToRandomDirection(float distance = 5f)
     {
         if (_agent == null || !_agent.isActiveAndEnabled) return;
 
-        Vector2 randomDir = Random.insideUnitCircle.normalized;//·½Ïò
+        Vector2 randomDir = Random.insideUnitCircle.normalized;//æ–¹å‘
         Vector2 targetPos = (Vector2)transform.position + randomDir * distance;
 
-        //·ÀÖ¹µãÂäÔÚÇ½Àï»òµØÍ¼Íâ
+        //é˜²æ­¢ç‚¹è½åœ¨å¢™é‡Œæˆ–åœ°å›¾å¤–
         NavMeshHit hit;
         if (NavMesh.SamplePosition(targetPos, out hit, distance, NavMesh.AllAreas))
         {

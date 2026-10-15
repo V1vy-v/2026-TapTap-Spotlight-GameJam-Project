@@ -46,7 +46,7 @@ public class BuffController : MonoBehaviour
         var instance = new BuffInstance(config);
         activeBuffs.Add(config.buffID, instance);
 
-        // 逐个效果应用
+        // 閫愪釜鏁堟灉搴旂敤
         foreach (var effect in config.effects)
             effect.OnApply(state);
     }
@@ -55,7 +55,7 @@ public class BuffController : MonoBehaviour
     {
         if (!activeBuffs.TryGetValue(buffID, out var buff)) return;
 
-        // 逐个效果移除
+        // 閫愪釜鏁堟灉绉婚櫎
         foreach (var effect in buff.config.effects)
             effect.OnRemove(state);
 

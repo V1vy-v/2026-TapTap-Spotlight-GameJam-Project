@@ -1,4 +1,4 @@
-﻿namespace Framework
+namespace Framework
 {
     /// <summary>
     /// 全局游戏常量

@@ -1,5 +1,5 @@
 /// <summary>
-/// buffÊµÀý£¬¸÷×Ô¹ÜÀíÆäÔËÐÐ×´Ì¬
+/// buffå®žä¾‹ï¼Œå„è‡ªç®¡ç†å…¶è¿è¡ŒçŠ¶æ€
 /// </summary>
 public class BuffInstance
 {
