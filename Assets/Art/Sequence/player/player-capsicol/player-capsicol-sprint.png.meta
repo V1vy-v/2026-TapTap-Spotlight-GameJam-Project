@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 18b44b5f2bf665f42815be6088653bd0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-capsicol-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3642
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13352969d6d00b44ab0c537498c7618e
+      internalID: -93349781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 3642
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3825095eaa15d4180cb2d5dd98ceab
+      internalID: -525003699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 3642
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01fdfda001dab44cbc05834ee261972
+      internalID: -1255419788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 3642
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d5143ebeda64b459c5e558e2b4a07e
+      internalID: 700619050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3642
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696312980dbf6044db2fbf6398da9965
+      internalID: 245495494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3035
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c286ea84975e49baca550262cd1ae
+      internalID: -137319489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 3035
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba5fc9b5cb54941b9829bf38d8b5ef
+      internalID: 551924428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 3035
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde168399cde58746bd33b08b71bf2de
+      internalID: -2145527117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 3035
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4251448369c6b2488ece596f398e372
+      internalID: -945798976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3035
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209927b69c0c2184090484fe301864f8
+      internalID: -1958697736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2428
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0b43eb0820ca4da800a7efcb34819
+      internalID: 812759528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2428
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435bada37992b8a4aaa60628b3a0499b
+      internalID: -65948638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2428
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b07e23e54bc37438cb2e31b8807d31
+      internalID: 1763634711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2428
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28221913001cc6945ad4ef578140f13b
+      internalID: 486571411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2428
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecbf0d1757ffd94f885824ea1090ee6
+      internalID: -650565771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1821
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfdcdffa6492204881aa3c3b7f9cd1c
+      internalID: 2130040884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1821
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b63e02eab686a4e974ff0b0055b58e
+      internalID: 1837019013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1821
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e88a425a7d4fd41956c96c5d5b3d27
+      internalID: 519906479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1821
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5039de631860b40a026fe0042e842f
+      internalID: -1443963458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1821
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4773ce2a7cc5544b076b3274bdb4b4
+      internalID: -1892731432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc8d68a19ca4024d9ea15749c43132e
+      internalID: 1768145453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1214
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd810f38ba9744387fb75de280c5ad
+      internalID: -1338587451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1214
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a2c0cad6dc01744ba4ac4f89d410e8
+      internalID: 1376954468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1214
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dab26619bf51c45add5158ff7ba81a
+      internalID: -833377211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1214
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ee9560f26fcd4bb9709ba03673011
+      internalID: 1842956261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d249be1ac876b6c4ea375b69e03a75ce
+      internalID: -26920339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 607
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ee4dae4e73ca4381af6d947843391
+      internalID: 1671820605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 607
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35289a6313bba81429d8ef4d55629903
+      internalID: -2143392263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 607
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ede109ec2d81447815809f31a4c27b
+      internalID: 1256731410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 607
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da2f0c176a59642b8618619d973828
+      internalID: -670654417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bddf1379a6404180da67b2a84894c
+      internalID: 144225429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6c3899384dd454ea893b7135b4c1c2
+      internalID: -2108318055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5915141cf8ea3234fbe9b91d96f03849
+      internalID: 1253153932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 0
+        width: 579
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7677eb34d73dda478bb06d2fdc8aa69
+      internalID: -1049975799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 480c6d7441d0d6e4e8713daaa72ab122
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-capsicol-sprint_0: -93349781
+      player-capsicol-sprint_1: -525003699
+      player-capsicol-sprint_10: 812759528
+      player-capsicol-sprint_11: -65948638
+      player-capsicol-sprint_12: 1763634711
+      player-capsicol-sprint_13: 486571411
+      player-capsicol-sprint_14: -650565771
+      player-capsicol-sprint_15: 2130040884
+      player-capsicol-sprint_16: 1837019013
+      player-capsicol-sprint_17: 519906479
+      player-capsicol-sprint_18: -1443963458
+      player-capsicol-sprint_19: -1892731432
+      player-capsicol-sprint_2: -1255419788
+      player-capsicol-sprint_20: 1768145453
+      player-capsicol-sprint_21: -1338587451
+      player-capsicol-sprint_22: 1376954468
+      player-capsicol-sprint_23: -833377211
+      player-capsicol-sprint_24: 1842956261
+      player-capsicol-sprint_25: -26920339
+      player-capsicol-sprint_26: 1671820605
+      player-capsicol-sprint_27: -2143392263
+      player-capsicol-sprint_28: 1256731410
+      player-capsicol-sprint_29: -670654417
+      player-capsicol-sprint_3: 700619050
+      player-capsicol-sprint_30: 144225429
+      player-capsicol-sprint_31: -2108318055
+      player-capsicol-sprint_32: 1253153932
+      player-capsicol-sprint_33: -1049975799
+      player-capsicol-sprint_34: -518767043
+      player-capsicol-sprint_4: 245495494
+      player-capsicol-sprint_5: -137319489
+      player-capsicol-sprint_6: 551924428
+      player-capsicol-sprint_7: -2145527117
+      player-capsicol-sprint_8: -945798976
+      player-capsicol-sprint_9: -1958697736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

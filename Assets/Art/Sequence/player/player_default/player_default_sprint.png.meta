@@ -810,27 +810,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: player_sprint_34
-      rect:
-        serializedVersion: 2
-        x: 2812
-        y: 0
-        width: 703
-        height: 923
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 164763057c0c2ea45b2fb61dea9c8443
-      internalID: 1348565765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []

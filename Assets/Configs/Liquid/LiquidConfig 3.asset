@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21861acf0c343646ad3ace835a8bc2e, type: 3}
+  m_Name: LiquidConfig 3
+  m_EditorClassIdentifier: 
+  Id: Liquid_001
+  Name: "\u56FD\u7A96"
+  Kind: 0
+  CanBeMain: 1
+  Damage: 0
+  AttackInterval: 0
+  BulletPrefabRes: 
+  SkillDamage: 0
+  SkillCd: 0
+  SkillDuration: 0
+  AtkBonus: 0
+  MoveSpeedBonus: 0
+  RangeBonus: 0
+  AttackSpeedBonus: 0
+  HasKnockback: 0
+  RagePerHit: 10
+  RageDecayPerSec: 10
+  RageMax: 100
+  RageDecayDelay: 5
+  ChillSlow: 0
+  ExtendPerHit: 0.5
+  ExtendMax: 5
+  PassThroughDamage: 15
+  PassThroughRadiusScale: 1
+  PassiveMissChance: 0
+  EnemyMissChance: 0

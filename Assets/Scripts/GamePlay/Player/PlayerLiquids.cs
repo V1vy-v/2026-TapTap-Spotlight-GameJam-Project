@@ -1,4 +1,5 @@
-
+using GamePlay.Liquid;
+using System;
 
 namespace GamePlay.Player
 {
@@ -10,18 +11,21 @@ namespace GamePlay.Player
         // 液体槽
         public LiquidBase CurrentLiquid;
         public LiquidBase StandbyLiquid;
+        public event Action OnLiquidChanged;
 
         /// <summary>
-        /// 切换液体，备用槽液体必须为主动型
+        /// 切换液体，备用液体必须可作主形态
         /// </summary>
         public bool ChangeLiquid()
         {
-            if(!StandbyLiquid || !StandbyLiquid.liquidConfig.IsActive)
+            if(!StandbyLiquid || !StandbyLiquid.liquidConfig.CanBeMain)
                 return false;
 
             LiquidBase tmp = CurrentLiquid;
             CurrentLiquid = StandbyLiquid;
             StandbyLiquid = tmp;
+
+            OnLiquidChanged?.Invoke();
             return true;
         }
         /// <summary>
@@ -39,7 +43,7 @@ namespace GamePlay.Player
         /// <summary>
         /// 倾倒液体，备用槽必须为非空
         /// </summary>
-        public bool PoorOutLiquid()
+        public bool PourOutLiquid()
         {
             if (!StandbyLiquid)
                 return false;

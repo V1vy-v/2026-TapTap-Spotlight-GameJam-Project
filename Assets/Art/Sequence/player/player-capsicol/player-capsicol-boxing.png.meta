@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 65bab6fefa536474496ecf29e8d52089
+guid: af92dfe77eb7508448f6fafb5b9a7e05
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_0
+      name: player-capsicol-boxing_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5466
-        width: 651
-        height: 911
+        y: 3080
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f6924adc3d23f848973ef6f08057b9e
-      internalID: 493681547
+      spriteID: 77f06ce9a6dde444dac4c131ad60bcbd
+      internalID: 178239386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_1
+      name: player-capsicol-boxing_1
       rect:
         serializedVersion: 2
-        x: 651
-        y: 5466
-        width: 651
-        height: 911
+        x: 702
+        y: 3080
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc6ffb01c4f0a244cabaa2f9af02cfbf
-      internalID: 1512938166
+      spriteID: f65bc955a2008e041be6914d0805f99b
+      internalID: -1985928716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_2
+      name: player-capsicol-boxing_2
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 5466
-        width: 651
-        height: 911
+        x: 1404
+        y: 3080
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6300a85618a06a04e932a4dc9d8ae030
-      internalID: -1696469488
+      spriteID: ee5fcd1cce80a2d49929f3f1f0c27ad5
+      internalID: 36233632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_3
+      name: player-capsicol-boxing_3
       rect:
         serializedVersion: 2
-        x: 1953
-        y: 5466
-        width: 651
-        height: 911
+        x: 2106
+        y: 3080
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43f6b669d4cb45e429e36dc600871f9d
-      internalID: -1249499493
+      spriteID: 567d67a0e23b5a344add1d25527ce160
+      internalID: 1543441566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_4
+      name: player-capsicol-boxing_4
       rect:
         serializedVersion: 2
-        x: 2604
-        y: 5466
-        width: 651
-        height: 911
+        x: 2808
+        y: 3080
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,125 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17df0905f8c9f947bca505d2ac90470
-      internalID: 2144544947
+      spriteID: e243b9075dcd58d45b0a1fc832dfa605
+      internalID: 872078665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4555
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ec51046baf41c446bdec1297721ff5a
-      internalID: -57824593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_6
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 4555
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14756ed1f31206b4da82f62ba175ca4e
-      internalID: -209154015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_7
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 4555
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0f8399d05f1e3f4ba7d66bf114e421f
-      internalID: -2121114201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_8
-      rect:
-        serializedVersion: 2
-        x: 1953
-        y: 4555
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4aae7ddb643b864d808ee20a13ebce0
-      internalID: -1952499038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_9
-      rect:
-        serializedVersion: 2
-        x: 2604
-        y: 4555
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6cc9dbfbe9990648899bf16dd54afaa
-      internalID: 560119805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_10
+      name: player-capsicol-boxing_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 3644
-        width: 651
-        height: 911
+        y: 2464
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80a2188950cc6784ba8daf493aedcc71
-      internalID: 1420027033
+      spriteID: c038f47b1465a3047a12a2effba495f9
+      internalID: 1910434873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_11
+      name: player-capsicol-boxing_6
       rect:
         serializedVersion: 2
-        x: 651
-        y: 3644
-        width: 651
-        height: 911
+        x: 702
+        y: 2464
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336840c61979e27408ba23974af3de76
-      internalID: 1913820498
+      spriteID: 2b155c937fe31f14da576c1d2dee7bb3
+      internalID: -1431351626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_12
+      name: player-capsicol-boxing_7
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 3644
-        width: 651
-        height: 911
+        x: 1404
+        y: 2464
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b19c760cfa7b21743a1cd66155a031c6
-      internalID: -1678963166
+      spriteID: 7f64d607ce70c814b8a7a3166b4c95a6
+      internalID: -2012365242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_13
+      name: player-capsicol-boxing_8
       rect:
         serializedVersion: 2
-        x: 1953
-        y: 3644
-        width: 651
-        height: 911
+        x: 2106
+        y: 2464
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebf95074532ea194ca4326eea8398504
-      internalID: -558966635
+      spriteID: 6f06ea50bf18ead4c8cb80d8b01ef786
+      internalID: 1435970274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_14
+      name: player-capsicol-boxing_9
       rect:
         serializedVersion: 2
-        x: 2604
-        y: 3644
-        width: 651
-        height: 911
+        x: 2808
+        y: 2464
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,125 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7303b1735151854390bde1b371c2910
-      internalID: -168908471
+      spriteID: d214c5fe6ce49b4489dbd29ac53baf83
+      internalID: -960951613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2733
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4d9308c1b7ae3d4f87de3fc2e718c70
-      internalID: -591881929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_16
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2733
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08354da0528b86d46b81a1f1cb38f73d
-      internalID: -1079591593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_17
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 2733
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f87229a72d4d3264a8e58b02a5cc180d
-      internalID: 1834113329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_18
-      rect:
-        serializedVersion: 2
-        x: 1953
-        y: 2733
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 565adb3bdeb853e4fa905a463de9a701
-      internalID: 1418394244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_19
-      rect:
-        serializedVersion: 2
-        x: 2604
-        y: 2733
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5fc16274b55eb54bbe3389b7b0ca3f3
-      internalID: -1913570979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_20
+      name: player-capsicol-boxing_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 1822
-        width: 651
-        height: 911
+        y: 1848
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3e4d36a8a8f514488946eda4672b732
-      internalID: -1028504894
+      spriteID: 78c9f6aaaa23551449537d8f30260e37
+      internalID: -1008989546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_21
+      name: player-capsicol-boxing_11
       rect:
         serializedVersion: 2
-        x: 651
-        y: 1822
-        width: 651
-        height: 911
+        x: 702
+        y: 1848
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,20 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c380d968c1954b8498c4ec1ea387b049
-      internalID: 1201031743
+      spriteID: b6543db4e052abd4abeeba1d9b22ea7f
+      internalID: -475878062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_22
+      name: player-capsicol-boxing_12
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 1822
-        width: 651
-        height: 911
+        x: 1404
+        y: 1848
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce4d4852e608f34e844ce4ecc205e41
-      internalID: -2003916132
+      spriteID: a97aa110485e3c442a94e78a8f428f8e
+      internalID: -77731276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_23
+      name: player-capsicol-boxing_13
       rect:
         serializedVersion: 2
-        x: 1953
-        y: 1822
-        width: 651
-        height: 911
+        x: 2106
+        y: 1848
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01cbecfdea14a904c9ae6917602c4117
-      internalID: 1058536372
+      spriteID: ebf70d2f99fff8a4496167dcdf1cdbf5
+      internalID: 1085194374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_24
+      name: player-capsicol-boxing_14
       rect:
         serializedVersion: 2
-        x: 2604
-        y: 1822
-        width: 651
-        height: 911
+        x: 2808
+        y: 1848
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,20 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d46c058b1b7d2c34e89a113016b41317
-      internalID: -452880225
+      spriteID: 964191725ea0ac3409a8a1933cba109b
+      internalID: 1201200291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_25
+      name: player-capsicol-boxing_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 911
-        width: 651
-        height: 911
+        y: 1232
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,20 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a8ac564cf0f534892b1c313eaedf86
-      internalID: -1490410736
+      spriteID: 7c85fdabdbbd4b941bf9118b1be907f2
+      internalID: 286899170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_26
+      name: player-capsicol-boxing_16
       rect:
         serializedVersion: 2
-        x: 651
-        y: 911
-        width: 651
-        height: 911
+        x: 702
+        y: 1232
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a8c1d33c8c548749bb4164dc82a2716
-      internalID: -799346624
+      spriteID: 96317cd1fb2ce964889a5dfbd43de03c
+      internalID: -474964049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_27
+      name: player-capsicol-boxing_17
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 911
-        width: 651
-        height: 911
+        x: 1404
+        y: 1232
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aefe90ec57095f468e11bbaac20996c
-      internalID: 2046738963
+      spriteID: bdcda1e9cb78a13448d778e5a0ebf9e9
+      internalID: -2036302995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_28
+      name: player-capsicol-boxing_18
       rect:
         serializedVersion: 2
-        x: 1953
-        y: 911
-        width: 651
-        height: 911
+        x: 2106
+        y: 1232
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d02049ca25813b41aeed713378b49c7
-      internalID: -1362314993
+      spriteID: bef7186df4b71714598f302d3e1a20ee
+      internalID: -1429796142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_29
+      name: player-capsicol-boxing_19
       rect:
         serializedVersion: 2
-        x: 2604
-        y: 911
-        width: 651
-        height: 911
+        x: 2808
+        y: 1232
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,20 +510,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100f24d41abe7ff41998803b8b273d90
-      internalID: 1969139185
+      spriteID: 9b315b712650a974393efabaf6d47f2e
+      internalID: -1002218169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_30
+      name: player-capsicol-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33907fa1544d49544a1cd36e907b0190
+      internalID: -187226817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd1275dfea6fb46ab384f38ff3de5a
+      internalID: 666298607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bddb05be60fd80408f64dcef1c974f8
+      internalID: -1800955749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3628cabb0616ca40b12f6ad3c12a76b
+      internalID: -17507193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 616
+        width: 702
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f09668809542247b8e57eebf603354
+      internalID: 726280733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-capsicol-boxing_25
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 651
-        height: 911
+        width: 702
+        height: 616
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,92 +636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc7264f787624e42b67b439a26a60a4
-      internalID: -42944167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_31
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 0
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de84f303c17c25344a325a0db239e81c
-      internalID: -1566978150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_32
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 0
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a6889d3fe8853d45bbbcf5190024a12
-      internalID: 480176331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_33
-      rect:
-        serializedVersion: 2
-        x: 1953
-        y: 0
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92ccd6ec54cf7c14498fcef18cc67021
-      internalID: 1105374204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_34
-      rect:
-        serializedVersion: 2
-        x: 2604
-        y: 0
-        width: 651
-        height: 911
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 035494b21fdde744fa2ca674cfca675f
-      internalID: 2071389126
+      spriteID: ed03dc08442fef845acc38047501b4d1
+      internalID: 769301860
       vertices: []
       indices: 
       edges: []
@@ -834,7 +645,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 58a9ac35f2e14384d9f8f90d9485fa69
+    spriteID: 96be06ef473ae984aabb1238cca3d5cb
     internalID: 0
     vertices: []
     indices: 
@@ -842,41 +653,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_idle_0: 493681547
-      player_idle_1: 1512938166
-      player_idle_10: 1420027033
-      player_idle_11: 1913820498
-      player_idle_12: -1678963166
-      player_idle_13: -558966635
-      player_idle_14: -168908471
-      player_idle_15: -591881929
-      player_idle_16: -1079591593
-      player_idle_17: 1834113329
-      player_idle_18: 1418394244
-      player_idle_19: -1913570979
-      player_idle_2: -1696469488
-      player_idle_20: -1028504894
-      player_idle_21: 1201031743
-      player_idle_22: -2003916132
-      player_idle_23: 1058536372
-      player_idle_24: -452880225
-      player_idle_25: -1490410736
-      player_idle_26: -799346624
-      player_idle_27: 2046738963
-      player_idle_28: -1362314993
-      player_idle_29: 1969139185
-      player_idle_3: -1249499493
-      player_idle_30: -42944167
-      player_idle_31: -1566978150
-      player_idle_32: 480176331
-      player_idle_33: 1105374204
-      player_idle_34: 2071389126
-      player_idle_4: 2144544947
-      player_idle_5: -57824593
-      player_idle_6: -209154015
-      player_idle_7: -2121114201
-      player_idle_8: -1952499038
-      player_idle_9: 560119805
+      player-capsicol-boxing_0: 178239386
+      player-capsicol-boxing_1: -1985928716
+      player-capsicol-boxing_10: -1008989546
+      player-capsicol-boxing_11: -475878062
+      player-capsicol-boxing_12: -77731276
+      player-capsicol-boxing_13: 1085194374
+      player-capsicol-boxing_14: 1201200291
+      player-capsicol-boxing_15: 286899170
+      player-capsicol-boxing_16: -474964049
+      player-capsicol-boxing_17: -2036302995
+      player-capsicol-boxing_18: -1429796142
+      player-capsicol-boxing_19: -1002218169
+      player-capsicol-boxing_2: 36233632
+      player-capsicol-boxing_20: -187226817
+      player-capsicol-boxing_21: 666298607
+      player-capsicol-boxing_22: -1800955749
+      player-capsicol-boxing_23: -17507193
+      player-capsicol-boxing_24: 726280733
+      player-capsicol-boxing_25: 769301860
+      player-capsicol-boxing_3: 1543441566
+      player-capsicol-boxing_4: 872078665
+      player-capsicol-boxing_5: 1910434873
+      player-capsicol-boxing_6: -1431351626
+      player-capsicol-boxing_7: -2012365242
+      player-capsicol-boxing_8: 1435970274
+      player-capsicol-boxing_9: -960951613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

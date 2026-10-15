@@ -1,7 +1,6 @@
 using Framework;
 using GamePlay.Configs;
 using GamePlay.Player;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,10 +10,13 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     private LocalInputProvider _inputProvider;
-    private Rigidbody2D _rb;
     private PlayerStats _playerStats;
     private PlayerLiquids _playerLiquids;
     private PlayerCombat _playerCombat;
+
+    private Rigidbody2D _rb;
+    private Animator _animator;
+    private SpriteRenderer _sr;
 
     private void Awake()
     {
@@ -22,6 +24,9 @@ public class PlayerController : MonoBehaviour
 
         //初始化主角组件
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _sr = GetComponent<SpriteRenderer>();
+
         _playerCombat = GetComponent<PlayerCombat>();
         _playerLiquids = new(); 
         _playerStats = new();
@@ -40,7 +45,7 @@ public class PlayerController : MonoBehaviour
         _inputProvider.PlayerActions.Interact.performed += OnInteract;
         _inputProvider.PlayerActions.SwitchModule.performed += OnSwitchModule;
         _inputProvider.PlayerActions.SwitchLiquid.performed += OnSwitchLiquid;
-        _inputProvider.PlayerActions.Spray.performed += OnSpray;
+        _inputProvider.PlayerActions.Sprint.performed += OnSprint;
         _inputProvider.PlayerActions.Pour.performed += OnPour;
     }
     private void OnDisable()
@@ -50,45 +55,68 @@ public class PlayerController : MonoBehaviour
         _inputProvider.PlayerActions.Interact.performed -= OnInteract;
         _inputProvider.PlayerActions.SwitchModule.performed -= OnSwitchModule;
         _inputProvider.PlayerActions.SwitchLiquid.performed -= OnSwitchLiquid;
-        _inputProvider.PlayerActions.Spray.performed -= OnSpray;
+        _inputProvider.PlayerActions.Sprint.performed -= OnSprint;
         _inputProvider.PlayerActions.Pour.performed -= OnPour;
     }
 
     private void FixedUpdate()
     {
         //移动逻辑
-        _rb.velocity = _inputProvider.PlayerActions.Move.ReadValue<Vector2>() * _playerStats.MoveSpeed;
+        Vector2 dir = _inputProvider.PlayerActions.Move.ReadValue<Vector2>();
+        _rb.velocity = dir * _playerStats.MoveSpeed;
+        //移动动画
+        if( dir == Vector2.zero )
+        {
+            _animator.SetBool("Walk", false);
+        }
+        else
+        {
+            _animator.SetBool("Walk", true);
+            if (dir.x >= 0)
+                _sr.flipX = false;
+            else
+                _sr.flipX = true;
+        }
     }
 
     #region 输入操作
     private void OnPrimaryAttack(InputAction.CallbackContext ctx)
     {
         //普通攻击逻辑
-        _playerCombat.RangeAttack(Vector2.zero, 2f);
+        _playerCombat.PrimaryAttack();
     }
     private void OnSkill(InputAction.CallbackContext ctx)
     {
         //技能逻辑
-        Debug.Log("技能逻辑");
+        _playerCombat.UseSkill();
     }
     private void OnInteract(InputAction.CallbackContext ctx)
     {
         //交互逻辑
         Debug.Log("交互逻辑");
     }
-    private void OnSwitchModule(InputAction.CallbackContext ctx)
+
+    private void OnSprint(InputAction.CallbackContext context)
     {
+        //喷射动画
 
     }
-
-    private void OnSpray(InputAction.CallbackContext context)
+    private void OnSwitchModule(InputAction.CallbackContext ctx)
     {
-
+        _playerCombat.SwitchModule();
     }
 
     private void OnSwitchLiquid(InputAction.CallbackContext ctx)
     {
+        //切换动画与音效
+        if (_playerLiquids.ChangeLiquid())
+        {
 
+        }
+        else
+        {
+
+        }
     }
 
     private void OnPour(InputAction.CallbackContext context)
