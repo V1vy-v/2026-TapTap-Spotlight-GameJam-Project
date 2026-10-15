@@ -14,10 +14,13 @@ namespace GamePlay.Procedure
         {
             if (Procedure.IsNewGame)
             {
+                Global.HideAllUI();
+                Global.ShowUI("HUD");
                 GameplayRoot.StartNewGame();
                 Procedure.ClearNewGameTag();
             }
-            else GameplayRoot.ContinueGame();
+            else 
+                GameplayRoot.ContinueGame();
         }
 
         public override void Exit()
