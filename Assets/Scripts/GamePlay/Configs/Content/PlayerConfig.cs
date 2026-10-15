@@ -9,8 +9,6 @@ namespace GamePlay.Configs
 
         [Header("生命")]
         public float MaxHp = 100f;
-        public float InvincibleTime = 0.5f;     // 受击无敌帧
-        public float HurtStunTime = 0.2f;       // 受击硬直
 
         [Header("移动")]
         public float MoveSpeed = 15f;
@@ -25,15 +23,15 @@ namespace GamePlay.Configs
         public float SprintTickInterval = 0.5f;
         public float SprintCartExtraDamage = 2f;    // 购物车每秒额外累积
 
-        [Header("近战 J")]
-        public float MeleeDamage = 10f;         // 单段伤害
-        public float MeleeCd = 0.8f;            // 两次普攻之间的冷却
-        public float MeleeRecovery = 0.2f;      // 后摇
+        [Header("普通攻击 J")]
+        public float PrimaryAtkInterval = 0.8f;     // 普攻间隔
+
+        [Header("近战")]
+        public float MeleeDamage = 10f;         // 近战伤害
         public float MeleeRange = 1.5f;         // 判定半径
 
-        [Header("远程 Q")]
+        [Header("远程")]
         public float RangedDamage = 14f;
-        public float RangedInterval = 0.8f;
         public float RangedRange = 4.5f;        // 约近战 3 倍
 
         [Header("倍率基准")]

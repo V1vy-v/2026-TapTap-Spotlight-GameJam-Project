@@ -1,61 +1,41 @@
 using GamePlay.Configs;
 using GamePlay.Player;
-using UnityEngine;
 
-namespace GamePlay.Liquid
+public abstract class LiquidBase
 {
-    /// <summary>
-    /// 液体(武器)基类
-    /// </summary>
-    public abstract class LiquidBase : MonoBehaviour
+    public LiquidConfig Config;
+    public PlayerStats Stats;
+
+    #region 技能时序
+    private float _cdRemain;
+    private float _elapsed;
+    public bool IsSkillActive { get; private set; }
+
+    public bool TryUseSkill()
     {
-        public LiquidConfig liquidConfig;
-        public AnimatorOverrideController AnimatorOverride;
-
-        #region 技能：基类管时序，子类管效果
-        private float _cdRemain;
-        private float _elapsed;
-        public bool IsSkillActive { get; private set; }
-
-        /// <summary>非虚：所有主动形态共用的冷却与持续规则</summary>
-        public bool TryUseSkill()
-        {
-            if (_cdRemain > 0f || IsSkillActive) return false;
-
-            IsSkillActive = true;
-            _elapsed = 0f;
-            OnSkillBegin();                      // ← 子类实现
-            return true;
-        }
-
-        /// <summary>由 PlayerCombat 每帧驱动</summary>
-        public void TickSkill(float dt)
-        {
-            if (IsSkillActive)
-            {
-                _elapsed += dt;
-                OnSkillTick(dt);
-                if (OnSkillShouldEnd())
-                {
-                    IsSkillActive = false;
-                    OnSkillEnd();
-                    _cdRemain = liquidConfig.SkillCd;   // ← 结束后才开始计时
-                }
-            }
-            else if (_cdRemain > 0f) _cdRemain -= dt;
-        }
-
-        protected abstract void OnSkillBegin();
-        protected virtual void OnSkillTick(float dt) { }
-        protected virtual void OnSkillEnd() { }
-        protected virtual bool OnSkillShouldEnd() => _elapsed >= liquidConfig.SkillDuration;
-        #endregion
-
-        /// <summary>被动：装上即生效，与按键无关</summary>
-        public virtual void ApplyPassive(PlayerStats stats) { }
-        public virtual void RemovePassive(PlayerStats stats) { }
-
-        /// <summary>普攻模组：三拳会把它换成三板斧</summary>
-        public abstract void Attack();
+        if (_cdRemain > 0f || IsSkillActive || !CanUseSkill()) return false;   // ← 多一个条件
+        IsSkillActive = true;
+        _elapsed = 0f;
+        OnSkillBegin();
+        return true;
     }
+    public void TickSkill(float dt) { /* 原样 */ }
+    public void ForceEndSkill() { /* 原样 */ }
+
+    /// <summary>额外释放条件：国窖 override 成「红温满」（它没有时间 CD）</summary>
+    protected virtual bool CanUseSkill() => true;
+
+    protected abstract void OnSkillBegin();
+    protected virtual void OnSkillTick(float dt) { }
+    protected virtual void OnSkillEnd() { }
+    protected virtual bool OnSkillShouldEnd() => _elapsed >= Config.SkillDuration;
+    #endregion
+
+    public virtual void Init(LiquidConfig cfg, PlayerStats stats) { Config = cfg; Stats = stats; }
+
+    /// <summary>命中敌人时回调：红温累积 / 曼妥思续时</summary>
+    public virtual void OnHitEnemy() { }
+
+    /// <summary>普攻模组：返回 true = 形态接管了本次普攻（三拳）</summary>
+    public virtual bool Attack() => false;
 }

@@ -13,8 +13,6 @@ namespace GamePlay.Player
         // 生命
         public float Hp;
         public float MaxHp;
-        public float InvincibleTime;//无敌帧时间
-        public float HurtStunTime;//僵直时间
         public bool IsDead;
 
         // 移动
@@ -29,15 +27,15 @@ namespace GamePlay.Player
         public float SprintTickInterval;
         public float SprintCartExtraDamage;
 
+        //普通攻击
+        public float PrimaryAtkInterval;
+
         // 近战 J
         public float MeleeDamage;
-        public float MeleeCd;
-        public float MeleeRecovery;
         public float MeleeRange;
 
         // 远程 Q
         public float RangedDamage;
-        public float RangedInterval;
         public float RangedRange;
 
         // 倍率基准
@@ -50,8 +48,6 @@ namespace GamePlay.Player
         {
             MaxHp = config.MaxHp;
             Hp = MaxHp;
-            InvincibleTime = config.InvincibleTime;
-            HurtStunTime = config.HurtStunTime;
 
             MoveSpeed = config.MoveSpeed;
             SprintSpeed = config.SprintSpeed;
@@ -63,13 +59,12 @@ namespace GamePlay.Player
             SprintTickInterval = config.SprintTickInterval;
             SprintCartExtraDamage = config.SprintCartExtraDamage;
 
+            PrimaryAtkInterval = config.PrimaryAtkInterval;
+
             MeleeDamage = config.MeleeDamage;
-            MeleeCd = config.MeleeCd;
-            MeleeRecovery = config.MeleeRecovery;
             MeleeRange = config.MeleeRange;
 
             RangedDamage = config.RangedDamage;
-            RangedInterval = config.RangedInterval;
             RangedRange = config.RangedRange;
 
             AttackSpeed = config.AttackSpeed;

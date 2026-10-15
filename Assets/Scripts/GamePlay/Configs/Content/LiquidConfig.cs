@@ -12,12 +12,24 @@ namespace GamePlay.Configs
         StandbyPassive = 2,  // 备用槽被动：料酒 / 冰美式，只在备用槽生效
     }
 
+    public enum LiquidType
+    { 
+        Cola,
+        GuoJiao, 
+        LeiBi, 
+        LiaoJiu, 
+        BingMeiShi, 
+        SanQuan 
+    }
+
     [CreateAssetMenu(fileName = "LiquidConfig", menuName = "Configs/LiquidConfig")]
     public class LiquidConfig : ConfigBase
     {
-        [Header("基础")]
+        [Header("类型")]
+        public LiquidType Type;
         public LiquidKind Kind = LiquidKind.Active;
         public bool CanBeMain = true;           // 能否作主形态（冰美式 / 料酒 false）
+
 
         [Header("普攻 / 弹幕")]
         public int Damage;                      // 普攻或弹幕伤害
