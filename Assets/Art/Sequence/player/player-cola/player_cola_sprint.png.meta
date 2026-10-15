@@ -40,10 +40,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,18 +95,767 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: player_cola_sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5514
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fbaca909995a643a2fbec4fa2ef72d
+      internalID: 1176161210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 5514
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec0492dff102846b9c437796712756
+      internalID: -1914187367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 5514
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b9fe57a27ffb94e86fe4b7d123a7b3
+      internalID: -710813741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_3
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 5514
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128ede46082331047b0d617f9557e315
+      internalID: 680432575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_4
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 5514
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5865d112156cb4381f99ca669d37c5
+      internalID: 1461196272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4595
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae704a478cbc64dafaae20a395a273
+      internalID: -1290870128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 4595
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173bf38ce870bbd4795ba71cc1c12064
+      internalID: 1800795932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 4595
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8761e7842be050b43b5e680a3511b731
+      internalID: 1110182670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_8
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 4595
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679190955203b664f828335b688061e6
+      internalID: 1818144854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_9
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 4595
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49debd8a0cb80b84895d2cfe3551475e
+      internalID: 917296559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3676
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ae44ea5857bf3428690b5dbadb2a28
+      internalID: 1691466009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3676
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6bc9c39e1241f4597efdb9027ff451
+      internalID: -97543750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3676
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f363c4a541658640978f1040deb1444
+      internalID: -1647517123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3676
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0694b10b032dc0740b92a172f1ce3f33
+      internalID: -1375308353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_14
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3676
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca501eb77748a4fb564738a8e6c2cd
+      internalID: 9539886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2757
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e453a86e353e3fc46910058f6056f071
+      internalID: -1889591923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_16
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2757
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7266d3ebc6504995414bcfd6bb0dd
+      internalID: 696414347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2757
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5212c120d21827247a07554ada34aa36
+      internalID: -1489617646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_18
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2757
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c14986f1260f4989f0730b753fcf4
+      internalID: -2070301493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_19
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2757
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4507e32d120f724e871f58651e93b82
+      internalID: -1983238025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1838
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243bb2d4f65f9934da0b7762235f502d
+      internalID: 211781342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1838
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98c3910a0eb1547887412b81c8062e
+      internalID: 9314135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1838
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae29afeb2fe6642965d62b0581bad4
+      internalID: 224328418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_23
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1838
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbccf879d09b154bb2ff08b7f0fbbfb
+      internalID: -1624972732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1838
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfa9de578fdb614ebe34c88d83fc29d
+      internalID: -343349316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 919
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e2fe29c408b244eb1740bf28d2abab
+      internalID: -954199716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_26
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 919
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7813de48f0d871439f09f142439b112
+      internalID: -891258743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 919
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625933d99ea93d849ac1fa984443de84
+      internalID: -1183114354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_28
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 919
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f1838eb7a8cc4c9f604606c14862e
+      internalID: -1662917601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_29
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 919
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76b59a9166183a419aadc3ecc3b2aa7
+      internalID: 525283508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d65006619b99e74697b74030483036b
+      internalID: 181310356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_31
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b344e9443f119ec4bb04e439a291fd35
+      internalID: 62278865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7237133650262ca4c8129d4154c54778
+      internalID: -971158617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_sprint_33
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 702
+        height: 919
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b968538bde0fa043bfa7df6c2498701
+      internalID: -322478100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dec8e83be4ae612409e80196c9d075ac
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_cola_sprint_0: 1176161210
+      player_cola_sprint_1: -1914187367
+      player_cola_sprint_10: 1691466009
+      player_cola_sprint_11: -97543750
+      player_cola_sprint_12: -1647517123
+      player_cola_sprint_13: -1375308353
+      player_cola_sprint_14: 9539886
+      player_cola_sprint_15: -1889591923
+      player_cola_sprint_16: 696414347
+      player_cola_sprint_17: -1489617646
+      player_cola_sprint_18: -2070301493
+      player_cola_sprint_19: -1983238025
+      player_cola_sprint_2: -710813741
+      player_cola_sprint_20: 211781342
+      player_cola_sprint_21: 9314135
+      player_cola_sprint_22: 224328418
+      player_cola_sprint_23: -1624972732
+      player_cola_sprint_24: -343349316
+      player_cola_sprint_25: -954199716
+      player_cola_sprint_26: -891258743
+      player_cola_sprint_27: -1183114354
+      player_cola_sprint_28: -1662917601
+      player_cola_sprint_29: 525283508
+      player_cola_sprint_3: 680432575
+      player_cola_sprint_30: 181310356
+      player_cola_sprint_31: 62278865
+      player_cola_sprint_32: -971158617
+      player_cola_sprint_33: -322478100
+      player_cola_sprint_34: 1569784618
+      player_cola_sprint_4: 1461196272
+      player_cola_sprint_5: -1290870128
+      player_cola_sprint_6: 1800795932
+      player_cola_sprint_7: 1110182670
+      player_cola_sprint_8: 1818144854
+      player_cola_sprint_9: 917296559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

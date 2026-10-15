@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: db425e93215438144b563cc5a646afd4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-guojiao-death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4464
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd68a49ff7c0d4399f6cf4d8beb950
+      internalID: 712465568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_1
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 4464
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312f16563503a9a46b8d3e82aa61a60d
+      internalID: 676355920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_2
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 4464
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145321129200e1547ac273c247de6707
+      internalID: 819329123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_3
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 4464
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3c507b69c80f74f970b684d9e4d76e
+      internalID: 492488648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_4
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 4464
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302db8dc1113c254e8530889f26ae2cf
+      internalID: -1660850465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2976
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf194b32e3723e48a2628c07d5ea654
+      internalID: 110558376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_6
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 2976
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eebf11c1d03caf4a9a4e0eca86db8bb
+      internalID: -904558850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_7
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 2976
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab958f876b445f4780c5cc5da35985d
+      internalID: -1054737799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_8
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 2976
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7d38449a8895046943d12cd0d19e94
+      internalID: -1929524907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_9
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 2976
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75afb3579889c4ea91763d9171ac05
+      internalID: -1704626972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538b840e464807d4ea76edcb74b40fd8
+      internalID: -1998249548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_11
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1488
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5d6e19804811d4dacad7d19cfab858
+      internalID: 1519758047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_12
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1488
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3effcb4961bb382468496085698680f8
+      internalID: 1841608969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_13
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 1488
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d056199553dc884caecc741a9116f83
+      internalID: 1190451140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_14
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 1488
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b4e2417740d640b26c3b22dee371c
+      internalID: 309668065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d91fba3461f2047a589d07e4dc62de
+      internalID: 569348040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_16
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 0
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee24de910abc764788edf45d40f366d
+      internalID: 3829971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_17
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 0
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852a42af039ecc5459d3b0726a0caa47
+      internalID: -376871617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_18
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 0
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9bd0c4cba2d34ea1f1f09b94eff87
+      internalID: -478183539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-death_19
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 0
+        width: 1854
+        height: 1488
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118060320eaee024d83d03b7336b8499
+      internalID: 1632452023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1c2cf2bb96a55314286ca1700e323eba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-guojiao-death_0: 712465568
+      enemy-guojiao-death_1: 676355920
+      enemy-guojiao-death_10: -1998249548
+      enemy-guojiao-death_11: 1519758047
+      enemy-guojiao-death_12: 1841608969
+      enemy-guojiao-death_13: 1190451140
+      enemy-guojiao-death_14: 309668065
+      enemy-guojiao-death_15: 569348040
+      enemy-guojiao-death_16: 3829971
+      enemy-guojiao-death_17: -376871617
+      enemy-guojiao-death_18: -478183539
+      enemy-guojiao-death_19: 1632452023
+      enemy-guojiao-death_2: 819329123
+      enemy-guojiao-death_3: 492488648
+      enemy-guojiao-death_4: -1660850465
+      enemy-guojiao-death_5: 110558376
+      enemy-guojiao-death_6: -904558850
+      enemy-guojiao-death_7: -1054737799
+      enemy-guojiao-death_8: -1929524907
+      enemy-guojiao-death_9: -1704626972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

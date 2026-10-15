@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: a7f008df4fc9b8645b3678b79ea41d68
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-soy sauce-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5076
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb014bed7355d849bcf6637c94ce49d
+      internalID: -750513931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_1
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 5076
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd830d31fb486418107367cfa77ed3
+      internalID: 1661224456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 5076
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257254415d449c47952525c9c0decdb
+      internalID: 1107939772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 5076
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d64ef6dac17e74eb26307620c536b4
+      internalID: -61609728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_4
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 5076
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a54f86e807bc2b499d3c67e5684923e
+      internalID: -743924296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4230
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae8f238ad79253499e606becf06d0fe
+      internalID: 713482518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_6
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 4230
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e1041fb6a598642b1b5901ab127394
+      internalID: 231174665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 4230
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae897e107c8909741b8780df6ae46320
+      internalID: 1422800694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 4230
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ccdba58f73d14995cb2e975a609b6
+      internalID: -1389825831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 4230
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed948ff0bb1332f4fb2aaeea2f709cff
+      internalID: 367175004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3384
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a116c7a8bb07e46b8d2233c4bc8ec6
+      internalID: 477414044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 3384
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a9e8739dd6cf14fba5eb34f0e15379
+      internalID: -1943208124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 3384
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f3da728c6b8e46968a80ded2edc5c
+      internalID: 327985586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 3384
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa0413f8a664b4c86d3f84bd5654dd
+      internalID: -1479999882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_14
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 3384
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27801311c73d41459f326ced6f85813
+      internalID: -1237024972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2538
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8377ca53da6234cb97e50ea20f1dc2
+      internalID: -1623065784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2538
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcc6dd6a4733544db4128c0bbabe2f4
+      internalID: -2057356099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_17
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 2538
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb765015ca328b24aa8c27a712036c5f
+      internalID: 631200163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_18
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2538
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4b477367a9dc41a0c41b73ad89c62
+      internalID: -553564516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_19
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2538
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b4dec4803141e4c83eb0f4a2ac58e4
+      internalID: 1863408157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1692
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f669389d46292df458973f26e4159ca1
+      internalID: 713709896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1692
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a98be08ba60f4696e54f8f4ae25b9
+      internalID: -629658860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1692
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec239da2b3d25b4fb9e523e55024ce1
+      internalID: 890835140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1692
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9a910aa52a41d49ae2e4dbb3dbf504
+      internalID: -1002872576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_24
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1692
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f948d8a8739d2b4eb6cca72ba9b2fc9
+      internalID: -2103253233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a92f857e2d55524c8e6ad656df1726d
+      internalID: 869505785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_26
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 846
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc02d36b87a31c545b2c75367905735a
+      internalID: 12613343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 846
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186f02dc5609dc40b7f7422bd14ca4f
+      internalID: 595400648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 846
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5387f69d216d1d49b546ab516191883
+      internalID: -362848955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_29
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 846
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7febd90fdb7127c4194bec8ae58882ac
+      internalID: 624973629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce8094d1537f6a4085c943c1b5f97ba
+      internalID: 1049561165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-idle_31
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 627
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075de6b43ad723240932d9ce0ba65c1e
+      internalID: -743683189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 22ed6510ef7ddc44a99d201747008464
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-soy sauce-idle_0: -750513931
+      player-soy sauce-idle_1: 1661224456
+      player-soy sauce-idle_10: 477414044
+      player-soy sauce-idle_11: -1943208124
+      player-soy sauce-idle_12: 327985586
+      player-soy sauce-idle_13: -1479999882
+      player-soy sauce-idle_14: -1237024972
+      player-soy sauce-idle_15: -1623065784
+      player-soy sauce-idle_16: -2057356099
+      player-soy sauce-idle_17: 631200163
+      player-soy sauce-idle_18: -553564516
+      player-soy sauce-idle_19: 1863408157
+      player-soy sauce-idle_2: 1107939772
+      player-soy sauce-idle_20: 713709896
+      player-soy sauce-idle_21: -629658860
+      player-soy sauce-idle_22: 890835140
+      player-soy sauce-idle_23: -1002872576
+      player-soy sauce-idle_24: -2103253233
+      player-soy sauce-idle_25: 869505785
+      player-soy sauce-idle_26: 12613343
+      player-soy sauce-idle_27: 595400648
+      player-soy sauce-idle_28: -362848955
+      player-soy sauce-idle_29: 624973629
+      player-soy sauce-idle_3: -61609728
+      player-soy sauce-idle_30: 1049561165
+      player-soy sauce-idle_31: -743683189
+      player-soy sauce-idle_4: -743924296
+      player-soy sauce-idle_5: 713482518
+      player-soy sauce-idle_6: 231174665
+      player-soy sauce-idle_7: 1422800694
+      player-soy sauce-idle_8: -1389825831
+      player-soy sauce-idle_9: 367175004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

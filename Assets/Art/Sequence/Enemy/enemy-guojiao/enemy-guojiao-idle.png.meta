@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 756b41821e4ff3d46b045a009db1dfcc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7032
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3c2c350a8af1c438248659498676bf
+      internalID: -1346222060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_1
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 7032
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408a2d3a7691c314b9baad87f2d8e406
+      internalID: 393791763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 7032
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b9277ca22179c44a664506b3a42e26
+      internalID: 1209640982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_3
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 7032
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32361c7a131b9c4bae92b913c1c7683
+      internalID: -42099489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_4
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 7032
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d7be625485d734e9f22e5722de16f9
+      internalID: -1980234664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5860
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ba7689df90f814a8bad1f96b27428c
+      internalID: -1601703480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_6
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 5860
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9b9751891f0f445845d5f6a5dc58cd
+      internalID: 988169394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 5860
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6302a5bee858c194289b1e7edcae30da
+      internalID: 1751506567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_8
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 5860
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503723a20d4481843b4af1979ae0ffb3
+      internalID: 1690408895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_9
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 5860
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65cc311c223bae47aae59e463680e40
+      internalID: -1407948291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4688
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b0fba1994ef942bd38a1fa2223d90
+      internalID: 651969644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_11
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 4688
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1788b400c19d2344a658d6f63824544
+      internalID: -1353486595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 4688
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3273c24d47a6d53469ad038374f5bbde
+      internalID: 1216906058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_13
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 4688
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc483b2566195014789a1345d65f7d77
+      internalID: -1981731556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_14
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 4688
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba303d4707181b49bc7e7f93a5dbe63
+      internalID: -1105994253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87290dd42d1ee894a94ec328b594a984
+      internalID: 1824808355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_16
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 3516
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f330c16c6238ec249abd6045cebded85
+      internalID: -102187596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_17
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 3516
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acc19ae2f56e9e44ad5bba50dec1ae7
+      internalID: 1011526723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_18
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 3516
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7442016a0aef02b42adba09d613028d9
+      internalID: 142959407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_19
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 3516
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6ec55f647171240a9b9a3b9278d879
+      internalID: 224964430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2344
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbfb0707cc52b142b2be3fe4de4439e
+      internalID: 282575888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_21
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 2344
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b657382ec98c17b49832bd5259edb6b5
+      internalID: 641477075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2344
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7997e41e577ece742a6da624ed22a309
+      internalID: -42271542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_23
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 2344
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f28668e53985c4c9b6cba38c1f2f54
+      internalID: -591354860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_24
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 2344
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15211265b7fe2434cb4dee074630f924
+      internalID: -1500786546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1172
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ed38ed47de0f448fb4cfd5fb17b93
+      internalID: -734060384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_26
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1172
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3c6125adcdd4840b52bdc4e9a38f2c
+      internalID: -542054549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1172
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8056ed7eecb443488acd7b345cfb3f1
+      internalID: -625497483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_28
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 1172
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b510992bd93bfb45bb2a4590bcd2a2f
+      internalID: 2099394351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 1172
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddde78ee03817f429514e502db55b77
+      internalID: -42812711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda3be0d0b6c7f64298481b1926fb14e
+      internalID: 221215957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-idle_31
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 0
+        width: 842
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b79de90087bb845abf01297a222f76
+      internalID: 241738141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8b47d57df792e154b9c77908896ac8ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-guojiao-idle_0: -1346222060
+      enemy-guojiao-idle_1: 393791763
+      enemy-guojiao-idle_10: 651969644
+      enemy-guojiao-idle_11: -1353486595
+      enemy-guojiao-idle_12: 1216906058
+      enemy-guojiao-idle_13: -1981731556
+      enemy-guojiao-idle_14: -1105994253
+      enemy-guojiao-idle_15: 1824808355
+      enemy-guojiao-idle_16: -102187596
+      enemy-guojiao-idle_17: 1011526723
+      enemy-guojiao-idle_18: 142959407
+      enemy-guojiao-idle_19: 224964430
+      enemy-guojiao-idle_2: 1209640982
+      enemy-guojiao-idle_20: 282575888
+      enemy-guojiao-idle_21: 641477075
+      enemy-guojiao-idle_22: -42271542
+      enemy-guojiao-idle_23: -591354860
+      enemy-guojiao-idle_24: -1500786546
+      enemy-guojiao-idle_25: -734060384
+      enemy-guojiao-idle_26: -542054549
+      enemy-guojiao-idle_27: -625497483
+      enemy-guojiao-idle_28: 2099394351
+      enemy-guojiao-idle_29: -42812711
+      enemy-guojiao-idle_3: -42099489
+      enemy-guojiao-idle_30: 221215957
+      enemy-guojiao-idle_31: 241738141
+      enemy-guojiao-idle_32: -264997388
+      enemy-guojiao-idle_4: -1980234664
+      enemy-guojiao-idle_5: -1601703480
+      enemy-guojiao-idle_6: 988169394
+      enemy-guojiao-idle_7: 1751506567
+      enemy-guojiao-idle_8: 1690408895
+      enemy-guojiao-idle_9: -1407948291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

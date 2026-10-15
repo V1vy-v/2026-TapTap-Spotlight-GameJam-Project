@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 07a778f096d176c41a332e67815a0208
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5112
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf54a705c0609a4f882af9baf39343d
+      internalID: 1977393443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 5112
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c050b67d54b0746be0b539da2b3602
+      internalID: 784955626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 5112
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd09958d21ad84498d9acf1014427eb
+      internalID: -1655867247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 5112
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2868583cb4085e14398e73eef50df928
+      internalID: 362899305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 5112
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc02c40a80bda40aa48caeaec29037
+      internalID: 1132286466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4260
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496f9123b6fc35644a68823f93329e08
+      internalID: 830583266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 4260
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650c72a895baa174ca1e0ceb3c05ceec
+      internalID: -1045670584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4260
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f873ca90609c5a8468ac10522c6da805
+      internalID: -807790567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 4260
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb53d7f9cf7ab1469eb52eeb186991a
+      internalID: -931585273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 4260
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513ea5207e4a0a24f9f751f5923dfedc
+      internalID: -172752060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3408
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dcbb16fce291d41b9d783cd9bd425b
+      internalID: -489936017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3408
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06005f81498d8147b7b9edceae89074
+      internalID: 1914408738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 3408
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7827d8ebbbd4f4ebb0c672601a7c2a
+      internalID: -256710753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 3408
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e7110611660a4a8bd0818b1659fed
+      internalID: -2089726265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 3408
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f58d85aa14c044bbd85282724494ff
+      internalID: -1082883199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2556
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84db7b9844a5fa84c8d26c43ce528824
+      internalID: 445561436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 2556
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e5f7b6880373e47a75addb92cd12bb
+      internalID: 1791644639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2556
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979286c0eacbd7c44b6e9180cc9fb728
+      internalID: -176133837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 2556
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd76c0ff091f95458e98db643ca7c94
+      internalID: -195566120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 2556
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070febecb50c30d4cba924c4452d6e68
+      internalID: -135305117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a99f5dc45e7e84daac541932233d8c
+      internalID: -1201999897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1704
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a134b3faf5a2405488b92262e003d785
+      internalID: 638664611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1704
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674304a48d27da54db7776e8a6d48f80
+      internalID: -706478883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1704
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920c0bd0a5a9102459b6b4d2e73d47a5
+      internalID: 1789890272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 1704
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a25901291ea2943b12df699010d8df
+      internalID: -1389942093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a4d3e26d12c5c4bbdcbf5851ad2b87
+      internalID: 1341312931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 852
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f3fee5a94f8ab4ca13e2a76b4b86b1
+      internalID: -1643772826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 852
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6a08194c147d9469fb567bae4fb9e2
+      internalID: -1530651627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 852
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8d0e4af23e4af44a445c6c1c997c26
+      internalID: 866094569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 852
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eccb57ce80e7a4dae7b1896c45fad7
+      internalID: -1487724696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3ac968551c0454a8e05300f4275f84
+      internalID: 1194610031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c728153ae3424f9b30d534616567d
+      internalID: -549125363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84962d8d58542342ba347c506d4290e
+      internalID: 2138880580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1e88fb5ace57e4c9c022701fb2a434
+      internalID: -2131245235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 63f1ea3fb69d02c4b9989726ca28878e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-soy sauce-sprint_0: 1977393443
+      player-soy sauce-sprint_1: 784955626
+      player-soy sauce-sprint_10: -489936017
+      player-soy sauce-sprint_11: 1914408738
+      player-soy sauce-sprint_12: -256710753
+      player-soy sauce-sprint_13: -2089726265
+      player-soy sauce-sprint_14: -1082883199
+      player-soy sauce-sprint_15: 445561436
+      player-soy sauce-sprint_16: 1791644639
+      player-soy sauce-sprint_17: -176133837
+      player-soy sauce-sprint_18: -195566120
+      player-soy sauce-sprint_19: -135305117
+      player-soy sauce-sprint_2: -1655867247
+      player-soy sauce-sprint_20: -1201999897
+      player-soy sauce-sprint_21: 638664611
+      player-soy sauce-sprint_22: -706478883
+      player-soy sauce-sprint_23: 1789890272
+      player-soy sauce-sprint_24: -1389942093
+      player-soy sauce-sprint_25: 1341312931
+      player-soy sauce-sprint_26: -1643772826
+      player-soy sauce-sprint_27: -1530651627
+      player-soy sauce-sprint_28: 866094569
+      player-soy sauce-sprint_29: -1487724696
+      player-soy sauce-sprint_3: 362899305
+      player-soy sauce-sprint_30: 1194610031
+      player-soy sauce-sprint_31: -549125363
+      player-soy sauce-sprint_32: 2138880580
+      player-soy sauce-sprint_33: -2131245235
+      player-soy sauce-sprint_34: 1686073370
+      player-soy sauce-sprint_4: 1132286466
+      player-soy sauce-sprint_5: 830583266
+      player-soy sauce-sprint_6: -1045670584
+      player-soy sauce-sprint_7: -807790567
+      player-soy sauce-sprint_8: -931585273
+      player-soy sauce-sprint_9: -172752060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

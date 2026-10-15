@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: c612e65f66003164aa512e92d292c575
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4204
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8c7af885c6bc543a80bceb4a6e3183
+      internalID: -669478239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_1
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 4204
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d181bce63112145bbaa3966611c40d
+      internalID: 1812961494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_2
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 4204
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291d7caa563a3f84690f6cd225d14604
+      internalID: -2071430141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_3
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 4204
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9969a20dd98c2214f8603fe65e677473
+      internalID: -1153451666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_4
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 4204
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192dea6c9b36d234392ef191f1d85c90
+      internalID: 872691268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3153
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568593b957d26bc46b00bbbdc3e31dbb
+      internalID: -1430272010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_6
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 3153
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1393153c12c4346be9bfd82bae179d
+      internalID: 12211134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_7
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 3153
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0195ca9bb6a1d4eba1c57562c94e7c
+      internalID: -1213428883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_8
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 3153
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca83f0ed0eac9de439e3911d2157f903
+      internalID: 613391521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_9
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 3153
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60752ae0e79b56543b729d38d31285d0
+      internalID: 246125402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2102
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4d4f97b07dfc541913b151f0900ed0
+      internalID: 1075336918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_11
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2102
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec00a06c806d9e34f875f33dddcb236a
+      internalID: 2002800776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_12
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 2102
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0049680a5a593b4da0e2195eced5724
+      internalID: 1238525193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_13
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 2102
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ad9625b03593b4386e180585d24ece
+      internalID: -1974318801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_14
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 2102
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4374126764177b42bf743f0649a0f0c
+      internalID: -834152590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1051
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702500b77c39e64685d6ea59b969f5f
+      internalID: -613684928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_16
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1051
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcc76b14d8c1404e862638ccd3c951f
+      internalID: -1567860513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_17
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1051
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28313d4257fba74d8d8df7b93db8335
+      internalID: -1732699895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_18
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 1051
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dc24939243806498be12d0cd6baf82
+      internalID: 1257307253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_19
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 1051
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97093e90d0e5c07468a811b74e9b38a5
+      internalID: 1921962322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy--cooking wine-death_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1525
+        height: 1051
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7b9d088599b5642af6cb706b593e74
+      internalID: 1427891400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 15c41c12dbac987488d817d800f7ca0b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy--cooking wine-death_0: -669478239
+      enemy--cooking wine-death_1: 1812961494
+      enemy--cooking wine-death_10: 1075336918
+      enemy--cooking wine-death_11: 2002800776
+      enemy--cooking wine-death_12: 1238525193
+      enemy--cooking wine-death_13: -1974318801
+      enemy--cooking wine-death_14: -834152590
+      enemy--cooking wine-death_15: -613684928
+      enemy--cooking wine-death_16: -1567860513
+      enemy--cooking wine-death_17: -1732699895
+      enemy--cooking wine-death_18: 1257307253
+      enemy--cooking wine-death_19: 1921962322
+      enemy--cooking wine-death_2: -2071430141
+      enemy--cooking wine-death_20: 1427891400
+      enemy--cooking wine-death_3: -1153451666
+      enemy--cooking wine-death_4: 872691268
+      enemy--cooking wine-death_5: -1430272010
+      enemy--cooking wine-death_6: 12211134
+      enemy--cooking wine-death_7: -1213428883
+      enemy--cooking wine-death_8: 613391521
+      enemy--cooking wine-death_9: 246125402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

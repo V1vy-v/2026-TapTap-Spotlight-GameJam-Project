@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 637fa2dae81132443bc48b908d3b2ab8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-guojiao-dealth_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3279
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4f75648d3f9504e80600a09e8c709a
+      internalID: -1079555904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_1
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 3279
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5f91dc07120442aabcfb54a6848e4
+      internalID: 1906912297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_2
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 3279
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a71135d08083a4ca1d142eb040da0b
+      internalID: -2141151265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_3
+      rect:
+        serializedVersion: 2
+        x: 4503
+        y: 3279
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998a9d87d9d1c9344a7a1656d6bbda03
+      internalID: 374616257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_4
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 3279
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618eeca57507a64428ef47aefc22d3d6
+      internalID: 1033967108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2186
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838be32912678a44e9493e8fbc9bcceb
+      internalID: 114462260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_6
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2186
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f1f084f744b534ba5d13024e8a0eb8
+      internalID: -569531693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_7
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 2186
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f434c364258e74ab646bbfcb268299
+      internalID: -1471897808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_8
+      rect:
+        serializedVersion: 2
+        x: 4503
+        y: 2186
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f9fd1f525deb04e83525b4a11612a5
+      internalID: 1549048954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_9
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 2186
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14bad0deb90b994c98c7920671c10e2
+      internalID: 427176487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1093
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb9825cc8ffd874783e6c6522d2e1f5
+      internalID: 1759681766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_11
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1093
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50d44650142add4ab310404841ef0d4
+      internalID: -1798160138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_12
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 1093
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9b4188b6ffd64c9a95fdbe6dbdf9f
+      internalID: 1145610993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_13
+      rect:
+        serializedVersion: 2
+        x: 4503
+        y: 1093
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ce0eb20362074d8d3a7360e246015
+      internalID: 1691031475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_14
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 1093
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a476ce9594f664b8573e9ad73cb00c
+      internalID: 124006019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334493e31c633b840ad26eba2cc2ac60
+      internalID: 901844132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_16
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 0
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d44aa38f0899054a91c4fe8485efe53
+      internalID: -2141547175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_17
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 0
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f707dcd5106c7e84485fc54ecf70c99b
+      internalID: -1754913654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_18
+      rect:
+        serializedVersion: 2
+        x: 4503
+        y: 0
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f344bc78c02afa429e5a5266ebefbbf
+      internalID: 281630640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-dealth_19
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 0
+        width: 1501
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2c8ad05d1d5434399bcbbd19dbf6dc
+      internalID: 2145441060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 03246a925eb17f243b3e027bfa847fd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-guojiao-dealth_0: -1079555904
+      player-guojiao-dealth_1: 1906912297
+      player-guojiao-dealth_10: 1759681766
+      player-guojiao-dealth_11: -1798160138
+      player-guojiao-dealth_12: 1145610993
+      player-guojiao-dealth_13: 1691031475
+      player-guojiao-dealth_14: 124006019
+      player-guojiao-dealth_15: 901844132
+      player-guojiao-dealth_16: -2141547175
+      player-guojiao-dealth_17: -1754913654
+      player-guojiao-dealth_18: 281630640
+      player-guojiao-dealth_19: 2145441060
+      player-guojiao-dealth_2: -2141151265
+      player-guojiao-dealth_3: 374616257
+      player-guojiao-dealth_4: 1033967108
+      player-guojiao-dealth_5: 114462260
+      player-guojiao-dealth_6: -569531693
+      player-guojiao-dealth_7: -1471897808
+      player-guojiao-dealth_8: 1549048954
+      player-guojiao-dealth_9: 427176487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

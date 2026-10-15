@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: e38483cc6d8470d40ba0a52a3ceb02f1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-vinegar-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17d527eb19e9314db3dedfb0a4e3964
+      internalID: 240645269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_1
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887349d1d87897c43a4e179a57de71b8
+      internalID: 543615087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d84a202552704ca7512fe17d2a98b
+      internalID: -471948767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f57232ebd7f6249ae9cedaf5bac5b6
+      internalID: -1991925021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_4
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47547d2c281d53a4fbf66764d62972cb
+      internalID: -1795071312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886f7f352af3fb4b8ef9230a1ca6cd7
+      internalID: -913588333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47376345943079643ac600d82cfc642a
+      internalID: 42318880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51550abe8babb943a3d68667042ccfa
+      internalID: 2133422677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc4349cfb0c8549b732bee1d96b5dd
+      internalID: -1691940652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af9088857f72d148bd17993479a9e75
+      internalID: -86479719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c6fc925b1cff3479011b5e3f9b9148
+      internalID: 1754593650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_11
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fadc6ea0ae75644094143d88638f0da
+      internalID: -386914436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86731ff14eafef45809f91ab79af4e2
+      internalID: 810558849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede41b7ed8aa8b04f9954c853a08f704
+      internalID: 1080567731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_14
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e97d2740ebe374eb9e93cbd65c8254
+      internalID: 1239021909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb79c7366aca24ba9db7d11b01cec4
+      internalID: 810384943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_16
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d486dd5eed7fa428e2c247932977f9
+      internalID: -590114168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_17
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39572511ee3f32647adf8cc6a987fe49
+      internalID: -1855931552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_18
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbfe29f806916943a8bb12f377fc306
+      internalID: 776045151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_19
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c766db091de79c4e934a1c7463ddf4f
+      internalID: 1145443413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec2d08bb3a51a84cbfa6397e97bd581
+      internalID: 551726413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_21
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316ef4c7ac6258419c885392d6e080f
+      internalID: -1236693643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eea5511ec8b0547a501c0010c0a6ce
+      internalID: -840654998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5945c20c6456c42aca414da82d30ce
+      internalID: -659646478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_24
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2513218ceba89ff40b01d107295aab6e
+      internalID: -115080650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b01ef79c69204caefd48fe89b6b40
+      internalID: 267436027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_26
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383398db0c46fed4cbc3134a080c67c9
+      internalID: 838662619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2454ca46107c7d48bbcb8723c43c022
+      internalID: 1178821164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc3aac28e6d1c498cbfbf964fa18af
+      internalID: 75984764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_29
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3aa2eb8f9bbfe4a9d48a26319af0eb
+      internalID: -953725830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af9feae5af9b29428a5aa27216d45ef
+      internalID: 764586333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-idle_31
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2ff4e2321677e4982eaeff9a2f9235
+      internalID: 1539803183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe475fa3db975ea49b19ca71608f9fff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-vinegar-idle_0: 240645269
+      player-vinegar-idle_1: 543615087
+      player-vinegar-idle_10: 1754593650
+      player-vinegar-idle_11: -386914436
+      player-vinegar-idle_12: 810558849
+      player-vinegar-idle_13: 1080567731
+      player-vinegar-idle_14: 1239021909
+      player-vinegar-idle_15: 810384943
+      player-vinegar-idle_16: -590114168
+      player-vinegar-idle_17: -1855931552
+      player-vinegar-idle_18: 776045151
+      player-vinegar-idle_19: 1145443413
+      player-vinegar-idle_2: -471948767
+      player-vinegar-idle_20: 551726413
+      player-vinegar-idle_21: -1236693643
+      player-vinegar-idle_22: -840654998
+      player-vinegar-idle_23: -659646478
+      player-vinegar-idle_24: -115080650
+      player-vinegar-idle_25: 267436027
+      player-vinegar-idle_26: 838662619
+      player-vinegar-idle_27: 1178821164
+      player-vinegar-idle_28: 75984764
+      player-vinegar-idle_29: -953725830
+      player-vinegar-idle_3: -1991925021
+      player-vinegar-idle_30: 764586333
+      player-vinegar-idle_31: 1539803183
+      player-vinegar-idle_32: 79657590
+      player-vinegar-idle_33: -291358404
+      player-vinegar-idle_34: -818402099
+      player-vinegar-idle_4: -1795071312
+      player-vinegar-idle_5: -913588333
+      player-vinegar-idle_6: 42318880
+      player-vinegar-idle_7: 2133422677
+      player-vinegar-idle_8: -1691940652
+      player-vinegar-idle_9: -86479719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

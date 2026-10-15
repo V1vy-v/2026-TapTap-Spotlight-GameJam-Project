@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 1cef6dddde779a84eaabd411d4ea5072
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-vinegar-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3364
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5279880095e6842ac360cbc0fcb346
+      internalID: -607059459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3364
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd377042ffbae40b0d1ddc4ac4b080
+      internalID: 2027460216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 3364
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc7fb826dcb844faa60b4c2a9327b9
+      internalID: -642493438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3364
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4966c0bc40d946981c671a8edbb69
+      internalID: -314188584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 3364
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0c2ff88841b2041a035bb0853fb38c
+      internalID: -713275656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2523
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd0052ec9153e40b4e09743a5ccf42
+      internalID: -23186701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2523
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef34149e3746c42a958dae124258fe
+      internalID: 1427332799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2523
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2181414166ea46ac128946fc7fad7
+      internalID: -1046139581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2523
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f050fcaac92254b98ab0690c9f0b3a
+      internalID: 199875371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 2523
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43d726a4fbf2944a350b27533e5763
+      internalID: -682999492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1682
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47bdc7fc8c0d4542ab29d760572d181
+      internalID: 1374532215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1682
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109ef65854ec5740aabbf7ea006c3b6
+      internalID: 332012929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1682
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf495bb32d2424a8fe2e9b68439673
+      internalID: 870415498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1682
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc133febc21d22449225928c0b77df0
+      internalID: -959892633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1682
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5a4e59e84b63e4bbc2cdbd824be729
+      internalID: -1178362387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c2cca5b1e51242a2d072abb22f002
+      internalID: 1011125062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 841
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2476f36313537544b9596e24122ac82
+      internalID: -697801951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 841
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ce558a6ede6443ac2f678e1cf251d
+      internalID: 103479262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 841
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e252d472987f40ab91504bd951263
+      internalID: -1515770845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 841
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc680415c781741a09bc922afc8701
+      internalID: -2021857056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0678970fe54af8e47b8125f3fd70d6c9
+      internalID: -1044634494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495bef362b1fdf44b816b68349877de5
+      internalID: 505286053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aee578be8d1bd4395a5a4184af23e1
+      internalID: -2109175983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 0
+        width: 767
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8281c01fa7dda14386b3b2761b2e338
+      internalID: -2128198632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 073acd487b2eda249ab812dd08571ec2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-vinegar-boxing_0: -607059459
+      player-vinegar-boxing_1: 2027460216
+      player-vinegar-boxing_10: 1374532215
+      player-vinegar-boxing_11: 332012929
+      player-vinegar-boxing_12: 870415498
+      player-vinegar-boxing_13: -959892633
+      player-vinegar-boxing_14: -1178362387
+      player-vinegar-boxing_15: 1011125062
+      player-vinegar-boxing_16: -697801951
+      player-vinegar-boxing_17: 103479262
+      player-vinegar-boxing_18: -1515770845
+      player-vinegar-boxing_19: -2021857056
+      player-vinegar-boxing_2: -642493438
+      player-vinegar-boxing_20: -1044634494
+      player-vinegar-boxing_21: 505286053
+      player-vinegar-boxing_22: -2109175983
+      player-vinegar-boxing_23: -2128198632
+      player-vinegar-boxing_3: -314188584
+      player-vinegar-boxing_4: -713275656
+      player-vinegar-boxing_5: -23186701
+      player-vinegar-boxing_6: 1427332799
+      player-vinegar-boxing_7: -1046139581
+      player-vinegar-boxing_8: 199875371
+      player-vinegar-boxing_9: -682999492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

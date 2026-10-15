@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: fd136687ebd927d4980be5c516e14659
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5789fd3f4e5767046afa367a1723d7a5
+      internalID: 253180346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_1
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3394680138509d242910446b29202879
+      internalID: -1283392628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb271f3e7f8781469f76613dfa7984c
+      internalID: 1735824597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53849c61b9b4a944da9ea11891385c6c
+      internalID: -1951030438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_4
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 5082
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93720065cd5ef488b8ae5b78db9c09
+      internalID: -691100422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ccb3cdb3ca03b40864ec76aadb1796
+      internalID: 220945147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be036061bec8cde44bf59edf6a6b79de
+      internalID: 316182950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4ff14e922351c44a2117d81f38481b
+      internalID: -432461282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afbaf66225395b4e8a67cbe6fcaef32
+      internalID: -344961387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 4235
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9774c75c3ee88b348ab23bbc43c28388
+      internalID: 1906708954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bdd4e504f46954095cc4ce3841e35d
+      internalID: -908658056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_11
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394d2fec629331b4eb8c0c1e6514f529
+      internalID: -1034430575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb22a743df38dd46b56eedd26990d74
+      internalID: 1498608827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f327f5278152f4e8d6744492ab941b
+      internalID: 1417508033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_14
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 3388
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639db123f2010d240af20f9d02723c8b
+      internalID: 957094905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033e32f226dac884387465dfc2ed9e12
+      internalID: -1332339463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_16
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78d543508fff274f9716283bfd47cea
+      internalID: -144606167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_17
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af890644b4def3498895eb64fc76bd0
+      internalID: -1527345368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_18
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2fa6a52455a6e4daaaa90f22d7a483
+      internalID: -1312230816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_19
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 2541
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b1c306744f197478cb329f3b2fc26b
+      internalID: 1451402433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667e5a74e55790a41ba44a2e72718f3d
+      internalID: 569335722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_21
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff048d9b07e8946b8b00454a485384
+      internalID: -169473411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a0a30deb04cb49b4bd1070d137d23
+      internalID: -532195203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f88c7cb8f40445bc3099781a358d9
+      internalID: -369786339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_24
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 1694
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2910f568bf83f044ba703c113e7acf5
+      internalID: -584704737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852bfd9ed782b4b418443d5d08cd45e9
+      internalID: 1207247040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_26
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e646f1b427deba3479a67c18b31bd6b8
+      internalID: 1426685852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7764839c056b4cb47a98251d1f6e0dc6
+      internalID: 525286953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e81152d330d3e14eab56a40fb41bbab
+      internalID: -1907850398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_29
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 847
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba142824453d230479d7594341fda98e
+      internalID: 596477724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3673cdd594530b489a2cff01b562d12
+      internalID: -1664460721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-idle_31
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 622
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d53cd0b6b868f43a130d3da424fc3a
+      internalID: -1784932595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ab4554d981ba9d24ea6be0b0cd3cf7dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-cooking wine-idle_0: 253180346
+      enemy-cooking wine-idle_1: -1283392628
+      enemy-cooking wine-idle_10: -908658056
+      enemy-cooking wine-idle_11: -1034430575
+      enemy-cooking wine-idle_12: 1498608827
+      enemy-cooking wine-idle_13: 1417508033
+      enemy-cooking wine-idle_14: 957094905
+      enemy-cooking wine-idle_15: -1332339463
+      enemy-cooking wine-idle_16: -144606167
+      enemy-cooking wine-idle_17: -1527345368
+      enemy-cooking wine-idle_18: -1312230816
+      enemy-cooking wine-idle_19: 1451402433
+      enemy-cooking wine-idle_2: 1735824597
+      enemy-cooking wine-idle_20: 569335722
+      enemy-cooking wine-idle_21: -169473411
+      enemy-cooking wine-idle_22: -532195203
+      enemy-cooking wine-idle_23: -369786339
+      enemy-cooking wine-idle_24: -584704737
+      enemy-cooking wine-idle_25: 1207247040
+      enemy-cooking wine-idle_26: 1426685852
+      enemy-cooking wine-idle_27: 525286953
+      enemy-cooking wine-idle_28: -1907850398
+      enemy-cooking wine-idle_29: 596477724
+      enemy-cooking wine-idle_3: -1951030438
+      enemy-cooking wine-idle_30: -1664460721
+      enemy-cooking wine-idle_31: -1784932595
+      enemy-cooking wine-idle_32: -396628084
+      enemy-cooking wine-idle_33: 919917063
+      enemy-cooking wine-idle_34: -1447961972
+      enemy-cooking wine-idle_4: -691100422
+      enemy-cooking wine-idle_5: 220945147
+      enemy-cooking wine-idle_6: 316182950
+      enemy-cooking wine-idle_7: -432461282
+      enemy-cooking wine-idle_8: -344961387
+      enemy-cooking wine-idle_9: 1906708954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

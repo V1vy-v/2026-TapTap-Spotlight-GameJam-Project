@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: b6175f295155f084c9dd69f53daf96d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3452
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af11e16f7b36a149972a9355a03e088
+      internalID: 1156855404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 3452
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9926938686419ce4cb665efc6bf311dc
+      internalID: -1320888121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_2
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 3452
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287c0c4c8b899a48b738261494a6a65
+      internalID: -1686925258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_3
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 3452
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b452af35a8bf164d8e4b33e4af5b7a7
+      internalID: 521636053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_4
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 3452
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43d40f79d5aff4781b10f32c9746be
+      internalID: 1842768049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2589
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fad15c2c18b84a46a80588b2b9835b4
+      internalID: 2123435284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2589
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ce5bd2aff0e0e44b8acade7722997f
+      internalID: -1851819486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2589
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f6472103d71d04cac4ac0c781f610f
+      internalID: 1640167315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_8
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 2589
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ef736ac6c156a4b99905f96718d6cf
+      internalID: -512016715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_9
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 2589
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2810a59f99c2445b8f7173f1870114
+      internalID: -1369720551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c954e340576734790cd7b138e443ed
+      internalID: -1946404656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_11
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1726
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d933d4e9001c44ab2197a2ad644002
+      internalID: 1371209785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1726
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19227d0383e10cb4489706d491a18808
+      internalID: -2035707912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_13
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1726
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930caf19fc9b3564ea00c46a0c6e47c6
+      internalID: -2053058468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_14
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 1726
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a89973fd703a4fa8fb4d4f13f21be
+      internalID: -1250718117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ee1e4ac4a00a4eb874349e25bb1fd
+      internalID: 624502348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 863
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70242a568f81f2942acc6d709f35ed93
+      internalID: -1248523560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_17
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 863
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1014e0ae8dc23f4fbef4cf8f8d54a6f
+      internalID: -1879745995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_18
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 863
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70782ab8a03dd34fa0a5ad31b49e48d
+      internalID: -1568831384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_19
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 863
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42352a4504d1f364a8b638e0153437b2
+      internalID: -1597914137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d8f625193db8840bd0aa926078760c
+      internalID: -60202120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-walk_21
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 0
+        width: 617
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24a4a96163cbdf4da448dcc957388c9
+      internalID: 834596599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3bb338910ca174147a88f6b0c643125c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-cooking wine-walk_0: 1156855404
+      enemy-cooking wine-walk_1: -1320888121
+      enemy-cooking wine-walk_10: -1946404656
+      enemy-cooking wine-walk_11: 1371209785
+      enemy-cooking wine-walk_12: -2035707912
+      enemy-cooking wine-walk_13: -2053058468
+      enemy-cooking wine-walk_14: -1250718117
+      enemy-cooking wine-walk_15: 624502348
+      enemy-cooking wine-walk_16: -1248523560
+      enemy-cooking wine-walk_17: -1879745995
+      enemy-cooking wine-walk_18: -1568831384
+      enemy-cooking wine-walk_19: -1597914137
+      enemy-cooking wine-walk_2: -1686925258
+      enemy-cooking wine-walk_20: -60202120
+      enemy-cooking wine-walk_21: 834596599
+      enemy-cooking wine-walk_22: 1656791311
+      enemy-cooking wine-walk_3: 521636053
+      enemy-cooking wine-walk_4: 1842768049
+      enemy-cooking wine-walk_5: 2123435284
+      enemy-cooking wine-walk_6: -1851819486
+      enemy-cooking wine-walk_7: 1640167315
+      enemy-cooking wine-walk_8: -512016715
+      enemy-cooking wine-walk_9: -1369720551
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

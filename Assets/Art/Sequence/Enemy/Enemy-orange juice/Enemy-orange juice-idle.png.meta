@@ -1,0 +1,841 @@
+fileFormatVersion: 2
+guid: ec2e0d44ae5061147a7397fd2a6a8d41
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5256
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87db421b00dd584da3268873d39e2ad
+      internalID: 1594404523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 5256
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f901cf6417592f4c84bbdfcab73904e
+      internalID: 583691702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_2
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 5256
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e649614051e056408fe4561c4200fda
+      internalID: 1079788386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 5256
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f19a5064c13844e880218a13413362
+      internalID: -350724018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 5256
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ec63af9a049043a348e7fe12de6ec
+      internalID: 1760392122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4380
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190a613b939506d409cde7fd1b72257b
+      internalID: 909795205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 4380
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17f8dbf2f630cd4eb3bff90216d1413
+      internalID: 743472458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 4380
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d89e49ef4881cf42b33950482f174a2
+      internalID: 1937230342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 4380
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3853a73fe6407a4780a7bd51bfb3e0d
+      internalID: -1549409574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 4380
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826818c8deb4a8347bbe5b8a4c88678f
+      internalID: 1845260634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3504
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb671deeae7a3544bafa71ee6230cfc
+      internalID: -2060527723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 3504
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8df6172b12827648a190a688edba644
+      internalID: -392618817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_12
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3504
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789423cb9c37657418a3a83fcbc6c139
+      internalID: 206712275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 3504
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a416af451c2dada41a18d6f31d238e8a
+      internalID: -1385564257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 3504
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef0162981361864ab3131134eaf50f7
+      internalID: -1828660199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2628
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5785881488acdb42a400a01167a2c28
+      internalID: 1313246008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2628
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8726196212ff0cc408a975725fbb9863
+      internalID: 1520453588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_17
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2628
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09a1b0eeae06784092f78265f5124d8
+      internalID: -650705283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_18
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 2628
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2be59924d866543894903e951af991
+      internalID: -258459273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2628
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c58c203422114d42a3c9bdbf319555d
+      internalID: 1113276620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1752
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82005d7f7662a8840907f5b99a48f2a5
+      internalID: 107617598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_21
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1752
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021dd43e7f77edf4294a2b39d213e718
+      internalID: 722079624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_22
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1752
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db01741160dec45ba2695dcf3736d3
+      internalID: -333584504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1752
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1d7709d50fd1d4b8719d93a30c5354
+      internalID: 499164528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1752
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83064a54629be5748bb1ef61f3362322
+      internalID: 1593384953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c323c60b998ef41b33c782361422ab
+      internalID: 466547728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_26
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 876
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76231b3f47bd1da459c677c2e7a13103
+      internalID: 1653815776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_27
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 876
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2fe06f546981b469eea77bdbe690cb
+      internalID: -1715486607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 876
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8f9a0017c75754ca20bf877893d30f
+      internalID: 863280530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 876
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5152da74900ea94d9f1c6a4432297e1
+      internalID: 267004538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20f29ac0dcb4041ad711d6ceab501c
+      internalID: 690206752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_31
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa43cc83e6ff8dc449baee990c04664f
+      internalID: -997194535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-idle_32
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 473
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d68b81cabcdfd47b4021efe03a826f
+      internalID: -1109418193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cf0270e47efe0264b8ea2b7dbeaae907
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy-orange juice-idle_0: 1594404523
+      Enemy-orange juice-idle_1: 583691702
+      Enemy-orange juice-idle_10: -2060527723
+      Enemy-orange juice-idle_11: -392618817
+      Enemy-orange juice-idle_12: 206712275
+      Enemy-orange juice-idle_13: -1385564257
+      Enemy-orange juice-idle_14: -1828660199
+      Enemy-orange juice-idle_15: 1313246008
+      Enemy-orange juice-idle_16: 1520453588
+      Enemy-orange juice-idle_17: -650705283
+      Enemy-orange juice-idle_18: -258459273
+      Enemy-orange juice-idle_19: 1113276620
+      Enemy-orange juice-idle_2: 1079788386
+      Enemy-orange juice-idle_20: 107617598
+      Enemy-orange juice-idle_21: 722079624
+      Enemy-orange juice-idle_22: -333584504
+      Enemy-orange juice-idle_23: 499164528
+      Enemy-orange juice-idle_24: 1593384953
+      Enemy-orange juice-idle_25: 466547728
+      Enemy-orange juice-idle_26: 1653815776
+      Enemy-orange juice-idle_27: -1715486607
+      Enemy-orange juice-idle_28: 863280530
+      Enemy-orange juice-idle_29: 267004538
+      Enemy-orange juice-idle_3: -350724018
+      Enemy-orange juice-idle_30: 690206752
+      Enemy-orange juice-idle_31: -997194535
+      Enemy-orange juice-idle_32: -1109418193
+      Enemy-orange juice-idle_33: -756539634
+      Enemy-orange juice-idle_4: 1760392122
+      Enemy-orange juice-idle_5: 909795205
+      Enemy-orange juice-idle_6: 743472458
+      Enemy-orange juice-idle_7: 1937230342
+      Enemy-orange juice-idle_8: -1549409574
+      Enemy-orange juice-idle_9: 1845260634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
