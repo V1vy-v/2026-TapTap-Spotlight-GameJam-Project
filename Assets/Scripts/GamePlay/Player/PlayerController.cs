@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
         // 切换液体CD Tick
         _playerLiquids.TickChangeLiquid(Time.deltaTime);
         // 喷射CD tick
+
     }
     private void FixedUpdate()
     {
