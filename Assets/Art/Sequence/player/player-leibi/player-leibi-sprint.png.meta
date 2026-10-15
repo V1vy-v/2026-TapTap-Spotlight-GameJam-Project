@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 80c4da7a30a42d54ab585addf9417004
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-leibi-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5274
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311ac8246c24c7c439cb4e0599f5de16
+      internalID: -2069585777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 5274
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409a2cb03f4b24643ad1cb38b3844822
+      internalID: -439349021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 5274
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e07e882aece43e4e8f51c92c683d639
+      internalID: -2058783068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 5274
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cb727a368b8254d993bedc057168b3
+      internalID: 857299992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 5274
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a652d721364db744a0410d0f33120c8
+      internalID: -1131016688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4395
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf8dcb0fe79bf543895c59a69b91340
+      internalID: -1424400527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 4395
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4744bfb123b76419dc8f52ea7390e7
+      internalID: -1968653554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 4395
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f1f0f5db57ef548a18f2218120125e
+      internalID: 2112510677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 4395
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e521f8e1833b24ba5b1f0a2c166e57
+      internalID: -1263050261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 4395
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e251ccbe9d689494ca56154143331047
+      internalID: -1348695785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5effc2f04aa9644da78cb4a954d2b47
+      internalID: -2085528245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 3516
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86376a2dd851e7d4192e42a7bd45d75b
+      internalID: 2064630795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 3516
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a977841322d1644943707d1df5083f
+      internalID: 1507736608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 3516
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65275eda96be5f4b96bdf026abd1b6d
+      internalID: 11348416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 3516
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e65570704468544a62d24085956d31
+      internalID: 1546681436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2637
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36119198b66c1e84aade420d668f3f67
+      internalID: -370668232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2637
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d231615d9d7364aa955694f9e73cc7
+      internalID: -586353480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2637
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa93dec326cc7e40be715262ab1252c
+      internalID: 643847463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 2637
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1802fd0b08ef2504fa679873614444b4
+      internalID: -49611944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 2637
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ffb33823cd46242ae0f993b76d18ea
+      internalID: 1538445788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34060df0119225f4cb87463ab6dddc05
+      internalID: 982763185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1758
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cbff8c63db6dc4f976e027af624316
+      internalID: -1666924568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1758
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88786a250025eca44a9bad7e1e6adf52
+      internalID: -525137763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 1758
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f15c28378027b94cbb87c513cea80a5
+      internalID: -1812672890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 1758
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba436d7c8aa9744db7e3b906f5e4a7a
+      internalID: 1740910014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d33bc2ea41c0489ca9d7958c2d840
+      internalID: -320960951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 879
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bdcc5305c7f54381da95137d69bc6
+      internalID: -501576640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 879
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701a439e8eb284944a0d7946811c75ab
+      internalID: -161069681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 879
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ef44c6f344a74bb5588913ba73a1b
+      internalID: -487195296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 879
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68d1f95d78bce941bb413a6d7636377
+      internalID: -844587407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e7ed1201a0c84aaab28df1863b1ba
+      internalID: 715418888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d25693cbec92e4f9a1daf45c885956
+      internalID: 1609738753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 0
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd078737c2fc9448856e80fee6f1de
+      internalID: -1901148358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 0
+        width: 703
+        height: 879
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a8217da6158c94095d33ffc08e9387
+      internalID: -986001256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9348abf1fa2cb8d479b6818679b29594
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-leibi-sprint_0: -2069585777
+      player-leibi-sprint_1: -439349021
+      player-leibi-sprint_10: -2085528245
+      player-leibi-sprint_11: 2064630795
+      player-leibi-sprint_12: 1507736608
+      player-leibi-sprint_13: 11348416
+      player-leibi-sprint_14: 1546681436
+      player-leibi-sprint_15: -370668232
+      player-leibi-sprint_16: -586353480
+      player-leibi-sprint_17: 643847463
+      player-leibi-sprint_18: -49611944
+      player-leibi-sprint_19: 1538445788
+      player-leibi-sprint_2: -2058783068
+      player-leibi-sprint_20: 982763185
+      player-leibi-sprint_21: -1666924568
+      player-leibi-sprint_22: -525137763
+      player-leibi-sprint_23: -1812672890
+      player-leibi-sprint_24: 1740910014
+      player-leibi-sprint_25: -320960951
+      player-leibi-sprint_26: -501576640
+      player-leibi-sprint_27: -161069681
+      player-leibi-sprint_28: -487195296
+      player-leibi-sprint_29: -844587407
+      player-leibi-sprint_3: 857299992
+      player-leibi-sprint_30: 715418888
+      player-leibi-sprint_31: 1609738753
+      player-leibi-sprint_32: -1901148358
+      player-leibi-sprint_33: -986001256
+      player-leibi-sprint_34: -129495222
+      player-leibi-sprint_4: -1131016688
+      player-leibi-sprint_5: -1424400527
+      player-leibi-sprint_6: -1968653554
+      player-leibi-sprint_7: 2112510677
+      player-leibi-sprint_8: -1263050261
+      player-leibi-sprint_9: -1348695785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

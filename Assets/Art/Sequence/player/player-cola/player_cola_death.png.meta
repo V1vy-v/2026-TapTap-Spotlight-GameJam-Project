@@ -40,10 +40,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,18 +95,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: player_cola_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3279
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602062c47995c6b4f998f40ad48f7ec5
+      internalID: 1070518047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3279
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dfb65f4c0932b4a90ce26306903b88
+      internalID: -24945948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_2
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3279
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcc58f5c9236094594540c62c59f88e
+      internalID: 1230230403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3279
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04098142a60a3ff4797a4c1747b11503
+      internalID: 217264325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_4
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3279
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522ea34779402554fbd0b2227fe3fc85
+      internalID: 1998000826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2186
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ad8b0f86a505c4998295c551dc9243
+      internalID: 226631083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2186
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5843442662fd1f245b7e19d01ed252a9
+      internalID: 274822487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_7
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2186
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c56160ffc9f9fd408597b9b080837f4
+      internalID: -1850001793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_8
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2186
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1f46564de240646a6b1c14ce390842
+      internalID: 589284648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_9
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2186
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109b9b83ec74df742a24d7d9d1ae51d4
+      internalID: -555015396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1093
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc188e6728bb504aa3aea5b6db16245
+      internalID: -419540877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1093
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e08c1b9f056645b0b53e756aafc19
+      internalID: 1167038205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1093
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0f11cbf705d844096ac823cfe65818
+      internalID: -1099789498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_13
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1093
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeac1fa161a9aa45b3f9e697365ea05
+      internalID: 871503302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_14
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1093
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7363f10554b953f44b8c91d992945697
+      internalID: -820609741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebd7322a5e92649ae1c53d6514b84f
+      internalID: 893548782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_16
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90601d25b7f283e4389599cb1ec4d1e2
+      internalID: 2057834832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b56eea9a201cc249a43811c179b1b34
+      internalID: 607957633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_18
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1cf75a05755c2429872f35cc990d20
+      internalID: 279486894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_death_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1500
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a62444320d5944be055d83839735d
+      internalID: -991200800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 331773017491af94086292d09697ac36
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_cola_death_0: 1070518047
+      player_cola_death_1: -24945948
+      player_cola_death_10: -419540877
+      player_cola_death_11: 1167038205
+      player_cola_death_12: -1099789498
+      player_cola_death_13: 871503302
+      player_cola_death_14: -820609741
+      player_cola_death_15: 893548782
+      player_cola_death_16: 2057834832
+      player_cola_death_17: 607957633
+      player_cola_death_18: 279486894
+      player_cola_death_19: -991200800
+      player_cola_death_2: 1230230403
+      player_cola_death_3: 217264325
+      player_cola_death_4: 1998000826
+      player_cola_death_5: 226631083
+      player_cola_death_6: 274822487
+      player_cola_death_7: -1850001793
+      player_cola_death_8: 589284648
+      player_cola_death_9: -555015396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

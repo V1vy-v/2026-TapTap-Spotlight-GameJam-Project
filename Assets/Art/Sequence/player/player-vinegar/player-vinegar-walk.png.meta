@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 08b71176096f3024aae4a048533a1a79
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-vinegar-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3440
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee62a586f0e0674a82a7725803b3d6f
+      internalID: 27486358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3440
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e9b64e5ac7b0649a93ac782022dfd7
+      internalID: 92185985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3440
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b15391aba0fc43bf04aa2b04fe5ae
+      internalID: -73032763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3440
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e279afe73c173e44a10c4014152f7eb
+      internalID: 999257554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3440
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0eb11517237e14b955feac9ba4db92
+      internalID: 811044132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2580
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7d7eda736700e47aed774407b318e9
+      internalID: 1075189766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2580
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0362e844088e44344856615d671142a2
+      internalID: -2026203822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2580
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d644343f7ec7f408f30178ced80d1e
+      internalID: -403259082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2580
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b60e088b8d2e924aa2386a4cda593ab
+      internalID: -339774299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_9
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2580
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743cd803b1970d48ac663a095fa1256
+      internalID: 1930842302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094349ef6c7b174448a7e7083fda484a
+      internalID: -2036855903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1720
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93f67fc01c592047b2b19cf6aba3735
+      internalID: 1431475202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1720
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a607bd0864a884ea3735fffc028feb
+      internalID: 1849846157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_13
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1720
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b33a941a1d83064a91dda0a07c22456
+      internalID: -1745592472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_14
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1720
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49464b045ddf2b84cb29bbb3d7f863dc
+      internalID: -1668483760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c108ba715d4a284c96d0433b677ec0c
+      internalID: 1299759451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 860
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b30b6dc5c52d14b8abde36000417aa
+      internalID: -1156910197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_17
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 860
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53de8ca78abb4ca4d89473341ef3b646
+      internalID: 719836617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_18
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 860
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46249bdcae5a23c4696f68cf9a1954e5
+      internalID: 88424729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_19
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 860
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983572369fd687e4e87839869041d1e4
+      internalID: -1491077533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9941a5583f38bbe468855c8407208f29
+      internalID: 1784326952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-vinegar-walk_21
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 612
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c70eee102946b44bf180dcb3304c7c
+      internalID: -658767608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 796e2c9911a412041963457ea8615e32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-vinegar-walk_0: 27486358
+      player-vinegar-walk_1: 92185985
+      player-vinegar-walk_10: -2036855903
+      player-vinegar-walk_11: 1431475202
+      player-vinegar-walk_12: 1849846157
+      player-vinegar-walk_13: -1745592472
+      player-vinegar-walk_14: -1668483760
+      player-vinegar-walk_15: 1299759451
+      player-vinegar-walk_16: -1156910197
+      player-vinegar-walk_17: 719836617
+      player-vinegar-walk_18: 88424729
+      player-vinegar-walk_19: -1491077533
+      player-vinegar-walk_2: -73032763
+      player-vinegar-walk_20: 1784326952
+      player-vinegar-walk_21: -658767608
+      player-vinegar-walk_22: -1451944614
+      player-vinegar-walk_3: 999257554
+      player-vinegar-walk_4: 811044132
+      player-vinegar-walk_5: 1075189766
+      player-vinegar-walk_6: -2026203822
+      player-vinegar-walk_7: -403259082
+      player-vinegar-walk_8: -339774299
+      player-vinegar-walk_9: 1930842302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: a1f46530a0a026a4ca9286685894a66d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3804
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e31026b85754ce47b3bfc2f4411ffd4
+      internalID: -1101641487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_1
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 3804
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cece39a08cb804382cb0a615086bec
+      internalID: -980911892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_2
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 3804
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25debd743169cbd42887ab4984a48af1
+      internalID: -850256269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_3
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 3804
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6390e116e108c4a4380ca0b19bcfbe0f
+      internalID: -933846914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_4
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 3804
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18570064077211341a24e54e6e82944e
+      internalID: -5942274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2853
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39eb4baee499114883eb646b663c21b
+      internalID: -1914352053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_6
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2853
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069194c1777c7e04483758ccf56008b0
+      internalID: -1870057412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_7
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2853
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3768568fb913b648807d0b695fc7eb5
+      internalID: -592046774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_8
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 2853
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a1002261ae1e24d8b9b8cf826dd3a8
+      internalID: 629761636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_9
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 2853
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90781fea622e28540ac9a97b089d63b5
+      internalID: -963190101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1902
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f285a9c5472b87d4497753f2056adda2
+      internalID: -1272436381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_11
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1902
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7493e58232fa4c446b3a31898d3b7ea9
+      internalID: -1314356146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_12
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1902
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6504ab0e825cc49bec642a0cfcaa14
+      internalID: -1540599319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_13
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1902
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85170ec68308c4946b190e9e592b6ede
+      internalID: 1013046507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_14
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1902
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1f8a12a1a467242834f7d581903025
+      internalID: 214853858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab31925c2f445a4c9cb919afcceba1b
+      internalID: 1026294748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 951
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4347290a9d661a459c555213edf13b8
+      internalID: 1048207545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_17
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 951
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beaa66d49edaae42914ad15ca962848
+      internalID: -76239786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_18
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 951
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f34c78af79d5746a124193ded8d2a2
+      internalID: 2093101705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_19
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 951
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c342408b3d40701419eda53263ab032d
+      internalID: 629805164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf366b66529cc14c90486d490c26633
+      internalID: 1085501883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_21
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55223a2fb2139348a320596ff84d428
+      internalID: 1865393366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_22
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 0
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a3d608522e8454ea44315192d58529
+      internalID: 676892733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-boxin_23
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 0
+        width: 818
+        height: 951
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f2e76d0d62e474d93fb7a62d38461b
+      internalID: -160503534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0f427223e434c9b4387ebb92cfce68f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-leibi-boxin_0: -1101641487
+      enemy-leibi-boxin_1: -980911892
+      enemy-leibi-boxin_10: -1272436381
+      enemy-leibi-boxin_11: -1314356146
+      enemy-leibi-boxin_12: -1540599319
+      enemy-leibi-boxin_13: 1013046507
+      enemy-leibi-boxin_14: 214853858
+      enemy-leibi-boxin_15: 1026294748
+      enemy-leibi-boxin_16: 1048207545
+      enemy-leibi-boxin_17: -76239786
+      enemy-leibi-boxin_18: 2093101705
+      enemy-leibi-boxin_19: 629805164
+      enemy-leibi-boxin_2: -850256269
+      enemy-leibi-boxin_20: 1085501883
+      enemy-leibi-boxin_21: 1865393366
+      enemy-leibi-boxin_22: 676892733
+      enemy-leibi-boxin_23: -160503534
+      enemy-leibi-boxin_3: -933846914
+      enemy-leibi-boxin_4: -5942274
+      enemy-leibi-boxin_5: -1914352053
+      enemy-leibi-boxin_6: -1870057412
+      enemy-leibi-boxin_7: -592046774
+      enemy-leibi-boxin_8: 629761636
+      enemy-leibi-boxin_9: -963190101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

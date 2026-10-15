@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 1ff175e7bcd257b4ea8d78ac6bea7c8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3396
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df0cf741e9c8644999a22812fa1fce
+      internalID: -585765058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3396
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73559fc619e8e864ea06c5efc0da5482
+      internalID: 1829255296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3396
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e8cc990d8a73b439ffb3d1c2cdb8ee
+      internalID: 1845102136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3396
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de5513126ca8e543bc33923af855095
+      internalID: 1065172498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3396
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021f1ddcc1d98a1419b323be39361e07
+      internalID: -126969238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2547
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9d10677a74ce4439651f5ce8415862
+      internalID: -2047352242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2547
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212a5033d8da9d2458ef207a2b2f5b3a
+      internalID: 1097721748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2547
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d648b52aae9c384d8beffd4cea48e09
+      internalID: 1079920953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2547
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d4f616f4cf4c54cbfb0ff1bafd9af3
+      internalID: 1938587005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2547
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f0525ac2f0d0488e769547f73d5be
+      internalID: 1098981976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1698
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c780e6d96c87241861cd37cbc1bc4b
+      internalID: -324325900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1698
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f26ad21ce5039459bc7196ea23ba9b
+      internalID: 751646942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1698
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d207299174768d418ab034f212964cb
+      internalID: 59000627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1698
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f42918648102a4d925fdcdb2686d29
+      internalID: 1230717250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1698
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1295da7e66d964a4fb93aa63b69cc5e3
+      internalID: -1543816869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328a672ae40244c468ab1741c144a9c5
+      internalID: 264930123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 849
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9a85f0a4e190647b0de1142d7d195c
+      internalID: 2073543238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 849
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ef4fc2847bd5e4293e04f85c754445
+      internalID: -1198086511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 849
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1469bfb4027af31439b5ba563255b074
+      internalID: -1259904399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 849
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ac16176c357f4ab396868a442feb8
+      internalID: 268901313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689f7b90a2a63e4087f7122dedbd736
+      internalID: 554916432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981ce6b836f4c24ea34a209634a8d36
+      internalID: 782312831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073bc7689c12c3047b040d6cc1919a90
+      internalID: -982802698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 772
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45803104e4abea941bfc0129179edd37
+      internalID: 248395366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8bd30b24a101d404e8f1f110ba3482db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-soy sauce-boxing_0: -585765058
+      player-soy sauce-boxing_1: 1829255296
+      player-soy sauce-boxing_10: -324325900
+      player-soy sauce-boxing_11: 751646942
+      player-soy sauce-boxing_12: 59000627
+      player-soy sauce-boxing_13: 1230717250
+      player-soy sauce-boxing_14: -1543816869
+      player-soy sauce-boxing_15: 264930123
+      player-soy sauce-boxing_16: 2073543238
+      player-soy sauce-boxing_17: -1198086511
+      player-soy sauce-boxing_18: -1259904399
+      player-soy sauce-boxing_19: 268901313
+      player-soy sauce-boxing_2: 1845102136
+      player-soy sauce-boxing_20: 554916432
+      player-soy sauce-boxing_21: 782312831
+      player-soy sauce-boxing_22: -982802698
+      player-soy sauce-boxing_23: 248395366
+      player-soy sauce-boxing_3: 1065172498
+      player-soy sauce-boxing_4: -126969238
+      player-soy sauce-boxing_5: -2047352242
+      player-soy sauce-boxing_6: 1097721748
+      player-soy sauce-boxing_7: 1079920953
+      player-soy sauce-boxing_8: 1938587005
+      player-soy sauce-boxing_9: 1098981976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

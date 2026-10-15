@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 1b34b2aa19319fe48a848393b7f082f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-leibi-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3464
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78aba976375eac44b1cd75898e15159
+      internalID: -2102290910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3464
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f19ba826309e47a0da9fb8ca26a50
+      internalID: 1608576117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 3464
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca485e6807ed8e34f937044538ebf463
+      internalID: 1817112548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 3464
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a999284a20fee47b70f2b389510322
+      internalID: -1869616869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 3464
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393e2bef76678614cb13960a5d38f8f6
+      internalID: 329882665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2598
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac06ea71d9e7245afb94393bd6e970
+      internalID: -1665220862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2598
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea1a216f7257b4c8d1addc3e6685d6
+      internalID: -900420022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2598
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4debc3264069333439c894e944343474
+      internalID: 46869235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 2598
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aea9425e79f07a439aec4d8a8896750
+      internalID: 968983405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 2598
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5b00242044d347adf3c630208ac04
+      internalID: 381053476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1732
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838bbc24fbd94e540ae4159aa607de0e
+      internalID: 2009313717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1732
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292b1d91e6c37134aad5fc418ea28bff
+      internalID: -770248978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1732
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baddec4bffa3507439be8bf2dbf0ac0c
+      internalID: 2002980378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 1732
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa788e6a499291a468c0161bdcfb45da
+      internalID: 2140443413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 1732
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9108d1cb5c0f7438c34a86d7577780
+      internalID: -1154442932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 866
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b3c7ba076b8cb41997bddc5f4cbdb6
+      internalID: 1826533708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 866
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf1a43ce6790d4491cfea21b4f6d50
+      internalID: -395989247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 866
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552946e17f3de8e4096fa6dba49f7d64
+      internalID: -1174104020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 866
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c8d8624a1e5f041bb10b36afa9876b
+      internalID: -396126707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 866
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91327c82308ae96469f11a3516505827
+      internalID: 1955274713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10535259d4d277249ae9f710c962527c
+      internalID: 380172873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201969d333e16364da4b9ff906565302
+      internalID: -846899528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c103e8136ae544eab9a44be498857b
+      internalID: -835477652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 796
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c75ac648f82bf4783c7e5f5c803e72
+      internalID: -1802374567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e69b09a8186f93046b20e567dd5707dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-leibi-boxing_0: -2102290910
+      player-leibi-boxing_1: 1608576117
+      player-leibi-boxing_10: 2009313717
+      player-leibi-boxing_11: -770248978
+      player-leibi-boxing_12: 2002980378
+      player-leibi-boxing_13: 2140443413
+      player-leibi-boxing_14: -1154442932
+      player-leibi-boxing_15: 1826533708
+      player-leibi-boxing_16: -395989247
+      player-leibi-boxing_17: -1174104020
+      player-leibi-boxing_18: -396126707
+      player-leibi-boxing_19: 1955274713
+      player-leibi-boxing_2: 1817112548
+      player-leibi-boxing_20: 380172873
+      player-leibi-boxing_21: -846899528
+      player-leibi-boxing_22: -835477652
+      player-leibi-boxing_23: -1802374567
+      player-leibi-boxing_3: -1869616869
+      player-leibi-boxing_4: 329882665
+      player-leibi-boxing_5: -1665220862
+      player-leibi-boxing_6: -900420022
+      player-leibi-boxing_7: 46869235
+      player-leibi-boxing_8: 968983405
+      player-leibi-boxing_9: 381053476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

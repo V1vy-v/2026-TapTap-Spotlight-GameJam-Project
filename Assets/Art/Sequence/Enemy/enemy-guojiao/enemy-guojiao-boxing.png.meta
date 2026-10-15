@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 1fcbbddd9a52a3547af9e0fb0991f7a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4688
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067eab12e3112af4ea6c2a7df3c3b02c
+      internalID: -300555273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 4688
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0875a322feefd4080db473ae6608fd
+      internalID: -2001788032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 4688
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36c51fefab40ac4ebbd05bb9be51417
+      internalID: -1949464548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 4688
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2253d5839d6095408f4759cd70e026b
+      internalID: -1215411216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 4688
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843d0965611862143aa6277cda7da8e3
+      internalID: 803733868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d467c73de8f624490e6dc65e60918e
+      internalID: -1274406494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 3516
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8f280ac95a2744acda08abc91c619
+      internalID: -1424525401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 3516
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e3586f354def4db83a842a7407926
+      internalID: -533328842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 3516
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090fe9518e9fc20468843bb9c0d7e1b9
+      internalID: 809824842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 3516
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57532a9d78b083840a1d5fd45a8f3b18
+      internalID: 1050491875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2344
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18037748a3191f54292f15241bd2b387
+      internalID: -347724492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2344
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d56946fabfb747b54f0c4b2b1fbcf
+      internalID: 1838728537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 2344
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d10f08d4c1c2c542af9c0e9bc275d9e
+      internalID: 202907056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 2344
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a930dcba0e18534d915a04871e677a7
+      internalID: 1598559325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 2344
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7804551ee704a4e96893b4bebcaa81
+      internalID: -1576484015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1172
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d0ad2968edc640b5c151d8c3c5b12
+      internalID: 485320434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1172
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567aef59ff2823049aaad94d9a0cab4c
+      internalID: -1145678710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1172
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4635dbc6e65c13d46b51b9d30bbaa97d
+      internalID: -1648783868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 1172
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36c1aa2a3eb0d47aab5cfb3b007a2f
+      internalID: -347218344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 1172
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb93bf55c6fb9a94585b2bbf17a2d244
+      internalID: -1622976790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efc472f2dd1f0e4bac6b13c044a43a1
+      internalID: -679212046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf41ee46f8b0fd4eb185cb2d0c0fd12
+      internalID: -2092889629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 0
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07979667007429c4194b86ec1a4b2da8
+      internalID: 1435734988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 0
+        width: 987
+        height: 1172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122b7c37d242e6499e1809361fe7541
+      internalID: 624608278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 95312f54be98e424b980851b8d2fb15a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-guojiao-boxing_0: -300555273
+      enemy-guojiao-boxing_1: -2001788032
+      enemy-guojiao-boxing_10: -347724492
+      enemy-guojiao-boxing_11: 1838728537
+      enemy-guojiao-boxing_12: 202907056
+      enemy-guojiao-boxing_13: 1598559325
+      enemy-guojiao-boxing_14: -1576484015
+      enemy-guojiao-boxing_15: 485320434
+      enemy-guojiao-boxing_16: -1145678710
+      enemy-guojiao-boxing_17: -1648783868
+      enemy-guojiao-boxing_18: -347218344
+      enemy-guojiao-boxing_19: -1622976790
+      enemy-guojiao-boxing_2: -1949464548
+      enemy-guojiao-boxing_20: -679212046
+      enemy-guojiao-boxing_21: -2092889629
+      enemy-guojiao-boxing_22: 1435734988
+      enemy-guojiao-boxing_23: 624608278
+      enemy-guojiao-boxing_3: -1215411216
+      enemy-guojiao-boxing_4: 803733868
+      enemy-guojiao-boxing_5: -1274406494
+      enemy-guojiao-boxing_6: -1424525401
+      enemy-guojiao-boxing_7: -533328842
+      enemy-guojiao-boxing_8: 809824842
+      enemy-guojiao-boxing_9: 1050491875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 32df5db75cfa97a4f9cda6c0a2c23059
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-soy sauce-death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4216
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d317fc5e07404499d5ba089168ce54
+      internalID: -459543510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_1
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 4216
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e247cc2478e79b9448434da553494c27
+      internalID: -437350800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_2
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 4216
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ebb23acf86b749bdfaa44dba63a60
+      internalID: 64407146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_3
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 4216
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77246b68556a650409a6fc64c3edb8af
+      internalID: -1236748318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_4
+      rect:
+        serializedVersion: 2
+        x: 6116
+        y: 4216
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd7f77843c7b043b8aac8c36cec508
+      internalID: 2010655984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3162
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3697dd4179e64398acd23033c3c67
+      internalID: -1343746546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_6
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 3162
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a7ab3243058a64fba65df2e370dab1
+      internalID: 463788173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_7
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 3162
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168dd94b0bb5c2240adc4ad0904a464a
+      internalID: 1074212044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_8
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 3162
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025d92b0c56e3f4a9e0120863c2bd50
+      internalID: 993076021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_9
+      rect:
+        serializedVersion: 2
+        x: 6116
+        y: 3162
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08a22e7e82df44d9859803c728eb16
+      internalID: -264502079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2108
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44272f0dd55fb0d439b6279643299ddd
+      internalID: 1028547962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_11
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 2108
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc0abcbd7e43814da84583cfa5ba53a
+      internalID: 708777957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_12
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 2108
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdcac4a6aba3f647b68ace1f4d52a75
+      internalID: 1220971747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_13
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 2108
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95ade0be495e0b43bf3008eb52c4850
+      internalID: 687706244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_14
+      rect:
+        serializedVersion: 2
+        x: 6116
+        y: 2108
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0099dfa96170a974185bebf8b55cdb93
+      internalID: 46755528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445497202648ab5448e2f7752a90e545
+      internalID: -960428688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_16
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1054
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a2284c3f995e7408f30b18dc16de3e
+      internalID: 565242116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_17
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 1054
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2660a11d7f3ea484ba3ad7b2c81590f3
+      internalID: 1275217686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_18
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 1054
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44960148b40c6d45a12e5d46219ae1f
+      internalID: -1945305360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_19
+      rect:
+        serializedVersion: 2
+        x: 6116
+        y: 1054
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b2414491884c40a77f0cee8b72490
+      internalID: 1936554472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-soy sauce-death_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1529
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58831d4d908ea5044a90d70c10580532
+      internalID: -723448931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dc38746a1c10fcd4d8270c10f6e54b5d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-soy sauce-death_0: -459543510
+      player-soy sauce-death_1: -437350800
+      player-soy sauce-death_10: 1028547962
+      player-soy sauce-death_11: 708777957
+      player-soy sauce-death_12: 1220971747
+      player-soy sauce-death_13: 687706244
+      player-soy sauce-death_14: 46755528
+      player-soy sauce-death_15: -960428688
+      player-soy sauce-death_16: 565242116
+      player-soy sauce-death_17: 1275217686
+      player-soy sauce-death_18: -1945305360
+      player-soy sauce-death_19: 1936554472
+      player-soy sauce-death_2: 64407146
+      player-soy sauce-death_20: -723448931
+      player-soy sauce-death_3: -1236748318
+      player-soy sauce-death_4: 2010655984
+      player-soy sauce-death_5: -1343746546
+      player-soy sauce-death_6: 463788173
+      player-soy sauce-death_7: 1074212044
+      player-soy sauce-death_8: 993076021
+      player-soy sauce-death_9: -264502079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

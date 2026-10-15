@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 1085019f3d9cc344ca03eb385eaa8e08
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5088
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642f688dc33157b42b32088480cfc18f
+      internalID: 1180698448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 5088
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ace5b32d7ac4541bfa226aa79de525
+      internalID: -347326123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 5088
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7ecfad5b1d45047b9973338880b8e3
+      internalID: 780666015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 5088
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa0645bbb9d19e458ab1abd79a63cde
+      internalID: 851039055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 5088
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6b5e647ca0fb429ae154cd7e9e0d9
+      internalID: 586985072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4240
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f872a703f3bead469e8fb9d4261e421
+      internalID: -2086826343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 4240
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a210696adaed64992950f4d0104c35
+      internalID: -1359303670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 4240
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a86153d0af855b408ac6c7caaf6de4e
+      internalID: -1672951638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 4240
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e1da33e8adfe54fad900b22ac6ea3d
+      internalID: 754813039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 4240
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e74261e16c56854781c223021ea8a7f
+      internalID: -595505145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a26a6aa8fb0cef4da3e2b2420d6c5ae
+      internalID: 621016394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3392
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9270d82c145e74fbf6483f11924958
+      internalID: 968238807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3392
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121dcb95594b7d4fa1d05665e9aa220
+      internalID: 796088492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3392
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10915ae10c99c246bebdcd133f306a0
+      internalID: 399887519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3392
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e2f31e7d4259541827ed8cf025c0c6
+      internalID: 1432907110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2544
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91736108b8f5e8b4584bd6417d53b312
+      internalID: -761409152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2544
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65831f97c95f1ba4bb7558b01d16f941
+      internalID: 746126524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2544
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8aafabcdc88746a8a5ed22e6a2d86
+      internalID: 1244593622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2544
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f171321d5773844a3096cca5541cd4
+      internalID: -147923669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2544
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0acb1c946f96cd4aae78a146b2e8def
+      internalID: 313955766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cfff9380e1b2f4e9805a8fa33dc623
+      internalID: 1454121902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1696
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f011121f45e674286f74d48024ac7c
+      internalID: -1851848343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1696
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55861412f4a86a94197481cb649a8af7
+      internalID: -1018658195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1696
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaaf10afe74fe74e816fa02f0f63850
+      internalID: 668450757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1696
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b96967a5c86b6647b620ecdec54d655
+      internalID: 1092101221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800343f2dddeb4a47bd8feed0b43e74b
+      internalID: -1308813826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 848
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf1325cc3238654299b510f797af48f
+      internalID: 1571246730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 848
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac176665493551d4ea0dbb2bdfdd4ca6
+      internalID: -66182067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 848
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625e62467a9036d4ebfa2998d28e11a6
+      internalID: 211915682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 848
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b61c7824d4950447af8825269611a58
+      internalID: -807479619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425144b111651b41a653ef019b83cff
+      internalID: 4145893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d5fa10f72d2734c98f0d8cc3e913ef
+      internalID: 1027869692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2f696b1159fba46b3c38b226b14af3
+      internalID: 268357686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 612
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b13579b017e0e4187fa24048bea645
+      internalID: 1190118153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ee3ba1e4109a78a40a5e5630c83cfdcc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-cooking wine-sprint_0: 1180698448
+      enemy-cooking wine-sprint_1: -347326123
+      enemy-cooking wine-sprint_10: 621016394
+      enemy-cooking wine-sprint_11: 968238807
+      enemy-cooking wine-sprint_12: 796088492
+      enemy-cooking wine-sprint_13: 399887519
+      enemy-cooking wine-sprint_14: 1432907110
+      enemy-cooking wine-sprint_15: -761409152
+      enemy-cooking wine-sprint_16: 746126524
+      enemy-cooking wine-sprint_17: 1244593622
+      enemy-cooking wine-sprint_18: -147923669
+      enemy-cooking wine-sprint_19: 313955766
+      enemy-cooking wine-sprint_2: 780666015
+      enemy-cooking wine-sprint_20: 1454121902
+      enemy-cooking wine-sprint_21: -1851848343
+      enemy-cooking wine-sprint_22: -1018658195
+      enemy-cooking wine-sprint_23: 668450757
+      enemy-cooking wine-sprint_24: 1092101221
+      enemy-cooking wine-sprint_25: -1308813826
+      enemy-cooking wine-sprint_26: 1571246730
+      enemy-cooking wine-sprint_27: -66182067
+      enemy-cooking wine-sprint_28: 211915682
+      enemy-cooking wine-sprint_29: -807479619
+      enemy-cooking wine-sprint_3: 851039055
+      enemy-cooking wine-sprint_30: 4145893
+      enemy-cooking wine-sprint_31: 1027869692
+      enemy-cooking wine-sprint_32: 268357686
+      enemy-cooking wine-sprint_33: 1190118153
+      enemy-cooking wine-sprint_34: -2053442569
+      enemy-cooking wine-sprint_4: 586985072
+      enemy-cooking wine-sprint_5: -2086826343
+      enemy-cooking wine-sprint_6: -1359303670
+      enemy-cooking wine-sprint_7: -1672951638
+      enemy-cooking wine-sprint_8: 754813039
+      enemy-cooking wine-sprint_9: -595505145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

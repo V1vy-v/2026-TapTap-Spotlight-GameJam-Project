@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 8b6855eddc00b6e48a75bd25acbc679e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7062
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d46afe20c6a3f243902bae8f147d5cf
+      internalID: -1484848242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 7062
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65fcc5b69c8ad843aac6d441b19e925
+      internalID: 1251980330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 7062
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63db6cc75df96b4e8b75415941d788c
+      internalID: 1550908897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 7062
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942a1c9d379584442887ac698be1e0f6
+      internalID: 1431737892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 7062
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdc17f57417aa84cb4567047bc7afd9
+      internalID: -855223916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5885
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70809aeab5b44bf4097edfedcd09ae86
+      internalID: -2087853044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 5885
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ece37d2c98d3245939443283f3a120
+      internalID: 68587420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 5885
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebce35159551b64895dc7bb81ea88fa
+      internalID: 248512238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 5885
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec5bd7e4f0842940b9a88271cb61dc0
+      internalID: -1565205584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 5885
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6798cb578b8546b0894176c63fac8
+      internalID: 149115090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4708
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5684c092e9730047aeaded670a349a6
+      internalID: -192269670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 4708
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea02fbd0aadb9247bf564d1182a56b1
+      internalID: 24914853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 4708
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ecc1f9dde2c649bc5d372ded84f09
+      internalID: 1521277494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 4708
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a1dce07c7e6a4d8565e86733bf28d
+      internalID: -2016367414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 4708
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d86690a775168448f50badbd7c1ead
+      internalID: -1050241490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3531
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9821746ffa0ab4e940ee14b9018e26
+      internalID: 1976736005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 3531
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec605f039939540b8bdab18dc474f6
+      internalID: -1817181693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 3531
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c2a71fd42ecf6488856545b0161d37
+      internalID: -1003787632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3531
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6720cd072cce99f48a71a267ed17a266
+      internalID: -747956854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3531
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd5a4b297b5eb41a0c061e6f887698
+      internalID: 1803728904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2354
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730925d3dd9c6734a84529c812a66cd0
+      internalID: -1594235611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2354
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfb46cf6f4c1d74ca0c593afe874c96
+      internalID: -1548217289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2354
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7491a054bbff4ea43a57cba064428740
+      internalID: 754834529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2354
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2769363af0269c24cbdb1403b5d612e0
+      internalID: 185631682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2354
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509b71640377a14d8e68d3e1c242894
+      internalID: -659774796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d28aa43a61a9c4c9fd0e53a8e86298
+      internalID: -1309834346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1177
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173c4dca45cb544f88927764b297ddd
+      internalID: -774361071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1177
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6503fd8a3e0044ba10c8993d52fa28
+      internalID: -1647615631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1177
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b6b7671e25f4541b903eb763f87196
+      internalID: -527806644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1177
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60fb413e915b3c4882d1f949c00a1d9
+      internalID: -1771925335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66169148a556d134a81a2c6f1247f9f2
+      internalID: -1085995337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1950a502dc5e5846a845df696ffdfc1
+      internalID: 1591208710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b421f466b26eaa47a6d90693f921e1c
+      internalID: -1191882973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiaoi-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 0
+        width: 870
+        height: 1177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c244bd9900a775346a27ae8acaf2d0f1
+      internalID: 1170417422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8537a2d79f1e3124b9df43d32991c08b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-guojiaoi-sprint_0: -1484848242
+      enemy-guojiaoi-sprint_1: 1251980330
+      enemy-guojiaoi-sprint_10: -192269670
+      enemy-guojiaoi-sprint_11: 24914853
+      enemy-guojiaoi-sprint_12: 1521277494
+      enemy-guojiaoi-sprint_13: -2016367414
+      enemy-guojiaoi-sprint_14: -1050241490
+      enemy-guojiaoi-sprint_15: 1976736005
+      enemy-guojiaoi-sprint_16: -1817181693
+      enemy-guojiaoi-sprint_17: -1003787632
+      enemy-guojiaoi-sprint_18: -747956854
+      enemy-guojiaoi-sprint_19: 1803728904
+      enemy-guojiaoi-sprint_2: 1550908897
+      enemy-guojiaoi-sprint_20: -1594235611
+      enemy-guojiaoi-sprint_21: -1548217289
+      enemy-guojiaoi-sprint_22: 754834529
+      enemy-guojiaoi-sprint_23: 185631682
+      enemy-guojiaoi-sprint_24: -659774796
+      enemy-guojiaoi-sprint_25: -1309834346
+      enemy-guojiaoi-sprint_26: -774361071
+      enemy-guojiaoi-sprint_27: -1647615631
+      enemy-guojiaoi-sprint_28: -527806644
+      enemy-guojiaoi-sprint_29: -1771925335
+      enemy-guojiaoi-sprint_3: 1431737892
+      enemy-guojiaoi-sprint_30: -1085995337
+      enemy-guojiaoi-sprint_31: 1591208710
+      enemy-guojiaoi-sprint_32: -1191882973
+      enemy-guojiaoi-sprint_33: 1170417422
+      enemy-guojiaoi-sprint_34: -1609786268
+      enemy-guojiaoi-sprint_4: -855223916
+      enemy-guojiaoi-sprint_5: -2087853044
+      enemy-guojiaoi-sprint_6: 68587420
+      enemy-guojiaoi-sprint_7: 248512238
+      enemy-guojiaoi-sprint_8: -1565205584
+      enemy-guojiaoi-sprint_9: 149115090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

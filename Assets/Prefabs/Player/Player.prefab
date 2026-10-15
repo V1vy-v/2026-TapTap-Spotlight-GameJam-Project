@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: -4365728516405669260}
   - component: {fileID: 6015682979826568918}
   - component: {fileID: 8931091595714148817}
+  - component: {fileID: 7108686211367973024}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -275,10 +276,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8369d6a1bea8e04eac775b885ad45b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _primaryAtkOffset: {x: 0, y: 0}
-  enemyLayerMask:
+  _primaryMeleeAtkOffset: {x: 0, y: 0}
+  _primaryRangedAtkOffset: {x: 0, y: 0}
+  _enemyLayerMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 128
+  _bulletRoot: {fileID: 0}
 --- !u!95 &8931091595714148817
 Animator:
   serializedVersion: 5
@@ -300,3 +303,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7108686211367973024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250502831879550741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21e112f516b086478750c24e7925b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimatorOverride: {fileID: 0}

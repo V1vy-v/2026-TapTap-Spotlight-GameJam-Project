@@ -51,7 +51,7 @@ namespace GamePlay.Player
         public void PrimaryAttack()
         {
             if (_elapsed > 0) return;
-            _elapsed = _stats.PrimaryAtkInterval;
+            _elapsed = _stats.PrimaryAtkInterval / (1f + _liquids.AttackSpeedBonus);
 
             if (_liquids?.CurrentLiquid?.Attack() == true) return;   // 形态接管普攻
 
@@ -141,7 +141,7 @@ namespace GamePlay.Player
         /// <param name="delta"></param>
         private void TickPrimaryAtk(float delta)
         {
-            _elapsed = _stats.PrimaryAtkInterval / (1f + _liquids.AttackSpeedBonus);
+            _elapsed = Mathf.Max(0f, _elapsed - delta);
         }
 
     }

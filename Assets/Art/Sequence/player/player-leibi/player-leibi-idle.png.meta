@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: 39b6e69e80c11504f956e747767b5ae2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-leibi-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5196
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eec028c96fca4a4da31efb2e150399e
+      internalID: -610011323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_1
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 5196
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834950a34786cba468e6e84aa069e86f
+      internalID: 1973165560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5196
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e3096a3191e041a52671044fa4420
+      internalID: 598785636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 5196
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7448576fe45d04dbb315adcdc64fff
+      internalID: 463738030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_4
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 5196
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108dafe93688d6941b9765087fbdb6c6
+      internalID: 1989850636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4330
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee7db5d643a56488d3603feeecbba5
+      internalID: 407667524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_6
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 4330
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb593a17e430a4347983bac97247d30a
+      internalID: 2040237646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 4330
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0942c64e5f1f3344ca9d30c686d7a291
+      internalID: -1388738047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 4330
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031a9a52f242b014a85ead5120a7cf3a
+      internalID: 1997031815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 4330
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c320de0fa707148a6d8a1b71ca60a4
+      internalID: 364479826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3464
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3101fd5f15845c48a47487520712e64
+      internalID: -846996945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_11
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3464
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c74b6071c100f4fa67039a195d5e43
+      internalID: -233768068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 3464
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ddb2b928860f04684186821775a146
+      internalID: -1939324120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 3464
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90df6c690d4848b41806d36a3e5e1332
+      internalID: -1987545213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_14
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 3464
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30037f7ab0841804582440608412385a
+      internalID: 1911799085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2598
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9476383009c8fa45bcc34155539cad7
+      internalID: 88881147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_16
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2598
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaf764d3db81134ebc3be301f15abb8
+      internalID: 1055532199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2598
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe2586e460ef564384965558490709a
+      internalID: 1999521031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_18
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 2598
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8537a34a0812345bd1c5c6afe2c934
+      internalID: -654800860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_19
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 2598
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920fdaba35f9164eb3a82921bb8484a
+      internalID: -1434758932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1732
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1c229034059a145a136274d39b05f1
+      internalID: 1469134552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1732
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba84ef73e07b964083bf9584329dccf
+      internalID: -317209056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1732
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d91e7e642f2bd479045b2fe1ef263f
+      internalID: -1074823963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1732
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ab9b02276a8204d980a00bc9fc20ee
+      internalID: 1929468171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_24
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 1732
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8d9ea1fc12cea42a70ce771a94de89
+      internalID: -601211896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 866
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92f8ab7d9d59bc4b81dda444bf6198e
+      internalID: 650990633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_26
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 866
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c395fe4ec4664c4a8463d915549f7f9
+      internalID: 329319328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 866
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f475952c8c2b5a4686570ff157f31ab
+      internalID: 127357387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 866
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f18e4b2aa7f6e428b145aec5972f7d
+      internalID: 73600955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_29
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 866
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2f8133fc7552746ac2b23c3fec7ca0
+      internalID: -1594450685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1417ac40138bf6478b9e267656432ac
+      internalID: 1405307539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-leibi-idle_31
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 651
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec5ae93ff9b2e040821456335955054
+      internalID: 595724521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 37bd5122a63c70e4286635deabb2e272
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-leibi-idle_0: -610011323
+      player-leibi-idle_1: 1973165560
+      player-leibi-idle_10: -846996945
+      player-leibi-idle_11: -233768068
+      player-leibi-idle_12: -1939324120
+      player-leibi-idle_13: -1987545213
+      player-leibi-idle_14: 1911799085
+      player-leibi-idle_15: 88881147
+      player-leibi-idle_16: 1055532199
+      player-leibi-idle_17: 1999521031
+      player-leibi-idle_18: -654800860
+      player-leibi-idle_19: -1434758932
+      player-leibi-idle_2: 598785636
+      player-leibi-idle_20: 1469134552
+      player-leibi-idle_21: -317209056
+      player-leibi-idle_22: -1074823963
+      player-leibi-idle_23: 1929468171
+      player-leibi-idle_24: -601211896
+      player-leibi-idle_25: 650990633
+      player-leibi-idle_26: 329319328
+      player-leibi-idle_27: 127357387
+      player-leibi-idle_28: 73600955
+      player-leibi-idle_29: -1594450685
+      player-leibi-idle_3: 463738030
+      player-leibi-idle_30: 1405307539
+      player-leibi-idle_31: 595724521
+      player-leibi-idle_32: 1449424972
+      player-leibi-idle_33: 818622945
+      player-leibi-idle_34: -1607042929
+      player-leibi-idle_4: 1989850636
+      player-leibi-idle_5: 407667524
+      player-leibi-idle_6: 2040237646
+      player-leibi-idle_7: -1388738047
+      player-leibi-idle_8: 1997031815
+      player-leibi-idle_9: 364479826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

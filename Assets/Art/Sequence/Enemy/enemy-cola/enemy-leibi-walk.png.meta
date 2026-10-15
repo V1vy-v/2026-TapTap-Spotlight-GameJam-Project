@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 7d721d0070f07314d995e7286875765b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-leibi-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3872
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990c8d07ee19acc4d866818683f3c01a
+      internalID: 1037397250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_1
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 3872
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065623682b1ed0f45ab21d2de6bb4935
+      internalID: -2088722771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_2
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 3872
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25309c934cee1bf4e87e164ae931d654
+      internalID: -2091761114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_3
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 3872
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d0c98b0a6203347a18bdf051957d7a
+      internalID: -1561298030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_4
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 3872
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963cf71ea4bf64c409cca0ec9245846a
+      internalID: -1141934962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2904
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0e1466776d43a4aa416f24b1f63549
+      internalID: -559650617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 2904
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfcbe189a6000d48a87a9dfeb0c1240
+      internalID: 1596553906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2904
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a113bd9be9de1428c675a8de0bf95e
+      internalID: 690627915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_8
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 2904
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d3291daf51fe42a619bdda4c9daf9
+      internalID: -1220568732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_9
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 2904
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e50deb4394544e8ba2aad506fd430
+      internalID: 998974133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a06f7b6111ead4f8d5a14b726f53f4
+      internalID: 979577923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_11
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1936
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353e2ababf42e84a83c5823fdd9ab86
+      internalID: -1174940059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1936
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eb33f952168af49aee0d60763ac627
+      internalID: -434502957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_13
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 1936
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b42104ae1d1d44f8e34f25dde555b3
+      internalID: -2089300209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_14
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 1936
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cfc0d1841cd1a4ab7c43ccee1a6be2
+      internalID: 69369964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89bd6ab36be2eb4ea28e448422683a9
+      internalID: 240214083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_16
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 968
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd7b00c0afed8340b49d7499430f336
+      internalID: -364514727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_17
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 968
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c1ee682ade014da0f8e0c809c418a
+      internalID: -1312221125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_18
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 968
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af6540f9163b0d4999c13e2902603c4
+      internalID: -836665031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_19
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 968
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fac935415fe9a408d58cbc5bea8cfd
+      internalID: 1075800744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506427a188a181a4c98cbf6328a2a196
+      internalID: -124716905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-walk_21
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 749
+        height: 968
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dca116e3fae4843a55ce36321754ed
+      internalID: -1466762608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 81ec43233be7144429f2ab74f1b04fba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-leibi-walk_0: 1037397250
+      enemy-leibi-walk_1: -2088722771
+      enemy-leibi-walk_10: 979577923
+      enemy-leibi-walk_11: -1174940059
+      enemy-leibi-walk_12: -434502957
+      enemy-leibi-walk_13: -2089300209
+      enemy-leibi-walk_14: 69369964
+      enemy-leibi-walk_15: 240214083
+      enemy-leibi-walk_16: -364514727
+      enemy-leibi-walk_17: -1312221125
+      enemy-leibi-walk_18: -836665031
+      enemy-leibi-walk_19: 1075800744
+      enemy-leibi-walk_2: -2091761114
+      enemy-leibi-walk_20: -124716905
+      enemy-leibi-walk_21: -1466762608
+      enemy-leibi-walk_22: 18646146
+      enemy-leibi-walk_3: -1561298030
+      enemy-leibi-walk_4: -1141934962
+      enemy-leibi-walk_5: -559650617
+      enemy-leibi-walk_6: 1596553906
+      enemy-leibi-walk_7: 690627915
+      enemy-leibi-walk_8: -1220568732
+      enemy-leibi-walk_9: 998974133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

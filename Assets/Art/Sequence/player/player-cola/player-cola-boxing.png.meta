@@ -40,10 +40,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,18 +95,546 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: player-cola-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3628
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ecd5059ce2cc74197faa5b475cef93
+      internalID: 238288025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3628
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbee92e043fd8dc4d89ec3e0fe8f3d6e
+      internalID: -1547752011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 3628
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11de5fd67d58d1144b4c8a4857d2aa38
+      internalID: 723990347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 3628
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7144660f160e4714688ab380404843f9
+      internalID: -1412222992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 3628
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f5f319026c8a4e898a6a1356399a4
+      internalID: -1581659314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2721
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2fb2243ee2d7844a00252fd3beb4f1
+      internalID: -892022400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2721
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776432a03955e5d4aae330c88276c126
+      internalID: -1865123006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2721
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70ae66b570dcc041be6fbeb30f9e158
+      internalID: 600077866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 2721
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62baaceac5b60e04b89ebe2733232a6b
+      internalID: -1987096258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 2721
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b06107c5305942bde7c3d212bee78
+      internalID: -103362652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1814
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6f40850b807e14c90e2a34e4be8977
+      internalID: 887244031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1814
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5f555487f3084a940b31cb479111c
+      internalID: -1794661548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1814
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a72ae22025844d82508a5af492bfe
+      internalID: 393216944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 1814
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3ab2c2d25172c45906d3d7ebdc290a
+      internalID: 545603869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 1814
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a072251606129748aa0695f726bd482
+      internalID: 1669156679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 907
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48520dfba6d65ec499c6c99ae96641f4
+      internalID: 2131680077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 907
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8db8dc1632a25342ae95e597a3ec8e3
+      internalID: 1992517609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 907
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7333af3ac0ac73f448e88792d0f7c981
+      internalID: -91791458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 907
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff84addd665984088319fcfdf2a113
+      internalID: -2016019663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 907
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0dd28ae4760fe418a11bb2fb462cb9
+      internalID: 218365397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f905f7d71b0bdb14e810df77c91aff31
+      internalID: 946275896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a8d3cfd07b81f449a6f1dd6618baf7
+      internalID: 373545916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb29dc6401a3b4bbcc74ab8957108f
+      internalID: 1109301885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-cola-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 796
+        height: 907
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d569892fb9b6e4cae041eec08fb3e4
+      internalID: 643969879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0503c780e5d734947a24f94375cece9f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player-cola-boxing_0: 238288025
+      player-cola-boxing_1: -1547752011
+      player-cola-boxing_10: 887244031
+      player-cola-boxing_11: -1794661548
+      player-cola-boxing_12: 393216944
+      player-cola-boxing_13: 545603869
+      player-cola-boxing_14: 1669156679
+      player-cola-boxing_15: 2131680077
+      player-cola-boxing_16: 1992517609
+      player-cola-boxing_17: -91791458
+      player-cola-boxing_18: -2016019663
+      player-cola-boxing_19: 218365397
+      player-cola-boxing_2: 723990347
+      player-cola-boxing_20: 946275896
+      player-cola-boxing_21: 373545916
+      player-cola-boxing_22: 1109301885
+      player-cola-boxing_23: 643969879
+      player-cola-boxing_3: -1412222992
+      player-cola-boxing_4: -1581659314
+      player-cola-boxing_5: -892022400
+      player-cola-boxing_6: -1865123006
+      player-cola-boxing_7: 600077866
+      player-cola-boxing_8: -1987096258
+      player-cola-boxing_9: -103362652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

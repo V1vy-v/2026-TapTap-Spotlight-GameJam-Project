@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: a5efaa9303310354482af8cc43398862
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3368
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3063580b1f6eea4d9e13803079b559d
+      internalID: -1834799647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3368
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0736043d34a3e15409b470c02926be0f
+      internalID: -1496158839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_2
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 3368
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259f2b24b416bb64ba314d8ea1df9780
+      internalID: -1520068076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_3
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3368
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5fa644810f997489654b1aa7189d3d
+      internalID: 356892889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_4
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 3368
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7d0ab138fd525459fa746499fa16a4
+      internalID: -99761770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2526
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8c92a6bba2f84b9f119ef345f65ae
+      internalID: -1115343622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2526
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab67c56e9927246934db164b1e1b36
+      internalID: 1259114437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_7
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2526
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c512b1fcda1d64ea061a4f7aba7eb0
+      internalID: -744179260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_8
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2526
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46926538133b0468cee1ec5675753d
+      internalID: 1728351600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_9
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 2526
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2034505b8cc5b1a459abd2c017549542
+      internalID: -80575550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1684
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2005716e476b87c4494b399ef62814c8
+      internalID: 224408693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1684
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecf725611897d24ba2fd45d61ae800c
+      internalID: 2025350281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_12
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1684
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d09c19d9bcb0304aafc5cd4e723a933
+      internalID: -608019580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_13
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1684
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30f3f7ac65eaa04999b61bd84a31cbf
+      internalID: 1658636638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_14
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1684
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702ee7676b2f1c34a8688ee75b0e7fb7
+      internalID: -1250682734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 842
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b5613a30bda64d8ea532dd1e9f976
+      internalID: -815720009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_16
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 842
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47111f8e5b4b92642ae3ea52118a30fe
+      internalID: 487042210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_17
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 842
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3a7256ba3da984288bba875476ca5e
+      internalID: -1823113397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_18
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 842
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf9ca8dc6d4bbd4393b38ceb080b092
+      internalID: 883921847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_19
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 842
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc816b0e8f45e4d86afaec61a00797
+      internalID: -626093488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60107eb5de95c14ca0e91307c837acc
+      internalID: -1961268344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b33c26ce8614241aec02b602dacf85
+      internalID: 742182216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_22
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62b5eb98d22c443b63c4881159ffeb
+      internalID: 548020904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-cooking wine-boxing_23
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 0
+        width: 767
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100a3e13fd927d4e9196658fd77ac0b
+      internalID: -437719169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26b091c3645322843a78b68f9fe85e9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-cooking wine-boxing_0: -1834799647
+      enemy-cooking wine-boxing_1: -1496158839
+      enemy-cooking wine-boxing_10: 224408693
+      enemy-cooking wine-boxing_11: 2025350281
+      enemy-cooking wine-boxing_12: -608019580
+      enemy-cooking wine-boxing_13: 1658636638
+      enemy-cooking wine-boxing_14: -1250682734
+      enemy-cooking wine-boxing_15: -815720009
+      enemy-cooking wine-boxing_16: 487042210
+      enemy-cooking wine-boxing_17: -1823113397
+      enemy-cooking wine-boxing_18: 883921847
+      enemy-cooking wine-boxing_19: -626093488
+      enemy-cooking wine-boxing_2: -1520068076
+      enemy-cooking wine-boxing_20: -1961268344
+      enemy-cooking wine-boxing_21: 742182216
+      enemy-cooking wine-boxing_22: 548020904
+      enemy-cooking wine-boxing_23: -437719169
+      enemy-cooking wine-boxing_3: 356892889
+      enemy-cooking wine-boxing_4: -99761770
+      enemy-cooking wine-boxing_5: -1115343622
+      enemy-cooking wine-boxing_6: 1259114437
+      enemy-cooking wine-boxing_7: -744179260
+      enemy-cooking wine-boxing_8: 1728351600
+      enemy-cooking wine-boxing_9: -80575550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

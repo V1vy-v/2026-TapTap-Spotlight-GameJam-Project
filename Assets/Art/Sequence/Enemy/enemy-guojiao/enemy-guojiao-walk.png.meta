@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 94551402e05552d468f8dda624908daf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4752
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46748b105a3e8d24c97dfcd77948349c
+      internalID: -91192198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_1
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 4752
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1a2b70143fa0048914844de5e672f3
+      internalID: 1502839971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_2
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 4752
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c6c11f53dc454baecf02fb4f5c59e
+      internalID: 1064216850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_3
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 4752
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cc1e2c2ec804a4f9d2017fccc1a072
+      internalID: -1563922984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_4
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4752
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a75cb27e3bf65499d3344477215279
+      internalID: 605808559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3564
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a144d597c256ad64c89c80dcdcd6aea9
+      internalID: 796195375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3564
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff0b873112096b41bada024023a1b78
+      internalID: 1293844029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3564
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a147810a617240b024974b3be55f2
+      internalID: 1473005042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_8
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 3564
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f91d6b7c1a4b498cce4e6d8244537
+      internalID: 209516068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_9
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3564
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ba5475bdb8d6846ae2eea9db6b5d07
+      internalID: -691999188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5510551246e2be049a297d69b326242d
+      internalID: 492995331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_11
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2376
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a9fe343d7ebdd498f88138d18e74cf
+      internalID: -2017005402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2376
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd66693a75d15394bad4a1e289d4d59c
+      internalID: 708782465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_13
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2376
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce747eb2bae5e844fae9d7ac8e1c0ab7
+      internalID: -2044863844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_14
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2376
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a9ddcf6d5218b4caf7388e05e7c4d7
+      internalID: -359199833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e58989ad21754793a8b7d88b53ebd
+      internalID: 1110149616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_16
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1188
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c84acab7f2aea4d8b6a440e84d9d37
+      internalID: 1284376240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_17
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1188
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d436fb4a3eec84a9e7280d9c93469b
+      internalID: 976080434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_18
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1188
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32145ce21172f1f43963a1cff98f5687
+      internalID: -1263691658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_19
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1188
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb5ff0457e29d41b8cb73d8b9d36ca
+      internalID: 141062619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bceb2e36472154cb5f55ea37673e22
+      internalID: 138640195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-guojiao-walk_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 832
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124072e2e4155c478ce6c1851a00c83
+      internalID: 1126664630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a875f5200e7ace46925a7e540cec09e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-guojiao-walk_0: -91192198
+      enemy-guojiao-walk_1: 1502839971
+      enemy-guojiao-walk_10: 492995331
+      enemy-guojiao-walk_11: -2017005402
+      enemy-guojiao-walk_12: 708782465
+      enemy-guojiao-walk_13: -2044863844
+      enemy-guojiao-walk_14: -359199833
+      enemy-guojiao-walk_15: 1110149616
+      enemy-guojiao-walk_16: 1284376240
+      enemy-guojiao-walk_17: 976080434
+      enemy-guojiao-walk_18: -1263691658
+      enemy-guojiao-walk_19: 141062619
+      enemy-guojiao-walk_2: 1064216850
+      enemy-guojiao-walk_20: 138640195
+      enemy-guojiao-walk_21: 1126664630
+      enemy-guojiao-walk_22: 888746838
+      enemy-guojiao-walk_3: -1563922984
+      enemy-guojiao-walk_4: 605808559
+      enemy-guojiao-walk_5: 796195375
+      enemy-guojiao-walk_6: 1293844029
+      enemy-guojiao-walk_7: 1473005042
+      enemy-guojiao-walk_8: 209516068
+      enemy-guojiao-walk_9: -691999188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

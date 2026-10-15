@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: d9d7d8801c7bfc8448033589f918b9bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-leibi-death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3624
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5759f0a41239a11438d88279fb32c4ea
+      internalID: -770015160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_1
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 3624
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ebdccfef4190b4198f05b3a2042d7d
+      internalID: -1711972790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_2
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 3624
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e77a4a281232c48bbf647af05b0c01
+      internalID: -1596553660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_3
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 3624
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edebc78f215f96342a3e5ba55e7b205e
+      internalID: 160602443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_4
+      rect:
+        serializedVersion: 2
+        x: 7476
+        y: 3624
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260de43e5e70ea24c8833414dc0d83e1
+      internalID: 524512862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2416
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595512fdcd3714d49a111d3ae0d9dde7
+      internalID: -1633959602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_6
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 2416
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0076c6a2d0815747a86770dbfa97079
+      internalID: -2040049085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_7
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2416
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6c5860e48a3a24e9ccb520e2887f3b
+      internalID: -1516758241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_8
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 2416
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e6e1819b34a114db410738a2239508
+      internalID: 725069427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_9
+      rect:
+        serializedVersion: 2
+        x: 7476
+        y: 2416
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45325dd9d05ca9744bf13db99480d177
+      internalID: -51201468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405e8124e08d3e243981d50d2ea3b3c9
+      internalID: 269770895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_11
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1208
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3c6a88e78d7b94fa8822f481562408
+      internalID: 1947372958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_12
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 1208
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f070aa1c7f2eb0428a17f1cede3fd39
+      internalID: -899494761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_13
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 1208
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0158b01895cff45824d3bff01c7ff8
+      internalID: -1190736582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_14
+      rect:
+        serializedVersion: 2
+        x: 7476
+        y: 1208
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272c89cae06ad024dbe293a80bc7c974
+      internalID: 1452478085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fe6b031cff75242924db7f6dba3538
+      internalID: 32185734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_16
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 0
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7a3f94f2640c1469b196035281055d
+      internalID: 670002476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_17
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 0
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d3f40a800c76f4381c7a88b80d6345
+      internalID: -1371502801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_18
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 0
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda6877baf5691a44b0763fe1027b7d5
+      internalID: 607475244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-leibi-death_19
+      rect:
+        serializedVersion: 2
+        x: 7476
+        y: 0
+        width: 1869
+        height: 1208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e312517996a15ea4793c401427ce1c79
+      internalID: 164929910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 663ff8cec969001469029177b9e6998f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-leibi-death_0: -770015160
+      enemy-leibi-death_1: -1711972790
+      enemy-leibi-death_10: 269770895
+      enemy-leibi-death_11: 1947372958
+      enemy-leibi-death_12: -899494761
+      enemy-leibi-death_13: -1190736582
+      enemy-leibi-death_14: 1452478085
+      enemy-leibi-death_15: 32185734
+      enemy-leibi-death_16: 670002476
+      enemy-leibi-death_17: -1371502801
+      enemy-leibi-death_18: 607475244
+      enemy-leibi-death_19: 164929910
+      enemy-leibi-death_2: -1596553660
+      enemy-leibi-death_3: 160602443
+      enemy-leibi-death_4: 524512862
+      enemy-leibi-death_5: -1633959602
+      enemy-leibi-death_6: -2040049085
+      enemy-leibi-death_7: -1516758241
+      enemy-leibi-death_8: 725069427
+      enemy-leibi-death_9: -51201468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

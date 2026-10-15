@@ -15,7 +15,7 @@ namespace GamePlay.Procedure
             if (Procedure.IsNewGame)
             {
                 Global.HideAllUI();
-                Global.ShowUI("HUD");
+                //Global.ShowUI("HUD");
                 GameplayRoot.StartNewGame();
                 Procedure.ClearNewGameTag();
             }

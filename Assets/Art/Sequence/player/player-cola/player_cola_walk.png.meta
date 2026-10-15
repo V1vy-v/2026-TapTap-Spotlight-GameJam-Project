@@ -40,10 +40,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,18 +95,503 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: player_cola_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3656
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127417e31c4b3034a9d4c1d1ef9c471c
+      internalID: 1051197904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3656
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0a17b98951e874eb5f9c326eb7aa0d
+      internalID: 1597179918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_2
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 3656
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a60851b7a4e57e45813626ed6b42930
+      internalID: -187502388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 3656
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6ce982948724c4bae6c7f03f881e6b
+      internalID: -1575144351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_4
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 3656
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e017cdcdc99f4a948240702afd0ed
+      internalID: -349236937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2742
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a00297bb5ee4c045a4adadccb23ef59
+      internalID: 313424146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2742
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5557a1d5878bd42409a808b7a018bd71
+      internalID: 1914804043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_7
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2742
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c14e75aedf1ac43b9363dda06c8ba5
+      internalID: 1975468309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2742
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3f59d8dee940f4aa9a4e355ac24b64
+      internalID: 685242094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_9
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2742
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d779fbf558992143933045ac0ae2fe9
+      internalID: 1569520480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddea455d074b5094199f0df8abad4262
+      internalID: -1194291346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1828
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b561e2fd0f6fa49a72e5007cfce137
+      internalID: 1685975188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_12
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1828
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e500a9745211154cb13bcc14b4c89f3
+      internalID: 1546564748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1828
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c499cfeadb0a8684fb911241732bf2d1
+      internalID: -190533475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_14
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 1828
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0324abc10490a6c4ab3731f4fe282344
+      internalID: -1624302675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b167066949bd72c44976b4058de3efab
+      internalID: -1799884729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_16
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 914
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5c87ffaa941964a86dc059d0fe497a
+      internalID: 1874090960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_17
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 914
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139a9cbcd0d9b45429dd72edc7c940dd
+      internalID: -1894033594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_18
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 914
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235874bc482e1f94aa16e2a6c1dedebe
+      internalID: 366786160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_19
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 914
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585358f925d46314b8a34946d8a824bc
+      internalID: 1104803137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7b3afa1781bae4397be35967921e6f
+      internalID: -133593110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cola_walk_21
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 0
+        width: 641
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd99ff07a5bf35547be37017c05d8661
+      internalID: -1015824583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4278c6c69351dab45b6777c693962ec2
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_cola_walk_0: 1051197904
+      player_cola_walk_1: 1597179918
+      player_cola_walk_10: -1194291346
+      player_cola_walk_11: 1685975188
+      player_cola_walk_12: 1546564748
+      player_cola_walk_13: -190533475
+      player_cola_walk_14: -1624302675
+      player_cola_walk_15: -1799884729
+      player_cola_walk_16: 1874090960
+      player_cola_walk_17: -1894033594
+      player_cola_walk_18: 366786160
+      player_cola_walk_19: 1104803137
+      player_cola_walk_2: -187502388
+      player_cola_walk_20: -133593110
+      player_cola_walk_21: -1015824583
+      player_cola_walk_22: 1863619630
+      player_cola_walk_3: -1575144351
+      player_cola_walk_4: -349236937
+      player_cola_walk_5: 313424146
+      player_cola_walk_6: 1914804043
+      player_cola_walk_7: 1975468309
+      player_cola_walk_8: 685242094
+      player_cola_walk_9: 1569520480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 54d2357b90b55c240870bb59dd88c919
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5220
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d04f1910ff6dc04396c680572746ad5
+      internalID: 137114461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 5220
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200b770dcb3410747b2e4842e199f60b
+      internalID: 481713819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 5220
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3644d65746b9a447ad4a57699d8758b
+      internalID: 1963406846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 5220
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cfff7f4ba79448876fbbf20c0b595
+      internalID: -173179380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 5220
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080fd100b47e8b14fadbb1c66ad9e8f4
+      internalID: 172108614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4350
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe43df0f8f0a87d42be446e282ec1cd5
+      internalID: -1547599007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 4350
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767b7cd323981b4f8be0c9c407bf986
+      internalID: -1820723215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 4350
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930a8f712f7341d498cab9bd4edab28d
+      internalID: -579082786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 4350
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf4100005a86074592b896baa8fded0
+      internalID: -1582789728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 4350
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267913827033abe468a3c03b12a2d686
+      internalID: 1547658994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3480
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0208f2a2eb138dd43be7ae32ae29a94d
+      internalID: 1460498651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3480
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806c3ff5310ef224faa9b066a5342baa
+      internalID: 2066921866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 3480
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324803df0702bc047b1f87a0be1db893
+      internalID: -635411161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_13
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 3480
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5704ccfb895276b4dba28bc8db28e5da
+      internalID: -114221963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_14
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 3480
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64efbdd984e0b784395ed382197d9620
+      internalID: 1818702568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2610
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f04183b7c6114dbefc1ad5b85cc71
+      internalID: 629549983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_16
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2610
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649ef65e0c011f34a8068c5be125d745
+      internalID: -2068782254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_17
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2610
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4ad7fd09dd8b04ba1c40606a3d047a
+      internalID: -890362675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_18
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2610
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727d513234ce7be4fb4e0ab82e70870d
+      internalID: 1807903577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_19
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 2610
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cffc78819229846ba70edf5f12bf8a
+      internalID: 1112120524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0af417337351246bc281b63a6dc816
+      internalID: 1121048412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1740
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5143e38e93b340f4cb0e29722dfc19de
+      internalID: 525317238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_22
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1740
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130cb01716180844e8f73efa392dce5c
+      internalID: 1404920169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_23
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1740
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8062c2d7fe92a4b82bdab04a2a2551
+      internalID: 479476937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_24
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1740
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbf3d9498ef18d46ad37b93c87e0777
+      internalID: -1196600666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28663ef66b3def54fba17424a7060ffe
+      internalID: 1914930525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 870
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9615aaa30ecb6934da12001a46883da6
+      internalID: -777133688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_27
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 870
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e77618fdffb2614b85ab2757110838e
+      internalID: -1224425720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_28
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 870
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a8a58c57453a4db2cec141dded722
+      internalID: -2128183430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_29
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 870
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb466e1f0edaac4e99bd76eef9459cb
+      internalID: 2058377351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1feff37c58ac042b9f3a37f6f26800
+      internalID: 638216578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 0
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4720aed11ca325948b14b31408efbc7e
+      internalID: -225579259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_32
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cce207400fccf840a6240e4b9d2d09e
+      internalID: -1007298106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-orange juice-sprint_33
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 0
+        width: 463
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f9bbba11159747a899ff231c2c8d6
+      internalID: 1215850876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dd4133f4a6d5f4e47bae1367e28ab532
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy-orange juice-sprint_0: 137114461
+      Enemy-orange juice-sprint_1: 481713819
+      Enemy-orange juice-sprint_10: 1460498651
+      Enemy-orange juice-sprint_11: 2066921866
+      Enemy-orange juice-sprint_12: -635411161
+      Enemy-orange juice-sprint_13: -114221963
+      Enemy-orange juice-sprint_14: 1818702568
+      Enemy-orange juice-sprint_15: 629549983
+      Enemy-orange juice-sprint_16: -2068782254
+      Enemy-orange juice-sprint_17: -890362675
+      Enemy-orange juice-sprint_18: 1807903577
+      Enemy-orange juice-sprint_19: 1112120524
+      Enemy-orange juice-sprint_2: 1963406846
+      Enemy-orange juice-sprint_20: 1121048412
+      Enemy-orange juice-sprint_21: 525317238
+      Enemy-orange juice-sprint_22: 1404920169
+      Enemy-orange juice-sprint_23: 479476937
+      Enemy-orange juice-sprint_24: -1196600666
+      Enemy-orange juice-sprint_25: 1914930525
+      Enemy-orange juice-sprint_26: -777133688
+      Enemy-orange juice-sprint_27: -1224425720
+      Enemy-orange juice-sprint_28: -2128183430
+      Enemy-orange juice-sprint_29: 2058377351
+      Enemy-orange juice-sprint_3: -173179380
+      Enemy-orange juice-sprint_30: 638216578
+      Enemy-orange juice-sprint_31: -225579259
+      Enemy-orange juice-sprint_32: -1007298106
+      Enemy-orange juice-sprint_33: 1215850876
+      Enemy-orange juice-sprint_34: 676699348
+      Enemy-orange juice-sprint_4: 172108614
+      Enemy-orange juice-sprint_5: -1547599007
+      Enemy-orange juice-sprint_6: -1820723215
+      Enemy-orange juice-sprint_7: -579082786
+      Enemy-orange juice-sprint_8: -1582789728
+      Enemy-orange juice-sprint_9: 1547658994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

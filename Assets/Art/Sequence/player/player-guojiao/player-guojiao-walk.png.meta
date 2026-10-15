@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 0fdc8db7753e60248b57908477cb3c71
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player-guojiao-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3664
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4967014306ba8ad439e61a17e23b095c
+      internalID: 553678581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3664
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b1f59d78515b0498e70fa6df0f10e0
+      internalID: -1278811232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_2
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 3664
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1991651ac63315d4ca4ceca9bdbc717f
+      internalID: -13900858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_3
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 3664
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac742d2e6ca52a84d8e6879992ee66bd
+      internalID: 2047982156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_4
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 3664
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba5cacfe84018043a5f9ce0816f421c
+      internalID: -493139401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2748
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680872c980585fe4b87d0ee60782cf78
+      internalID: 635510833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2748
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bcb5f6772e0f40a9f29450013e9d7
+      internalID: -44210351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2748
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b540b294a6704aa37ff27036f6f77
+      internalID: -1190043232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_8
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2748
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c604c578dc9f94ba50979390f98ced
+      internalID: -19013745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_9
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2748
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38c6e318252024ba79118540bcee2e
+      internalID: -121198686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1832
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d9b6c784bb79346a45ebf0357e4dd3
+      internalID: -1704173118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1832
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6914847c0a9e7249ae04c7f4532bf72
+      internalID: 1567815915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1832
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818d43b5eaae4ca4da48fabd1d11801a
+      internalID: 894553030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_13
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1832
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7060f8493d1de4b44b7869dd3ca7b219
+      internalID: -326510097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_14
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 1832
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238fc65f2f506714bab9b25149418b34
+      internalID: -1954400765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 916
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf7e3f6e9a185498498d9351a5039e
+      internalID: 594835007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_16
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 916
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e544e90d923a34448b00e6db0abfca7
+      internalID: -465019470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_17
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 916
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3f22531298f9e4dae4fb5c8036e00b
+      internalID: -809356154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_18
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 916
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a57878facb15744bf5aa5d93910c16
+      internalID: -2140633564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_19
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 916
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990257d5bfafe284aa04d98495c94cd9
+      internalID: -2077469755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee5aae1a591b78489a5b26eec1b0816
+      internalID: 1951535748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-guojiao-walk_21
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 0
+        width: 641
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330e710abc1fc8a469afe7d561172b00
+      internalID: -511738780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 36c69730740bd6c478843cc3835d9101
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player-guojiao-walk_0: 553678581
+      player-guojiao-walk_1: -1278811232
+      player-guojiao-walk_10: -1704173118
+      player-guojiao-walk_11: 1567815915
+      player-guojiao-walk_12: 894553030
+      player-guojiao-walk_13: -326510097
+      player-guojiao-walk_14: -1954400765
+      player-guojiao-walk_15: 594835007
+      player-guojiao-walk_16: -465019470
+      player-guojiao-walk_17: -809356154
+      player-guojiao-walk_18: -2140633564
+      player-guojiao-walk_19: -2077469755
+      player-guojiao-walk_2: -13900858
+      player-guojiao-walk_20: 1951535748
+      player-guojiao-walk_21: -511738780
+      player-guojiao-walk_22: -808011762
+      player-guojiao-walk_3: 2047982156
+      player-guojiao-walk_4: -493139401
+      player-guojiao-walk_5: 635510833
+      player-guojiao-walk_6: -44210351
+      player-guojiao-walk_7: -1190043232
+      player-guojiao-walk_8: -19013745
+      player-guojiao-walk_9: -121198686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
