@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeId: 1
   mode: 1
-  refreshDialog: 1
+  refreshDialog: 0
   refreshBattle: 0
   dialogConfig: {fileID: 4900000, guid: c3d47ec15a37b4544860b6162b93e9b6, type: 3}
   battleConfig: {fileID: 0}
-  nextNode: {fileID: 0}
+  nextNode: {fileID: 11400000, guid: c668c497de468c84ca5621a0803cfac3, type: 2}
   currentStage: 0

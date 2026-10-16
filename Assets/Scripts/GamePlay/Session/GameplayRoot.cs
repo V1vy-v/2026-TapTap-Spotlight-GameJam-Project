@@ -190,8 +190,7 @@ namespace GamePlay
         /// <summary>按节点声明刷新 Context。只刷数据，不切模式。</summary>
         private void ApplyNodeContext(NodeConfig node, bool isFirstNode)
         {
-            // 节点推进，上一节点的暂留尸体统一回收
-            _battleState?.ReleasePendingCorpses();
+            _battleState?.ReleasePendingCorpses();   // 节点推进，上一节点的暂留尸体统一回收
 
             // 首个节点必须无条件刷新，否则 CurrentBattle / 对话都是空的
             if (isFirstNode || node.refreshBattle) _battleContext?.RefreshByNode(node);
