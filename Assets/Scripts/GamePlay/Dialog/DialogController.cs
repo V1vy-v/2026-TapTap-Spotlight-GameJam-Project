@@ -1,9 +1,11 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class DiaLogController : MonoBehaviour
 {
+    public event Action OnDialogueEnd;
     /// <summary>单例</summary>
     public static DiaLogController Instance;
 
@@ -170,7 +172,8 @@ public class DiaLogController : MonoBehaviour
             // 结束
             else if (cells[0] == "end" && int.Parse(cells[1]) == dialogIndex)
             {
-                // 对话结束的处理逻辑
+                //通知外部对话结束
+                OnDialogueEnd?.Invoke();
                 break;
             }
         }

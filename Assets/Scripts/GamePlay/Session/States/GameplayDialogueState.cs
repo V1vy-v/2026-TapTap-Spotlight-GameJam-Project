@@ -1,15 +1,35 @@
-using Framework;
+﻿using Framework;
+using GamePlay;
+using GamePlay.Session;
+using UI;
 
-namespace GamePlay.Session
+public sealed class GameplayDialogueState : GameplayModeStateBase
 {
-    public sealed class GameplayDialogueState : GameplayModeStateBase
+    public override GameplayMode StateKey => GameplayMode.Dialogue;
+    protected override LocalInputType InputMap => LocalInputType.UI;
+
+    //完成后自动推进
+    protected override bool AutoAdvanceOnFinish => true;
+
+    public GameplayDialogueState(GameplayRoot root, StateMachine<GameplayMode> sm)
+        : base(root, sm) { }
+
+    public override void Enter()
     {
-        public override GameplayMode StateKey => GameplayMode.Dialogue;
-        protected override LocalInputType InputMap => LocalInputType.UI;
-        public GameplayDialogueState(GameplayRoot root, StateMachine<GameplayMode> sm) : base(root, sm)
-        {
-        }
+        base.Enter();
 
+        DialogPanel.OnDialogueCompleted += OnCompleted;
 
+        string id = Root.Dialog.CurrentDialogueId;
+        Global.ShowUI("DialogPanel", new DialogPanelProperties { DialogueId = id });
     }
+
+    public override void Exit()
+    {
+        base.Exit();
+        DialogPanel.OnDialogueCompleted -= OnCompleted;
+        Global.HideUI("DialogPanel");
+    }
+
+    private void OnCompleted() => MarkFinished();
 }

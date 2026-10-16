@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -191,6 +191,13 @@ namespace Framework
         public static void ShowUI(string uiName)
         {
             Get<UIManager>().ShowUI(uiName);
+        }
+        /// <summary>
+        /// 显示UI并传属性
+        /// </summary>
+        public static void ShowUI<T>(string id, T props) where T : IUIProperties
+        {
+            Get<UIManager>().ShowUI(id, props);
         }
 
         /// <summary>

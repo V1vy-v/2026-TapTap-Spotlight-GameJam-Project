@@ -503,7 +503,7 @@ MonoBehaviour:
   kind: 0
   controllerTypeName: UI.DialogPanel, Assembly-CSharp
   properties:
-    rid: 6728704752066756608
+    rid: 8922294237285056512
   animIn: {fileID: 0}
   animOut: {fileID: 0}
   bindings:
@@ -520,8 +520,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 6728704752066756608
-      type: {class: PanelProperties, ns: Framework, asm: Assembly-CSharp}
+    - rid: 8922294237285056512
+      type: {class: DialogPanelProperties, ns: UI, asm: Assembly-CSharp}
       data:
         priority: 0
 --- !u!114 &5317451463139607000
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogFileName: 
-  characterDatabase: {fileID: 11400000, guid: 241082bcac13fa646b323733ba87acbb, type: 2}
+  characterDatabase: {fileID: 11400000, guid: 32b20ae8763190f4bbf0734415812524, type: 2}
 --- !u!1 &8684748729452784589
 GameObject:
   m_ObjectHideFlags: 0
