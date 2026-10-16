@@ -1,24 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using GamePlay.Story;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace GamePlay.Session
 {
     /// <summary>
-    /// 战斗上下文：根据剧情阶段加载对应战斗，并管理战斗运行时状态
+    /// 战斗上下文：根据节点加载对应战斗，并管理战斗运行时状态
     /// </summary>
     public class BattleContext
     {
-        /// <summary>战斗配置 ID 的映射</summary>
-        private static readonly Dictionary<StoryStage, string> StageBattleMap = new()
-        {
-            { StoryStage.Fridge,      "battle_fridge" },
-            { StoryStage.Kitchen,     "battle_kitchen" },
-            { StoryStage.Road,        "battle_road" },
-            { StoryStage.Supermarket, "battle_supermarket" },
-        };
-
-        /// <summary>当前战斗配置 ID</summary>
-        public string CurrentBattleId { get; private set; }
+        /// <summary>当前战斗配置</summary>
+        public BattleConfig CurrentBattle { get; private set; }
 
         /// <summary>还活着的敌人数</summary>
         public int AliveEnemyCount { get; private set; }
@@ -29,26 +21,19 @@ namespace GamePlay.Session
         /// <summary>当前是否处于战斗中</summary>
         public bool IsInBattle => AliveEnemyCount > 0 && !IsVictory;
 
-        /// <summary>根据剧情阶段刷新战斗配置</summary>
-        public void RefreshByStage(StoryContext story)
+        /// <summary>根据节点刷新战斗配置</summary>
+        public void RefreshByNode(NodeConfig node)
         {
-            if (story == null)
+            if (node == null)
             {
-                Debug.LogWarning("StoryContext 为空");
-                CurrentBattleId = null;
+                Debug.LogWarning("[BattleContext] NodeConfig 为空");
+                CurrentBattle = null;
                 return;
             }
 
-            if (StageBattleMap.TryGetValue(story.CurrentStage, out var battleId))
-            {
-                CurrentBattleId = battleId;
-                Debug.Log($"战斗切换为：{battleId}");
-            }
-            else
-            {
-                Debug.LogWarning($"阶段 {story.CurrentStage} 没有配置战斗");
-                CurrentBattleId = null;
-            }
+            CurrentBattle = node.battleConfig;
+            if (CurrentBattle != null)
+                Debug.Log($"[BattleContext] 切换战斗: {node.nodeId}");
         }
 
         /// <summary>开始战斗（进入战斗模式时调用）</summary>

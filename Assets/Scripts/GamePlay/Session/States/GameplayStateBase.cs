@@ -41,7 +41,7 @@ public abstract class GameplayModeStateBase : StateBase<GameplayMode>
         if (Finished && AutoAdvanceOnFinish)
         {
             Finished = false;
-            Root.ChangeMode(Root.ResolveNextMode());
+            Root.AdvanceNode();
         }
     }
 }

@@ -29,22 +29,62 @@ namespace GamePlay
         #endregion
 
         #region 对局生命周期
+
+        /// <summary>
+        /// 开始新游戏。头节点由外部传入。
+        /// </summary>
         public void StartNewGame()
         {
+            AssetHandle handle = Global.Load<NodeConfig>("Assets/Configs/Node/NodeConfig.asset");
+            NodeConfig startNode = handle.AssetObject as NodeConfig;
+            if (startNode == null)
+            {
+                Debug.LogError("[GameplayRoot] StartNewGame 传入的 startNode 为空");
+                return;
+            }
+
             _storyContext = new();
             _battleContext = new();
             _dialogContext = new();
-            _dialogContext.RefreshByStage(_storyContext);
-            _battleContext.RefreshByStage(_storyContext);
+
+            _storyContext.Reset(startNode);
+
+            ApplyNodeContext(startNode, isFirstNode: true);
 
             BuildModeFsm();
-            _player = Global.InstantiateUnpooled(GlobalConstants.PlayerPrefabLocation, new InstantiateOptions(true));
-            _modeFsm.ChangeState(GameplayMode.FreeRoam);
+            _player = Global.InstantiateUnpooled(
+                GlobalConstants.PlayerPrefabLocation,
+                new InstantiateOptions(true));
+
+            _modeFsm.ChangeState(startNode.mode);
         }
 
-        public void ContinueGame() 
+        /// <summary>
+        /// 读档继续。存档节点由外部传入。
+        /// </summary>
+        public void ContinueGame()
         {
-            /* 读档后同样 BuildModeFsm */ 
+            NodeConfig savedNode = Resources.Load<NodeConfig>("");
+            if (savedNode == null)
+            {
+                Debug.LogError("[GameplayRoot] ContinueGame 传入的 savedNode 为空");
+                return;
+            }
+
+            _storyContext = new();
+            _battleContext = new();
+            _dialogContext = new();
+
+            _storyContext.Reset(savedNode);
+
+            ApplyNodeContext(savedNode, isFirstNode: true);
+
+            BuildModeFsm();
+            _player = Global.InstantiateUnpooled(
+                GlobalConstants.PlayerPrefabLocation,
+                new InstantiateOptions(true));
+
+            _modeFsm.ChangeState(savedNode.mode);
         }
 
         public void EndGame()
@@ -69,6 +109,7 @@ namespace GamePlay
             _battleContext = null;
             _dialogContext = null;
         }
+
         #endregion
 
         private void BuildModeFsm()
@@ -88,6 +129,7 @@ namespace GamePlay
         }
 
         #region 局内切换
+
         public void ChangeMode(GameplayMode mode) => _modeFsm?.ChangeState(mode);
 
         /// <summary>暂停。只在自由行动与战斗中允许。</summary>
@@ -105,12 +147,47 @@ namespace GamePlay
             if (to == GameplayMode.Pause && from != GameplayMode.Pause)
                 _resumeMode = from;
         }
+
         #endregion
 
         #region 剧情推进（单场景，不走场景加载）
-        public void AdvanceNode() => _storyContext?.AdvanceStoryNode();
-        /// <summary>推进剧情阶段</summary>
-        public void AdvanceStage()
+
+        /// <summary>推进到下一个节点。</summary>
+        public void AdvanceNode()
+        {
+            if (_storyContext == null)
+            {
+                Debug.LogWarning("[GameplayRoot] StoryContext 为空，无法推进");
+                return;
+            }
+
+            if (!_storyContext.TryMoveNext(out var next))
+            {
+                Debug.Log("[GameplayRoot] 节点流程已到末端");
+                return;
+            }
+
+            EnterNode(next);
+        }
+
+        /// <summary>直接进入指定节点</summary>
+        public void EnterNode(NodeConfig node)
+        {
+            if (node == null)
+            {
+                Debug.LogWarning("[GameplayRoot] EnterNode 传入空节点");
+                return;
+            }
+
+            _storyContext?.JumpTo(node);
+
+            ApplyNodeContext(node, isFirstNode: false);
+
+            ChangeMode(node.mode);
+        }
+
+        /// <summary>按节点声明刷新 Context。只刷数据，不切模式。</summary>
+        private void ApplyNodeContext(NodeConfig node, bool isFirstNode)
         {
             _storyContext.AdvanceStoryStage();
             _dialogContext.RefreshByStage(_storyContext);   //刷新对话配置
@@ -118,12 +195,15 @@ namespace GamePlay
 
             _battleState?.ReleasePendingCorpses();          // 阶段推进，上一阶段的暂留尸体统一回收
         }
+
         public void EnterBattle() => ChangeMode(GameplayMode.Battle);
+
         public void EndBattle()
         {
-            _battleContext?.Clear();           
+            _battleContext?.Clear();
             ChangeMode(GameplayMode.FreeRoam);
         }
+
         #endregion
 
         /// <summary>根据当前阶段决定下一步该进什么模式</summary>

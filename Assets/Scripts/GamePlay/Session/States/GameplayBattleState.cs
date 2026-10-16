@@ -35,9 +35,10 @@ namespace GamePlay.Session
             _hasError = false;
             _spawnedEnemies.Clear();
 
-            string battleId = Root.Battle.CurrentBattleId;
-            if (string.IsNullOrEmpty(battleId))
+            BattleConfig config = Root.Battle.CurrentBattle;
+            if (config == null)
             {
+                Debug.LogError("[GameplayBattleState] 当前节点没有配置 BattleConfig");
                 _hasError = true;
                 return;
             }
