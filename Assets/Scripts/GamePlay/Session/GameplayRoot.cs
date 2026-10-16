@@ -1,5 +1,6 @@
 ﻿using Framework;
 using GamePlay.Session;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using YooAsset;
 
@@ -27,6 +28,9 @@ namespace GamePlay
             _storyContext = new();
             _battleContext = new();
             _dialogContext = new();
+            _dialogContext.RefreshByStage(_storyContext);
+            _battleContext.RefreshByStage(_storyContext);
+
             BuildModeFsm();
             _player = Global.InstantiateUnpooled(GlobalConstants.PlayerPrefabLocation, new InstantiateOptions(true));
             _modeFsm.ChangeState(GameplayMode.FreeRoam);
@@ -115,12 +119,13 @@ namespace GamePlay
         /// <summary>根据当前阶段决定下一步该进什么模式</summary>
         public GameplayMode ResolveNextMode()
         {
-            // 看剧情阶段，决定下一步干什么
+            Debug.Log("下一阶段");
             switch (_storyContext.CurrentStage)
             {
                 case StoryStage.Fridge:
-                    return GameplayMode.Dialogue;   
-
+                    if (CurrentMode == GameplayMode.Dialogue)
+                        return GameplayMode.FreeRoam;
+                    return GameplayMode.Dialogue;
                 case StoryStage.Kitchen:
                     if (CurrentMode == GameplayMode.Dialogue)
                         return GameplayMode.Battle;

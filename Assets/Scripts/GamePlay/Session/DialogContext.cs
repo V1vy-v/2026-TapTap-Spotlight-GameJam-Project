@@ -7,7 +7,7 @@ namespace GamePlay.Session
     {
         private static readonly Dictionary<StoryStage, string> StageDialogueMap = new()
         {
-            { StoryStage.Fridge,      "dialogue_fridge" },
+            { StoryStage.Fridge,      "111" },
             { StoryStage.Kitchen,     "dialogue_kitchen" },
             { StoryStage.Road,        "dialogue_road" },
             { StoryStage.Supermarket, "dialogue_supermarket" },

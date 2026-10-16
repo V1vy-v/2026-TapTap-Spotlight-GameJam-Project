@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.Collections;   // 👈 新增：协程需要
 
 public class DiaLogController : MonoBehaviour
 {
@@ -16,13 +17,21 @@ public class DiaLogController : MonoBehaviour
     /// <summary>角色 SO 资产，Inspector 里拖</summary>
     public CharacterDatabase characterDatabase;
 
+    [Header("打字机设置")]
+    [Tooltip("每个字之间的间隔秒数，越小越快")]
+    private float typeInterval = 0.15f;
+
+    private bool _isTyping;              // 当前是否正在打字
+    private string _fullLine;            // 当前这一句的完整内容
+    private Coroutine _typingCoroutine;  // 打字协程的引用，方便打断
+
     private Image spriteLeft;    //角色A立绘
     private Image spriteRight;   //角色B立绘
     private TMP_Text nameText;   //角色名字text
     private TMP_Text dialogText; //文本内容text
     private Button next;         //下一步按钮
     private GameObject optionButton;//选项按钮
-    private Transform buttonGroup;   //选项按钮父物体，用于排版
+    private Transform buttonGroup;   //选项按钮父容器
 
     /// <summary>当前对话索引</summary>
     private int dialogIndex;
@@ -39,14 +48,16 @@ public class DiaLogController : MonoBehaviour
         }
         Instance = this;
 
-        // 检查 SO 配置
         if (characterDatabase == null)
             Debug.LogError("[DiaLogmanager] 没有配置 CharacterDatabase！");
     }
 
-    /// <summary>
-    /// 由 DialogPanel 注入控件引用
-    /// </summary>
+    private void OnDisable()
+    {
+        //停止协程
+        FinishTyping();
+    }
+
     public void SetupUI(
         Image left, Image right,
         TMP_Text name, TMP_Text dialog,
@@ -61,16 +72,15 @@ public class DiaLogController : MonoBehaviour
         optionButton = optionBtn;
         buttonGroup = btnGroup;
     }
-    /// <summary>
-    /// 加载文本文件
-    /// </summary>
+
     private void LoadDialogFile()
     {
-        TextAsset dialogDataFile = Resources.Load<TextAsset>(dialogFileName);
+        string path = "Text/" + dialogFileName;
+        TextAsset dialogDataFile = Resources.Load<TextAsset>(path);
 
         if (dialogDataFile == null)
         {
-            Debug.LogError($"找不到对话文件：Resources/{dialogFileName}.csv");
+            Debug.LogError($"找不到对话文件：Resources/{path}.csv");
             return;
         }
 
@@ -79,33 +89,29 @@ public class DiaLogController : MonoBehaviour
 
     public void ReadText(TextAsset _textAsset)
     {
-        dialogRows = _textAsset.text.Split('\n');
+        dialogRows = _textAsset.text.Replace("\r", "").Split('\n');
         Debug.Log("读取成功");
     }
 
     public void ReadTextFromString(string content)
     {
-        dialogRows = content.Split('\n');
+        dialogRows = content.Replace("\r", "").Split('\n');
         Debug.Log("从字符串读取成功");
     }
-    /// <summary>
-    /// 设置文本文件接口，需要放在Resources下
-    /// </summary>
-    /// <param name="fileName"></param>
+
     public void SetDialogFile(string fileName)
     {
+        FinishTyping();                     //切换对话前先打断打字
         dialogFileName = fileName;
         dialogIndex = 0;
         ClearOptionButtons();
         LoadDialogFile();
         ShowDiaLogRow();
     }
-    /// <summary>
-    /// 临时测试接口，不推荐使用
-    /// </summary>
-    /// <param name="content"></param>
+
     public void SetDialogContent(string content)
     {
+        FinishTyping();                     
         dialogIndex = 0;
         ClearOptionButtons();
         ReadTextFromString(content);
@@ -115,7 +121,8 @@ public class DiaLogController : MonoBehaviour
     public void UpdateText(string _name, string _text)
     {
         if (nameText != null) nameText.text = _name;
-        if (dialogText != null) dialogText.text = _text;
+
+        TypeText(_text);
     }
 
     public void UpdateImage(string _name, string _position)
@@ -140,9 +147,7 @@ public class DiaLogController : MonoBehaviour
             spriteRight.gameObject.SetActive(true);
         }
     }
-    /// <summary>
-    /// 根据 dialogIndex 显示当前对话行
-    /// </summary>
+
     public void ShowDiaLogRow()
     {
         if (dialogRows == null || dialogRows.Length == 0) return;
@@ -154,7 +159,6 @@ public class DiaLogController : MonoBehaviour
             string[] cells = dialogRows[i].Split(',');
             if (cells.Length < 2) continue;
 
-            // 普通对话
             if (cells[0] == "#" && int.Parse(cells[1]) == dialogIndex)
             {
                 UpdateText(cells[2], cells[4]);
@@ -163,17 +167,15 @@ public class DiaLogController : MonoBehaviour
                 if (next != null) next.gameObject.SetActive(true);
                 break;
             }
-            // 选项
             else if (cells[0] == "&" && int.Parse(cells[1]) == dialogIndex)
             {
                 if (next != null) next.gameObject.SetActive(false);
                 GenerateOption(i);
             }
-            // 结束
             else if (cells[0] == "end" && int.Parse(cells[1]) == dialogIndex)
             {
-                //通知外部对话结束
                 OnDialogueEnd?.Invoke();
+                print("对话结束");
                 break;
             }
         }
@@ -181,12 +183,15 @@ public class DiaLogController : MonoBehaviour
 
     public void OnClickNext()
     {
+        //直接显示全句
+        if (_isTyping)
+        {
+            FinishTyping();
+            return;
+        }
+
         ShowDiaLogRow();
     }
-    /// <summary>
-    /// 选项生成
-    /// </summary>
-    /// <param name="_index"></param>
 
     public void GenerateOption(int _index)
     {
@@ -210,19 +215,15 @@ public class DiaLogController : MonoBehaviour
             GenerateOption(_index + 1);
         }
     }
-    /// <summary>
-    /// 选项点击
-    /// </summary>
-    /// <param name="_id"></param>
+
     public void OnOptionClick(int _id)
     {
+        FinishTyping();                    
         dialogIndex = _id;
         ShowDiaLogRow();
         ClearOptionButtons();
     }
-    /// <summary>
-    /// 清楚选项
-    /// </summary>
+
     private void ClearOptionButtons()
     {
         if (buttonGroup == null) return;
@@ -230,5 +231,61 @@ public class DiaLogController : MonoBehaviour
         {
             Destroy(buttonGroup.GetChild(i).gameObject);
         }
+    }
+    /// <summary>
+    /// 用打字机效果显示一段文本
+    /// </summary>
+    private void TypeText(string content)
+    {
+        if (dialogText == null) return;
+
+        // 停掉上一次打字
+        if (_typingCoroutine != null)
+        {
+            StopCoroutine(_typingCoroutine);
+            _typingCoroutine = null;
+        }
+
+        _fullLine = content;
+        _isTyping = true;
+        _typingCoroutine = StartCoroutine(TypeRoutine(content));
+    }
+
+    /// <summary>
+    /// 打字机协程：逐字追加
+    /// </summary>
+    private IEnumerator TypeRoutine(string content)
+    {
+        if (dialogText == null) yield break;
+
+        dialogText.text = "";
+
+        for (int i = 0; i < content.Length; i++)
+        {
+            dialogText.text += content[i];
+            yield return new WaitForSeconds(typeInterval);
+        }
+
+        _isTyping = false;
+        _typingCoroutine = null;
+    }
+
+    /// <summary>
+    /// 立刻结束打字，显示全句
+    /// </summary>
+    private void FinishTyping()
+    {
+        if (_typingCoroutine == null && !_isTyping) return;
+
+        if (_typingCoroutine != null)
+        {
+            StopCoroutine(_typingCoroutine);
+            _typingCoroutine = null;
+        }
+
+        if (dialogText != null && !string.IsNullOrEmpty(_fullLine))
+            dialogText.text = _fullLine;
+
+        _isTyping = false;
     }
 }

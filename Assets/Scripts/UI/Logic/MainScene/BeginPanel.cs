@@ -1,4 +1,4 @@
-using Framework;
+﻿using Framework;
 using GamePlay.Procedure;
 using UnityEngine;
 
@@ -62,6 +62,12 @@ namespace UI
         {
             // TODO: _settingBtn 点击后的逻辑
             Global.ShowUI("SettingPanel");
+            //var props = new DialogPanelProperties
+            //{
+            //    DialogueId = "111",
+            //};
+
+            //Global.ShowUI("DialogPanel", props);
         }
 
         #endregion

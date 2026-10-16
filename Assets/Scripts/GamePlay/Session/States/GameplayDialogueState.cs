@@ -1,6 +1,8 @@
 ﻿using Framework;
 using GamePlay;
 using GamePlay.Session;
+using System;
+using System.Diagnostics;
 using UI;
 
 public sealed class GameplayDialogueState : GameplayModeStateBase
@@ -31,5 +33,8 @@ public sealed class GameplayDialogueState : GameplayModeStateBase
         Global.HideUI("DialogPanel");
     }
 
-    private void OnCompleted() => MarkFinished();
+    private void OnCompleted()
+    {
+        MarkFinished();
+    }
 }

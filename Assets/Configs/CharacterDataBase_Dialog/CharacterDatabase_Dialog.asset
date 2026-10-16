@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b10ec0e014a6b7e4f9d5ce563702c6e2, type: 3}
   m_Name: CharacterDatabase_Dialog
   m_EditorClassIdentifier: 
-  characters: []
+  characters:
+  - name: "\u56FD\u7A96"
+    icon: {fileID: 21300000, guid: a7e1e61c06d40ca449e1495e981b8e1a, type: 3}

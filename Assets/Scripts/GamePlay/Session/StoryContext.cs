@@ -1,3 +1,5 @@
+﻿using UnityEngine;
+
 namespace GamePlay.Session
 {
     public class StoryContext
@@ -32,6 +34,7 @@ namespace GamePlay.Session
                 case StoryStage.Supermarket:
                     break;
             }
+            Debug.Log("切换状态为"+CurrentStage);
         }
 
     }
