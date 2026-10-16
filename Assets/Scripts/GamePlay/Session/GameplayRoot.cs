@@ -1,6 +1,5 @@
 ﻿using Framework;
 using GamePlay.Session;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using YooAsset;
 
@@ -15,12 +14,19 @@ namespace GamePlay
         private BattleContext _battleContext;
         private DialogContext _dialogContext;
         private GameplayMode _resumeMode = GameplayMode.FreeRoam;
-        private GameObject _player;
+        private GameObject _player; 
+        private GameplayBattleState _battleState;
 
         public StoryContext Story => _storyContext;
         public DialogContext Dialog => _dialogContext;
         public BattleContext Battle => _battleContext;
         public GameplayMode CurrentMode => _modeFsm?.CurrentState ?? default;
+
+        #region 生命周期
+        public override void Update(float deltaTime) => _modeFsm?.Update(deltaTime);
+        public override void FixedUpdate(float fixedDeltaTime) => _modeFsm?.FixedUpdate(fixedDeltaTime);
+        public override void LateUpdate() => _modeFsm?.LateUpdate();
+        #endregion
 
         #region 对局生命周期
         public void StartNewGame()
@@ -50,8 +56,11 @@ namespace GamePlay
                 _modeFsm = null;
             }
 
+            _battleState?.ReleasePendingCorpses();   // 结束对局，尸体全清
+            _battleState = null;
+
             if (_player)
-            { 
+            {
                 Global.Release(_player);
                 _player = null;
             }
@@ -69,7 +78,11 @@ namespace GamePlay
             _modeFsm.RegisterState(new GameplayFreeRoamState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayDialogueState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayCutsceneState(this, _modeFsm));
-            _modeFsm.RegisterState(new GameplayBattleState(this, _modeFsm));
+
+            // 留住引用，好在阶段推进 / 结束对局时回收暂留尸体
+            _battleState = new GameplayBattleState(this, _modeFsm);
+            _modeFsm.RegisterState(_battleState);
+
             _modeFsm.RegisterState(new GameplayPauseState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayGameOverState(this, _modeFsm));
         }
@@ -102,6 +115,8 @@ namespace GamePlay
             _storyContext.AdvanceStoryStage();
             _dialogContext.RefreshByStage(_storyContext);   //刷新对话配置
             _battleContext.RefreshByStage(_storyContext);   //刷新怪物配置
+
+            _battleState?.ReleasePendingCorpses();          // 阶段推进，上一阶段的暂留尸体统一回收
         }
         public void EnterBattle() => ChangeMode(GameplayMode.Battle);
         public void EndBattle()
@@ -111,15 +126,11 @@ namespace GamePlay
         }
         #endregion
 
-        #region 生命周期
-        public override void Update(float deltaTime) => _modeFsm?.Update(deltaTime);
-        public override void FixedUpdate(float fixedDeltaTime) => _modeFsm?.FixedUpdate(fixedDeltaTime);
-        public override void LateUpdate() => _modeFsm?.LateUpdate();
-        #endregion
         /// <summary>根据当前阶段决定下一步该进什么模式</summary>
         public GameplayMode ResolveNextMode()
         {
-            Debug.Log("下一阶段");
+            if (_storyContext == null) 
+                return GameplayMode.FreeRoam;
             switch (_storyContext.CurrentStage)
             {
                 case StoryStage.Fridge:

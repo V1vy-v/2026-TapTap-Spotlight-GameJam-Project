@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using GamePlay.Interaction;
 
 namespace GamePlay.Player
 {
@@ -20,6 +21,13 @@ namespace GamePlay.Player
         public event Action<IInteractable> OnCandidateChanged;
 
         public IInteractable Current => _current;
+        private string _prompt;
+
+        /// <summary>当前提示文案，null / 空表示不显示</summary>
+        public string CurrentPrompt => _prompt;
+
+        /// <summary>提示文案变化时触发</summary>
+        public event Action<string> OnPromptChanged;
 
         #region 生命周期
         public void Init(PlayerLiquids liquids)
@@ -38,6 +46,7 @@ namespace GamePlay.Player
         private void OnDisable()
         {
             SetCandidate(null);
+            RefreshPrompt(null);
         }
         #endregion
 
@@ -66,6 +75,7 @@ namespace GamePlay.Player
             }
 
             SetCandidate(best);
+            RefreshPrompt(best);
         }
 
         private void SetCandidate(IInteractable it)
@@ -73,7 +83,18 @@ namespace GamePlay.Player
             if (ReferenceEquals(_current, it)) return;
 
             _current = it;
+            Debug.Log($"[交互] 候选 = {(it == null ? "无" : it.GetType().Name)}");   // ← 临时
             OnCandidateChanged?.Invoke(_current);
+        }
+
+        private void RefreshPrompt(IInteractable it)
+        {
+            string text = (_liquids == null || it == null) ? null : it.GetPromptText(_liquids);
+            if (text == _prompt) return;
+
+            _prompt = text;
+            Debug.Log($"[交互] 提示 = {(_prompt ?? "（不显示）")}");   // ← 临时，验完删
+            OnPromptChanged?.Invoke(_prompt);
         }
         #endregion
 
@@ -81,6 +102,7 @@ namespace GamePlay.Player
         /// <summary>由 PlayerController 在 F 键按下时调用</summary>
         public bool TryInteract()
         {
+            if (_liquids == null) return false;
             // 接口引用不触发 Unity 的 == 重载，销毁后要显式判一次
             if (_current is not UnityEngine.Object obj || obj == null) return false;
             if (!_current.CanInteract) return false;

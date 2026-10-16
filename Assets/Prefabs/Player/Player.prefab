@@ -281,7 +281,7 @@ MonoBehaviour:
   _primaryRangedAtkOffset: {x: 0, y: 0}
   _enemyLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 512
   _bulletRoot: {fileID: 0}
 --- !u!95 &8931091595714148817
 Animator:

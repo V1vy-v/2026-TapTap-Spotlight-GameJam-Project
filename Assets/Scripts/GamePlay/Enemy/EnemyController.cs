@@ -1,5 +1,6 @@
 using Framework;
 using GamePlay.Configs;
+using System;
 using UnityEngine;
 
 namespace GamePlay.Enemy
@@ -27,6 +28,9 @@ namespace GamePlay.Enemy
         [HideInInspector] public bool playerInDetectRange;
         [HideInInspector] public bool playerInAttackRange;
 
+        // 死亡状态
+        public bool IsDefeated { get; private set; }
+        public event Action<EnemyController> OnDefeated;
         private Transform _player;            // 持有的玩家对象
 
         private SpriteRenderer _sprite;
@@ -140,6 +144,7 @@ namespace GamePlay.Enemy
             if (_fsm.CurrentState == EnemyState.Dead) return;
 
             state.CurrentHP -= damage;
+            Debug.Log($"受到{damage}点伤害");
 
             if (state.CurrentHP <= 0)
             {
@@ -151,6 +156,17 @@ namespace GamePlay.Enemy
                 _fsm.ChangeState(EnemyState.Hurt);
             }
         }
+
+        /// <summary>
+        /// 剧情单位（中三拳被击晕）用：走和战死同一条通路
+        /// </summary>
+        public void ForceDefeated()
+        {
+            if (_fsm == null) return;
+            state.CurrentHP = 0;
+            _fsm.ChangeState(EnemyState.Dead);
+        }
+
         public void SetPlayerTarget(Transform player)
         {
             _player = player;
@@ -158,6 +174,13 @@ namespace GamePlay.Enemy
         public void MissPlayer()
         {
             _player = null;
+        }
+
+        public void NotifyDefeated()
+        {
+            if (IsDefeated) return;
+            IsDefeated = true;
+            OnDefeated?.Invoke(this);
         }
     }
 }

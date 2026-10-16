@@ -13,3 +13,23 @@ MonoBehaviour:
   m_Name: EnemyConfig
   m_EditorClassIdentifier: 
   Id: Enemy_001
+  Name: 
+  Tier: 0
+  MaxHp: 20
+  Damage: 0
+  MoveSpeed: 0
+  ChaseSpeed: 0
+  AttackRange: 1
+  AttackCooldown: 1.5
+  HurtStunTime: 0.3
+  IdleDuration: 2
+  PatrolDuration: 5
+  FadeDuration: 1
+  CapDrop: 0
+  CanAbsorb: 1
+  AbsorbLiquidId: Liquid_001
+  ImmuneKnockback: 0
+  ImmuneStun: 0
+  DebuffDurationScale: 1
+  DebuffChanceScale: 1
+  PrefabLocation: "Prefab_Enemy_ManbaTea_\u9632\u4E22\u5931\u65B0\u52A0\u7248"
