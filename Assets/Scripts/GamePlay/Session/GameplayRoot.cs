@@ -1,5 +1,6 @@
 ﻿using Framework;
 using GamePlay.Session;
+using GamePlay.Story;
 using UnityEngine;
 using YooAsset;
 
@@ -189,11 +190,12 @@ namespace GamePlay
         /// <summary>按节点声明刷新 Context。只刷数据，不切模式。</summary>
         private void ApplyNodeContext(NodeConfig node, bool isFirstNode)
         {
-            _storyContext.AdvanceStoryStage();
-            _dialogContext.RefreshByStage(_storyContext);   //刷新对话配置
-            _battleContext.RefreshByStage(_storyContext);   //刷新怪物配置
+            // 节点推进，上一节点的暂留尸体统一回收
+            _battleState?.ReleasePendingCorpses();
 
-            _battleState?.ReleasePendingCorpses();          // 阶段推进，上一阶段的暂留尸体统一回收
+            // 首个节点必须无条件刷新，否则 CurrentBattle / 对话都是空的
+            if (isFirstNode || node.refreshBattle) _battleContext?.RefreshByNode(node);
+            if (isFirstNode || node.refreshDialog) _dialogContext?.RefreshByNode(node);
         }
 
         public void EnterBattle() => ChangeMode(GameplayMode.Battle);
@@ -205,34 +207,5 @@ namespace GamePlay
         }
 
         #endregion
-
-        /// <summary>根据当前阶段决定下一步该进什么模式</summary>
-        public GameplayMode ResolveNextMode()
-        {
-            if (_storyContext == null) 
-                return GameplayMode.FreeRoam;
-            switch (_storyContext.CurrentStage)
-            {
-                case StoryStage.Fridge:
-                    if (CurrentMode == GameplayMode.Dialogue)
-                        return GameplayMode.FreeRoam;
-                    return GameplayMode.Dialogue;
-                case StoryStage.Kitchen:
-                    if (CurrentMode == GameplayMode.Dialogue)
-                        return GameplayMode.Battle;
-                    if (CurrentMode == GameplayMode.Battle)
-                        return GameplayMode.FreeRoam;
-                    return GameplayMode.Dialogue;
-
-                case StoryStage.Road:
-                    return GameplayMode.Battle;
-
-                case StoryStage.Supermarket:
-                    return GameplayMode.Dialogue;
-
-                default:
-                    return GameplayMode.FreeRoam;
-            }
-        }
     }
 }

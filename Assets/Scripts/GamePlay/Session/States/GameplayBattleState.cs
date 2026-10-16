@@ -43,14 +43,6 @@ namespace GamePlay.Session
                 return;
             }
 
-            //加载 BattleConfig
-            var config = BattleConfigs.Get(battleId);
-            if (config == null)
-            {
-                _hasError = true;
-                return;
-            }
-
             // 先全部生成，统计真正成功的数量。
             // 不能用 config.TotalCount —— 它只统计 Config != null，
             // PrefabLocation 为空或实例化失败时不会扣掉；计数高于场上敌人，
@@ -66,7 +58,7 @@ namespace GamePlay.Session
             if (spawned == 0)
             {
                 // 一个都没生成出来：跳过本场战斗，不要卡住
-                Debug.LogWarning($"[GameplayBattleState] {battleId} 没有生成出任何敌人，跳过本场战斗");
+                Debug.LogWarning($"[GameplayBattleState] {config.name} 没有生成出任何敌人，跳过本场战斗");
                 MarkFinished();
                 return;
             }
