@@ -5177,7 +5177,7 @@ GameObject:
   - component: {fileID: 1151193512}
   - component: {fileID: 1151193514}
   - component: {fileID: 1151193513}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: '[SceneRoot]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
