@@ -1,38 +1,25 @@
-﻿using System.Collections.Generic;
+﻿using GamePlay.Story;
 using UnityEngine;
 
 namespace GamePlay.Session
 {
     public class DialogContext
     {
-        private static readonly Dictionary<StoryStage, string> StageDialogueMap = new()
-        {
-            { StoryStage.Fridge,      "111" },
-            { StoryStage.Kitchen,     "dialogue_kitchen" },
-            { StoryStage.Road,        "dialogue_road" },
-            { StoryStage.Supermarket, "dialogue_supermarket" },
-        };
+        /// <summary>当前对话配置</summary>
+        public TextAsset CurrentDialogue { get; private set; }
 
-        /// <summary>当前对话 Id</summary>
-        public string CurrentDialogueId { get; private set; }
-
-        /// <summary>根据剧情阶段刷新对话 Id（不加载）</summary>
-        public void RefreshByStage(StoryContext story)
+        /// <summary>根据节点刷新对话配置（不加载）</summary>
+        public void RefreshByNode(NodeConfig node)
         {
-            if (story == null)
+            if (node == null)
             {
-                CurrentDialogueId = null;
+                CurrentDialogue = null;
                 return;
             }
 
-            if (StageDialogueMap.TryGetValue(story.CurrentStage, out var dialogueId))
-            {
-                CurrentDialogueId = dialogueId;
-            }
-            else
-            {
-                CurrentDialogueId = null;
-            }
+            CurrentDialogue = node.dialogConfig;
+            if (CurrentDialogue != null)
+                Debug.Log($"[DialogContext] 切换对话: {node.nodeId}");
         }
     }
 }

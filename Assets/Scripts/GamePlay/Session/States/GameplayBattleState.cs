@@ -31,23 +31,18 @@ namespace GamePlay.Session
             _hasError = false;
             _spawnedEnemies.Clear();
 
-            string battleId = Root.Battle.CurrentBattleId;
-            if (string.IsNullOrEmpty(battleId))
+            BattleConfig config = Root.Battle.CurrentBattle;
+            if (config == null)
             {
+                Debug.LogError("[GameplayBattleState] 当前节点没有配置 BattleConfig");
                 _hasError = true;
                 return;
             }
 
-            //加载 BattleConfig
-            var config = BattleConfigs.Get(battleId);
-            if (config == null)
-            {
-                _hasError = true;
-                return;
-            }
-            //通知敌人数量
+            // 通知敌人数量
             Root.Battle.StartBattle(config.TotalCount);
-            //生成敌人
+
+            // 生成敌人
             foreach (var entry in config.Enemies)
             {
                 if (entry.Config == null) continue;

@@ -1,41 +1,41 @@
-﻿using UnityEngine;
+﻿using GamePlay.Story;
 
 namespace GamePlay.Session
 {
-    public class StoryContext
+    public sealed class StoryContext
     {
-        public string CurrentNode { get; private set; }
-        public StoryStage CurrentStage { get; private set; } = StoryStage.Fridge;
+        /// <summary>当前所在节点</summary>
+        public NodeConfig CurrentNode { get; private set; }
 
-        /// <summary>
-        /// 推进剧情节点
-        /// </summary>
-        public void AdvanceStoryNode()
+        /// <summary>当前所在的剧情阶段。随节点变化自动更新。</summary>
+        public StoryStage CurrentStage => CurrentNode != null ? CurrentNode.currentStage : default;
+
+        /// <summary>用起始节点初始化</summary>
+        public void Reset(NodeConfig startNode)
         {
-
+            CurrentNode = startNode;
         }
 
         /// <summary>
-        /// 推进剧情章节
+        /// 尝试前进到下一个节点。
+        /// 返回 false 表示流程已到末端（nextNode 为空）。
         /// </summary>
-        public void AdvanceStoryStage()
+        public bool TryMoveNext(out NodeConfig next)
         {
-            switch (CurrentStage)
-            {
-                case StoryStage.Fridge:
-                    CurrentStage = StoryStage.Kitchen;
-                    break;
-                case StoryStage.Kitchen:
-                    CurrentStage = StoryStage.Road;
-                    break;
-                case StoryStage.Road:
-                    CurrentStage = StoryStage.Supermarket;
-                    break;
-                case StoryStage.Supermarket:
-                    break;
-            }
-            Debug.Log("切换状态为"+CurrentStage);
+            next = CurrentNode != null ? CurrentNode.nextNode : null;
+            if (next == null) return false;
+
+            CurrentNode = next;
+            return true;
         }
 
+        /// <summary>
+        /// 直接跳到指定节点
+        /// </summary>
+        public void JumpTo(NodeConfig node)
+        {
+            if (node == null) return;
+            CurrentNode = node;
+        }
     }
 }

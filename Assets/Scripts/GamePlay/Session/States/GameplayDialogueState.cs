@@ -4,6 +4,7 @@ using GamePlay.Session;
 using System;
 using System.Diagnostics;
 using UI;
+using UnityEngine;
 
 public sealed class GameplayDialogueState : GameplayModeStateBase
 {
@@ -22,8 +23,8 @@ public sealed class GameplayDialogueState : GameplayModeStateBase
 
         DialogPanel.OnDialogueCompleted += OnCompleted;
 
-        string id = Root.Dialog.CurrentDialogueId;
-        Global.ShowUI("DialogPanel", new DialogPanelProperties { DialogueId = id });
+        TextAsset text = Root.Dialog.CurrentDialogue;
+        Global.ShowUI("DialogPanel", new DialogPanelProperties { dialogText = text });
     }
 
     public override void Exit()
