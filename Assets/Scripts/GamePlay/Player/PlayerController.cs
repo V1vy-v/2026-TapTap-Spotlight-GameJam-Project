@@ -20,6 +20,7 @@ namespace GamePlay.Player
         private PlayerView _playerView;
         private PlayerInteractor _playerInteractor;
         private Rigidbody2D _rb;
+        public PlayerLiquids PlayerLiquids => _playerLiquids;
 
         private Vector2 _moveValue;
 

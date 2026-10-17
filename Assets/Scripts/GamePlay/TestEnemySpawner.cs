@@ -1,4 +1,5 @@
 using Framework;
+using GamePlay.Configs;
 using GamePlay.Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,6 +15,7 @@ namespace GamePlay.Enemy
     {
         [SerializeField] private string _enemyAddress = "Prefab_Enemy_ManbaTea_防丢失新加版";
         [SerializeField] private float _spawnOffsetX = 1.5f;
+        [SerializeField] private LiquidConfig _debugLiquid;
 
         private GameObject _enemy;
         private bool _registered;
@@ -26,6 +28,13 @@ namespace GamePlay.Enemy
             if (kb.digit1Key.wasPressedThisFrame) Spawn();
             if (kb.digit2Key.wasPressedThisFrame) Kill();
             if (kb.digit3Key.wasPressedThisFrame) Release();
+
+            if (kb.digit4Key.wasPressedThisFrame && _debugLiquid != null)
+            {
+                var pc = FindObjectOfType<PlayerController>();
+                if (pc != null && pc.PlayerLiquids.ForceGetLiquid(_debugLiquid, LiquidTankType.Current))
+                    Debug.Log($"[测试] 主槽已塞入 {_debugLiquid.Name}");
+            }
         }
 
         private void Spawn()
@@ -105,5 +114,7 @@ namespace GamePlay.Enemy
             var enemy = _enemy ? _enemy.GetComponent<EnemyController>() : null;
             if (enemy != null && _registered) enemy.OnDefeated -= HandleDefeated;
         }
+
+
     }
 }

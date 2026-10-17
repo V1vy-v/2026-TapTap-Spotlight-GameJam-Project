@@ -20,6 +20,10 @@ namespace GamePlay.Story
         public bool refreshDialog;
         public bool refreshBattle;
 
+        [Header("目标条件")]
+        [Tooltip("本节点等哪个目标；留空接受任何报告")]
+        public string goalId;
+
         [Header("数据配置(不需要就不填)")]
         public TextAsset dialogConfig;
         public BattleConfig battleConfig;

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: SanQuan
   m_EditorClassIdentifier: 
   Id: Liquid_004
-  Name: "\u4E2D\u4E09\u62F3"
+  Name: "\u4E09\u62F3"
   Type: 5
   Kind: 1
   CanBeMain: 1
-  Damage: 0
+  Damage: 15
   AttackInterval: 0
   BulletPrefabRes: 
   SkillDamage: 0

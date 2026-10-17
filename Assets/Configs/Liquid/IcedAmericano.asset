@@ -26,7 +26,7 @@ MonoBehaviour:
   AtkBonus: 0
   MoveSpeedBonus: 0
   RangeBonus: 0
-  AttackSpeedBonus: 0
+  AttackSpeedBonus: 0.3
   HasKnockback: 0
   RagePerHit: 10
   RageDecayPerSec: 10

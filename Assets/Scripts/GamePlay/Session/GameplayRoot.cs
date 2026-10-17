@@ -1,6 +1,7 @@
 ﻿using Framework;
 using GamePlay.Session;
 using GamePlay.Story;
+using System;
 using UnityEngine;
 using YooAsset;
 
@@ -151,7 +152,12 @@ namespace GamePlay
 
         #endregion
 
-        #region 剧情推进（单场景，不走场景加载）
+        #region 剧情推进（单场景，不走场景加载）        
+        /// <summary>交互物 / 触发器宣告「本节点目标已完成」，由当前模式状态决定是否推进</summary>
+        public event Action<string> OnGoalReached;
+
+        /// <summary>本节点目标已达成</summary>
+        public void ReportGoalReached(string goalId = null) => OnGoalReached?.Invoke(goalId);
 
         /// <summary>推进到下一个节点。</summary>
         public void AdvanceNode()

@@ -16,6 +16,7 @@ MonoBehaviour:
   mode: 0
   refreshDialog: 0
   refreshBattle: 0
+  goalId: absorb
   dialogConfig: {fileID: 0}
   battleConfig: {fileID: 0}
   nextNode: {fileID: 11400000, guid: 2adfc3cc222697445a0fc98af69f0e75, type: 2}

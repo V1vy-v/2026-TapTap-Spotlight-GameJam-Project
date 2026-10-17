@@ -1,4 +1,4 @@
-%YAML 1.1
+﻿%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: EnemyConfig_Capsicol
   m_EditorClassIdentifier: 
   Id: Enemy_001
+  Name: "\u56FD\u7A96"
+  Tier: 3
+  MaxHp: 200
+  Damage: 0
+  MoveSpeed: 0
+  ChaseSpeed: 0
   Name: 
   Tier: 0
   MaxHp: 20

@@ -15,7 +15,18 @@ MonoBehaviour:
   Id: Player_001
   Name: "\u521D\u59CB\u4E3B\u89D2"
   MaxHp: 100
-  Hp: 0
-  Atk: 10
-  Def: 10
-  MoveSpeed: 10
+  MoveSpeed: 20
+  SprintSpeed: 40
+  SprintCd: 1
+  SprintMaxHold: 6
+  SprintDuration: 0.2
+  SprintDamagePerTick: 4
+  SprintTickInterval: 0.5
+  SprintCartExtraDamage: 2
+  PrimaryAtkInterval: 0.8
+  MeleeDamage: 10
+  MeleeRange: 1.5
+  RangedDamage: 14
+  RangedRange: 4.5
+  AttackSpeed: 1
+  ChangeLiquidCd: 10

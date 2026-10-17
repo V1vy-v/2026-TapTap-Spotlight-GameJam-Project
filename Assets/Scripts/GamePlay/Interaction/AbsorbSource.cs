@@ -73,7 +73,8 @@ namespace GamePlay.Interaction
             if (!liquids.GetLiquid(cfg))   // 二次确认：扫描间隔内玩家可能刚换了液体
                 return;
 
-            _absorbed = true;              // 立刻置位 —— 提示消失、不能重复吸
+            _absorbed = true;
+            Global.Get<GameplayRoot>()?.ReportGoalReached("absorb");
             StartCoroutine(AbsorbRoutine());
         }
 

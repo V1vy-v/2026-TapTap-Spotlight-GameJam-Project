@@ -72,7 +72,17 @@ namespace GamePlay.Player
         /// </summary>
         public void UseSkill()
         {
-            _liquids?.CurrentLiquid?.TryUseSkill();
+            var cur = _liquids?.CurrentLiquid;
+            if (cur == null) return;
+
+            if (cur.TryUseSkill()) return;
+
+            // 临时诊断，接上 UI/音效后删掉
+            string reason = cur.IsSkillActive ? "持续中"
+                          : cur.CdRemain > 0f ? $"冷却 {cur.CdRemain:F1}s"
+                          : cur is GuoJiao gj ? $"红温 {gj.RageRatio:P0}"
+                          : "不可用";
+            Debug.Log($"[技能] 释放失败：{cur.Config?.Name} —— {reason}");
         }
         /// <summary>
         /// 切换远程/近战攻击
