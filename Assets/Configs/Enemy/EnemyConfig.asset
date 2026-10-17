@@ -16,9 +16,8 @@ MonoBehaviour:
   Name: 
   Tier: 0
   MaxHp: 20
-  Damage: 0
-  MoveSpeed: 0
-  ChaseSpeed: 0
+  Damage: 10
+  MoveSpeed: 5
   AttackRange: 1
   AttackCooldown: 1.5
   HurtStunTime: 0.3
