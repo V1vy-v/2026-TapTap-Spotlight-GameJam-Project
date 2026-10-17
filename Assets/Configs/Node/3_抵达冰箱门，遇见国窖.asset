@@ -16,6 +16,7 @@ MonoBehaviour:
   mode: 0
   refreshDialog: 0
   refreshBattle: 0
+  goalId: fridge_door
   dialogConfig: {fileID: 0}
   battleConfig: {fileID: 0}
   nextNode: {fileID: 11400000, guid: 57b0ff5c1d808e740bb71c8d5edd9511, type: 2}
