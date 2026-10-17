@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: EnemyConfig
   m_EditorClassIdentifier: 
   Id: Enemy_001
-  Name: 
-  Tier: 0
-  MaxHp: 20
+  Name: "\u56FD\u7A96"
+  Tier: 3
+  MaxHp: 200
   Damage: 0
   MoveSpeed: 0
   ChaseSpeed: 0

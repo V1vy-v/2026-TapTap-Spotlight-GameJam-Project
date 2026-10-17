@@ -12,7 +12,14 @@ namespace GamePlay.Liquid
         #region 技能时序
         private float _cdRemain;
         private float _elapsed;
+
         public bool IsSkillActive { get; private set; }
+
+        /// <summary>剩余冷却秒数，供 UI 读取</summary>
+        public float CdRemain => _cdRemain;
+
+        /// <summary>本次技能已持续秒数，供 UI 读取</summary>
+        public float SkillElapsed => _elapsed;
 
         public bool TryUseSkill()
         {
@@ -24,11 +31,13 @@ namespace GamePlay.Liquid
         }
         public void TickSkill(float dt)
         {
+            OnPassiveTick(dt);
+
             if (IsSkillActive)
             {
                 _elapsed += dt;
                 OnSkillTick(dt);
-                if (OnSkillShouldEnd(_elapsed))          // ← 传参，子类才拿得到已过时间
+                if (OnSkillShouldEnd(_elapsed))
                 {
                     IsSkillActive = false;
                     OnSkillEnd();
@@ -47,6 +56,7 @@ namespace GamePlay.Liquid
         }
 
         protected virtual bool CanUseSkill() => true;
+        protected virtual void OnPassiveTick(float dt) { } 
         protected abstract void OnSkillBegin();
         protected virtual void OnSkillTick(float dt) { }
         protected virtual void OnSkillEnd() { }

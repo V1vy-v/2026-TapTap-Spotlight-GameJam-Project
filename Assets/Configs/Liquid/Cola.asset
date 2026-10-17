@@ -21,13 +21,13 @@ MonoBehaviour:
   AttackInterval: 0
   BulletPrefabRes: 
   SkillDamage: 0
-  SkillCd: 0
-  SkillDuration: 0
-  AtkBonus: 0
-  MoveSpeedBonus: 0
-  RangeBonus: 0
+  SkillCd: 12
+  SkillDuration: 10
+  AtkBonus: 0.2
+  MoveSpeedBonus: 0.1
+  RangeBonus: 0.2
   AttackSpeedBonus: 0
-  HasKnockback: 0
+  HasKnockback: 1
   RagePerHit: 10
   RageDecayPerSec: 10
   RageMax: 100

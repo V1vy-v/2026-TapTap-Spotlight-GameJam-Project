@@ -26,7 +26,7 @@ MonoBehaviour:
   AtkBonus: 0
   MoveSpeedBonus: 0
   RangeBonus: 0
-  AttackSpeedBonus: 0
+  AttackSpeedBonus: 0.2
   HasKnockback: 0
   RagePerHit: 10
   RageDecayPerSec: 10
@@ -37,5 +37,5 @@ MonoBehaviour:
   ExtendMax: 5
   PassThroughDamage: 15
   PassThroughRadiusScale: 1
-  PassiveMissChance: 0
+  PassiveMissChance: 0.3
   EnemyMissChance: 0
