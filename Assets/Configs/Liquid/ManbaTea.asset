@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: Liquid_001
   Name: "\u56FD\u7A96"
+  Type: 1
   Kind: 0
   CanBeMain: 1
   Damage: 0

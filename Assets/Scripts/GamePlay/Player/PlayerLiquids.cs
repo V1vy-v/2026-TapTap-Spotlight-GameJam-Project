@@ -5,6 +5,11 @@ using UnityEngine;
 
 namespace GamePlay.Player
 {
+    public enum LiquidTankType
+    {
+        Current = 0,        //主槽
+        Standby = 1,        //备用槽
+    }
     /// <summary>
     /// 主角液体组件
     /// </summary>
@@ -24,14 +29,14 @@ namespace GamePlay.Player
 
         /// <summary>正在持续的技能形态</summary>
         private LiquidBase ActiveSkill =>
-            CurrentLiquid != null && CurrentLiquid.IsSkillActive ? CurrentLiquid : null;
+            CurrentLiquid != null && CurrentLiquid.IsSkillActive ? CurrentLiquid : null; 
 
         public float AtkBonus => ActiveSkill?.Config.AtkBonus ?? 0f;
         public float MoveSpeedBonus => ActiveSkill?.Config.MoveSpeedBonus ?? 0f;
         public float RangeBonus => ActiveSkill?.Config.RangeBonus ?? 0f;
-        public float AttackSpeedBonus => (StandbyPassive?.Config.AttackSpeedBonus ?? 0f)
-                                       + (ActiveSkill?.Config.AttackSpeedBonus ?? 0f);
+        public float AttackSpeedBonus => (StandbyPassive?.Config.AttackSpeedBonus ?? 0f)  + (ActiveSkill?.Config.AttackSpeedBonus ?? 0f);
         public float SelfMissChance => StandbyPassive?.Config.PassiveMissChance ?? 0f;
+        public float EnemyMissChance => StandbyPassive?.Config.EnemyMissChance ?? 0f;
         #endregion
 
         #region 事件
@@ -67,7 +72,6 @@ namespace GamePlay.Player
         /// <summary>
         /// 吸取液体，备用槽必须为空
         /// </summary>
-        /// <param name="liquid"></param>
         public bool GetLiquid(LiquidConfig cfg)
         {
             if (StandbyLiquid != null) return false;
@@ -90,6 +94,32 @@ namespace GamePlay.Player
             OnPourOutLiquid?.Invoke();
             return true;
         }
+        /// <summary>
+        /// 强制吸取液体
+        /// </summary>
+        public bool ForceGetLiquid(LiquidConfig cfg, LiquidTankType type)
+        {
+            var liquid = LiquidFactory.Create(cfg, _stats);
+            if (liquid == null) 
+            { 
+                Debug.LogError($"[PlayerLiquids] 没有对应液体类: {cfg?.Id}"); 
+                return false;
+            }
+
+            switch (type)
+            {
+                case LiquidTankType.Current:
+                    CurrentLiquid = liquid;
+                    break;
+                case LiquidTankType.Standby:
+                    StandbyLiquid = liquid;
+                    break;
+            }
+
+            OnGainLiquid?.Invoke();
+            return true;
+        }
+
         /// <summary>
         /// 切换液体CD Tick
         /// </summary>

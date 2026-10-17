@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21861acf0c343646ad3ace835a8bc2e, type: 3}
   m_Name: CookingWine
   m_EditorClassIdentifier: 
-  Id: Liquid_001
+  Id: Liquid_005
   Name: "\u6599\u9152"
-  Type: 0
-  Kind: 0
-  CanBeMain: 1
+  Type: 3
+  Kind: 2
+  CanBeMain: 0
   Damage: 0
   AttackInterval: 0
   BulletPrefabRes: 

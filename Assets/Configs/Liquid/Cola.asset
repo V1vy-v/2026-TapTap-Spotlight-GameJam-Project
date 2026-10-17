@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Cola
   m_EditorClassIdentifier: 
   Id: Liquid_002
-  Name: "\u53EF\u4E50"
+  Name: "\u5FEB\u4E50\u6C34"
+  Type: 0
   Kind: 0
   CanBeMain: 1
   Damage: 0
