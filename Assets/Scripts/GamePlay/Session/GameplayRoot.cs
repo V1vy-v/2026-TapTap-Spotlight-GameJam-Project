@@ -36,7 +36,7 @@ namespace GamePlay
         /// </summary>
         public void StartNewGame()
         {
-            AssetHandle handle = Global.Load<NodeConfig>("Assets/Configs/Node/NodeConfig.asset");
+            AssetHandle handle = Global.Load<NodeConfig>("Assets/Configs/Node/0_StartNode.asset");
             NodeConfig startNode = handle.AssetObject as NodeConfig;
             if (startNode == null)
             {
@@ -179,7 +179,7 @@ namespace GamePlay
                 Debug.LogWarning("[GameplayRoot] EnterNode 传入空节点");
                 return;
             }
-
+            Debug.Log($"切换节点至: {node.name}");
             _storyContext?.JumpTo(node);
 
             ApplyNodeContext(node, isFirstNode: false);
