@@ -12,9 +12,13 @@ namespace GamePlay.Liquid
             {
                 LiquidType.Cola => new Cola(),
                 LiquidType.GuoJiao => new GuoJiao(),
+                LiquidType.LeiBi => new LeiBi(),
+                LiquidType.SanQuan => new SanQuan(),
+                LiquidType.LiaoJiu => new StandbyPassiveLiquid(),
+                LiquidType.BingMeiShi => new StandbyPassiveLiquid(),
                 _ => null,
             };
-            liquid?.Init(cfg, stats);      // 创建和装配绑在一起，调用方不会漏
+            liquid?.Init(cfg, stats);
             return liquid;
         }
     }

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_0"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 957
+        width: 110
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b727f8daa47a7c4394ac2619b1c3cd1
+      internalID: 1211288878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_1"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 827
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd879cf1fed47946a1883742ee4b9f3
+      internalID: -1469469531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_2"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 673
+        width: 246
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec706c412cadaf429ad4018de7ceaab
+      internalID: -1729186960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_3"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 377
+        width: 1199
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197beed8945f644439d7316d4dfee716
+      internalID: -611062145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_4"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 66
+        width: 1199
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d862ff1a974842ae693a0a0184eef
+      internalID: 1264366729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +211,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_0": 1211288878
+      "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_1": -1469469531
+      "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_2": -1729186960
+      "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_3": -611062145
+      "UI-\u5BF9\u8BDD\u6846\u7D20\u6750\u62C6\u5206_4": 1264366729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
