@@ -17,9 +17,9 @@ TagManager:
   - Enemy
   - EnemyHitbox
   - Obstacle
-  - Bullet
-  - 
-  - 
+  - Interactable
+  - PlayerBullet
+  - EnemyBullet
   - 
   - 
   - 

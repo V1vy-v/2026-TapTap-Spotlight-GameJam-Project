@@ -192,39 +192,62 @@ namespace GamePlay.Enemy
     }
 
     /// <summary>
-    /// 敌人死亡状态：播放死亡动画后销毁
+    /// 敌人死亡状态。
+    /// 可吸取的敌人：渐隐到「倒地」透明度后留在场上，等主角用 F 吸取（由 AbsorbSource 释放）。
+    /// 不可吸取的敌人：渐隐到全透明后自行回收。
     /// </summary>
     public class EnemyDeadState : EnemyStateBase
     {
+        /// <summary>可吸取敌人倒地后保持的透明度（等倒地美术到位后改成切倒地帧）</summary>
+        private const float CorpseAlpha = 0.45f;
+
         private float _deadTimer;
+        private bool _settled;     // 渐隐结束，已静止
+        private bool _released;    // 防重复回收
 
         public override EnemyState StateKey => EnemyState.Dead;
 
         public EnemyDeadState(EnemyController enemy, StateMachine<EnemyState> sm)
             : base(enemy, sm) { }
 
+        private bool CanAbsorb => Enemy.config != null && Enemy.config.CanAbsorb;
+
         public override void Enter()
         {
             Enemy.ChangeSpeed();
             Enemy.PlayAnimation("Dead");
             _deadTimer = 0f;
-            //散布死亡事件通知外部死亡
+            _settled = false;
+            _released = false;
+
+            // 通知外部「这只已经死了」—— GameplayBattleState 订阅后转发给 BattleContext
+            Enemy.NotifyDefeated();
         }
 
         protected override void Tick(float deltaTime)
         {
+            if (_settled) return;      // 躺好了就不再改透明度
+
             _deadTimer += deltaTime;
-            float t = _deadTimer / Enemy.fadeDuration;
-            float alpha = Mathf.Lerp(1f, 0f, t);
-            Enemy.SetAlpha(alpha);
+
+            float duration = Mathf.Max(0.01f, Enemy.fadeDuration);
+            float t = Mathf.Clamp01(_deadTimer / duration);
+
+            float target = CanAbsorb ? CorpseAlpha : 0f;
+            Enemy.SetAlpha(Mathf.Lerp(1f, target, t));
+
+            if (t >= 1f) _settled = true;
         }
 
         protected override void CheckStateChange()
         {
-            if (_deadTimer >= Enemy.fadeDuration)
-            {
-                //由对象池销毁
-            }
+            if (!_settled || _released) return;
+
+            // 可吸取的尸体留给玩家，释放交给 AbsorbSource
+            if (CanAbsorb) return;
+
+            _released = true;
+            Global.Release(Enemy.gameObject);
         }
     }
 }

@@ -15,12 +15,19 @@ namespace GamePlay
         private BattleContext _battleContext;
         private DialogContext _dialogContext;
         private GameplayMode _resumeMode = GameplayMode.FreeRoam;
-        private GameObject _player;
+        private GameObject _player; 
+        private GameplayBattleState _battleState;
 
         public StoryContext Story => _storyContext;
         public DialogContext Dialog => _dialogContext;
         public BattleContext Battle => _battleContext;
         public GameplayMode CurrentMode => _modeFsm?.CurrentState ?? default;
+
+        #region 生命周期
+        public override void Update(float deltaTime) => _modeFsm?.Update(deltaTime);
+        public override void FixedUpdate(float fixedDeltaTime) => _modeFsm?.FixedUpdate(fixedDeltaTime);
+        public override void LateUpdate() => _modeFsm?.LateUpdate();
+        #endregion
 
         #region 对局生命周期
 
@@ -90,6 +97,9 @@ namespace GamePlay
                 _modeFsm = null;
             }
 
+            _battleState?.ReleasePendingCorpses();   // 结束对局，尸体全清
+            _battleState = null;
+
             if (_player)
             {
                 Global.Release(_player);
@@ -110,7 +120,11 @@ namespace GamePlay
             _modeFsm.RegisterState(new GameplayFreeRoamState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayDialogueState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayCutsceneState(this, _modeFsm));
-            _modeFsm.RegisterState(new GameplayBattleState(this, _modeFsm));
+
+            // 留住引用，好在阶段推进 / 结束对局时回收暂留尸体
+            _battleState = new GameplayBattleState(this, _modeFsm);
+            _modeFsm.RegisterState(_battleState);
+
             _modeFsm.RegisterState(new GameplayPauseState(this, _modeFsm));
             _modeFsm.RegisterState(new GameplayGameOverState(this, _modeFsm));
         }
@@ -176,11 +190,11 @@ namespace GamePlay
         /// <summary>按节点声明刷新 Context。只刷数据，不切模式。</summary>
         private void ApplyNodeContext(NodeConfig node, bool isFirstNode)
         {
-            if (node.refreshDialog)
-                _dialogContext?.RefreshByNode(node);
+            _battleState?.ReleasePendingCorpses();   // 节点推进，上一节点的暂留尸体统一回收
 
-            if (node.refreshBattle)
-                _battleContext?.RefreshByNode(node);
+            // 首个节点必须无条件刷新，否则 CurrentBattle / 对话都是空的
+            if (isFirstNode || node.refreshBattle) _battleContext?.RefreshByNode(node);
+            if (isFirstNode || node.refreshDialog) _dialogContext?.RefreshByNode(node);
         }
 
         public void EnterBattle() => ChangeMode(GameplayMode.Battle);
@@ -190,14 +204,6 @@ namespace GamePlay
             _battleContext?.Clear();
             ChangeMode(GameplayMode.FreeRoam);
         }
-
-        #endregion
-
-        #region 生命周期
-
-        public override void Update(float deltaTime) => _modeFsm?.Update(deltaTime);
-        public override void FixedUpdate(float fixedDeltaTime) => _modeFsm?.FixedUpdate(fixedDeltaTime);
-        public override void LateUpdate() => _modeFsm?.LateUpdate();
 
         #endregion
     }
