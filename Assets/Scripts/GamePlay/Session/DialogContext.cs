@@ -18,8 +18,8 @@ namespace GamePlay.Session
             }
 
             CurrentDialogue = node.dialogConfig;
-            if (CurrentDialogue != null)
-                Debug.Log($"[DialogContext] 切换对话: {node.nodeId}");
+            //if (CurrentDialogue != null)
+            //    Debug.Log($"[DialogContext] 切换对话: {CurrentDialogue.name}");
         }
     }
 }

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74807c75f37db974e98ca729d3361545, type: 3}
-  m_Name: NodeConfig_1
+  m_Name: "4_\u4E0E\u56FD\u7A96\u5BF9\u8BDD"
   m_EditorClassIdentifier: 
-  nodeId: 1
-  mode: 0
-  refreshDialog: 0
+  nodeId: 2
+  mode: 1
+  refreshDialog: 1
   refreshBattle: 0
-  dialogConfig: {fileID: 4900000, guid: c3d47ec15a37b4544860b6162b93e9b6, type: 3}
+  dialogConfig: {fileID: 4900000, guid: b3eb2e12399597a4b90da5bbbed0d740, type: 3}
   battleConfig: {fileID: 0}
-  nextNode: {fileID: 0}
+  nextNode: {fileID: 11400000, guid: 8ff35e357f516ac4187e748adbe72684, type: 2}
   currentStage: 0
